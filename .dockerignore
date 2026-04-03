@@ -1,0 +1,15 @@
+node_modules
+.next
+.git
+.playwright-mcp
+*.jpeg
+*.jpg
+*.png
+!public/**
+!assets/**
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+data/*.db-shm
+data/*.db-wal

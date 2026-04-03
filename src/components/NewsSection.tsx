@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useApp } from '@/context/AppContext';
@@ -7,6 +8,7 @@ import { NewsItem, NewsCategory } from '@/lib/types';
 import { format } from 'date-fns';
 import { HiArrowRight } from 'react-icons/hi';
 import ScrollReveal from './ScrollReveal';
+import NewsModal from './NewsModal';
 
 const categoryColors: Record<NewsCategory, string> = {
   news: 'text-teal border-teal/30 bg-teal/10',
@@ -16,7 +18,7 @@ const categoryColors: Record<NewsCategory, string> = {
   announcement: 'text-[#F87171] border-[#F87171]/30 bg-[#F87171]/10',
 };
 
-function FeaturedCard({ item }: { item: NewsItem }) {
+function FeaturedCard({ item, onOpen }: { item: NewsItem; onOpen: () => void }) {
   const { language } = useApp();
   const title = language === 'en' ? item.title : item.titleTH;
   const excerpt = language === 'en' ? item.excerpt : item.excerptTH;
@@ -26,7 +28,7 @@ function FeaturedCard({ item }: { item: NewsItem }) {
     <article className="glass-card rounded-2xl overflow-hidden gradient-border group hover:-translate-y-1 transition-all duration-300 hover:shadow-card-hover flex flex-col lg:flex-row">
       <div className="relative lg:w-2/5 min-h-[220px] overflow-hidden">
         <Image src={item.image} alt={title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" unoptimized />
-        <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-surface/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-black/75 to-transparent" />
       </div>
       <div className="p-7 flex flex-col justify-between flex-1">
         <div>
@@ -43,17 +45,17 @@ function FeaturedCard({ item }: { item: NewsItem }) {
         </div>
         <div className="flex items-center justify-between mt-5 pt-4 border-t border-border/50">
           <span className="text-ink-muted text-xs">{author}</span>
-          <Link href={`/news/${item.id}`} className="flex items-center gap-1.5 text-teal text-sm font-medium hover:gap-2.5 transition-all group/link">
+          <button onClick={onOpen} className="flex items-center gap-1.5 text-teal text-sm font-medium hover:gap-2.5 transition-all group/link">
             {language === 'en' ? 'Read more' : 'อ่านเพิ่มเติม'}
             <HiArrowRight size={14} className="transition-transform group-hover/link:translate-x-0.5" />
-          </Link>
+          </button>
         </div>
       </div>
     </article>
   );
 }
 
-function NewsCard({ item, delay = 0 }: { item: NewsItem; delay?: number }) {
+function NewsCard({ item, delay = 0, onOpen }: { item: NewsItem; delay?: number; onOpen: () => void }) {
   const { language } = useApp();
   const title = language === 'en' ? item.title : item.titleTH;
   const excerpt = language === 'en' ? item.excerpt : item.excerptTH;
@@ -61,9 +63,9 @@ function NewsCard({ item, delay = 0 }: { item: NewsItem; delay?: number }) {
   return (
     <ScrollReveal delay={delay} direction="up">
       <article className="glass-card rounded-xl overflow-hidden gradient-border group hover:-translate-y-1 transition-all duration-300 hover:shadow-card-hover flex flex-col h-full">
-        <div className="relative h-44 overflow-hidden">
+        <div className="relative h-44 overflow-hidden cursor-pointer" onClick={onOpen}>
           <Image src={item.image} alt={title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" unoptimized />
-          <div className="absolute inset-0 bg-gradient-to-t from-surface/70 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent" />
           <span className={`absolute bottom-3 left-3 text-[10px] font-semibold px-2.5 py-1 rounded-full border uppercase tracking-wider ${categoryColors[item.category]}`}>
             {item.category}
           </span>
@@ -74,10 +76,10 @@ function NewsCard({ item, delay = 0 }: { item: NewsItem; delay?: number }) {
             {title}
           </h3>
           <p className="text-ink-secondary text-xs leading-relaxed line-clamp-2 mb-4">{excerpt}</p>
-          <Link href={`/news/${item.id}`} className="flex items-center gap-1.5 text-teal text-xs font-medium hover:gap-2 transition-all mt-auto group/link">
+          <button onClick={onOpen} className="flex items-center gap-1.5 text-teal text-xs font-medium hover:gap-2 transition-all mt-auto group/link">
             {language === 'en' ? 'Read more' : 'อ่านเพิ่มเติม'}
             <HiArrowRight size={12} className="transition-transform group-hover/link:translate-x-0.5" />
-          </Link>
+          </button>
         </div>
       </article>
     </ScrollReveal>
@@ -86,6 +88,8 @@ function NewsCard({ item, delay = 0 }: { item: NewsItem; delay?: number }) {
 
 export default function NewsSection() {
   const { data, language } = useApp();
+  const [selected, setSelected] = useState<NewsItem | null>(null);
+
   const activeNews = data.news.filter(n => n.active).sort((a, b) =>
     new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
@@ -95,57 +99,60 @@ export default function NewsSection() {
   if (!activeNews.length) return null;
 
   return (
-    <section id="news" className="scroll-mt-20 py-20 bg-void/80 relative z-[2] overflow-hidden">
-      {/* Subtle dot grid */}
-      <div className="dot-grid absolute inset-0 opacity-25 pointer-events-none" />
+    <>
+      <section id="news" className="scroll-mt-20 py-20 bg-void/80 relative z-[2] overflow-hidden">
+        <div className="dot-grid absolute inset-0 opacity-25 pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-6 relative">
-        {/* Header */}
-        <ScrollReveal className="flex items-end justify-between mb-12">
-          <div>
-            <div className="flex items-center gap-3 mb-2">
-              <div className="w-6 h-0.5 bg-gold" />
-              <span className="text-gold text-xs font-medium tracking-widest uppercase">
-                {language === 'en' ? 'Latest Updates' : 'อัพเดทล่าสุด'}
-              </span>
+        <div className="max-w-7xl mx-auto px-6 relative">
+          {/* Header */}
+          <ScrollReveal className="flex items-end justify-between mb-12">
+            <div>
+              <div className="flex items-center gap-3 mb-2">
+                <div className="w-6 h-0.5 bg-gold" />
+                <span className="text-gold text-xs font-medium tracking-widest uppercase">
+                  {language === 'en' ? 'Latest Updates' : 'อัพเดทล่าสุด'}
+                </span>
+              </div>
+              <h2 className="font-syne font-bold text-3xl lg:text-4xl text-ink-primary pb-1">
+                {language === 'en' ? 'News & Stories' : 'ข่าวสารและเรื่องราว'}
+              </h2>
             </div>
-            <h2 className="font-syne font-bold text-3xl lg:text-4xl text-ink-primary pb-1">
-              {language === 'en' ? 'News & Stories' : 'ข่าวสารและเรื่องราว'}
-            </h2>
-          </div>
-          <Link href="/news" className="hidden md:flex items-center gap-2 text-teal text-sm font-medium hover:gap-3 transition-all group">
-            {language === 'en' ? 'All news' : 'ข่าวทั้งหมด'}
-            <HiArrowRight className="transition-transform group-hover:translate-x-0.5" />
-          </Link>
-        </ScrollReveal>
+            <Link href="/news" className="hidden md:flex items-center gap-2 text-teal text-sm font-medium hover:gap-3 transition-all group">
+              {language === 'en' ? 'All news' : 'ข่าวทั้งหมด'}
+              <HiArrowRight className="transition-transform group-hover:translate-x-0.5" />
+            </Link>
+          </ScrollReveal>
 
-        {/* Featured */}
-        {featured.length > 0 && (
-          <div className="grid gap-5 mb-5">
-            {featured.map((item, i) => (
-              <ScrollReveal key={item.id} delay={i * 80}>
-                <FeaturedCard item={item} />
-              </ScrollReveal>
-            ))}
-          </div>
-        )}
+          {/* Featured */}
+          {featured.length > 0 && (
+            <div className="grid gap-5 mb-5">
+              {featured.map((item, i) => (
+                <ScrollReveal key={item.id} delay={i * 80}>
+                  <FeaturedCard item={item} onOpen={() => setSelected(item)} />
+                </ScrollReveal>
+              ))}
+            </div>
+          )}
 
-        {/* Regular grid */}
-        {regular.length > 0 && (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {regular.map((item, i) => (
-              <NewsCard key={item.id} item={item} delay={i * 60} />
-            ))}
-          </div>
-        )}
+          {/* Regular grid */}
+          {regular.length > 0 && (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {regular.map((item, i) => (
+                <NewsCard key={item.id} item={item} delay={i * 60} onOpen={() => setSelected(item)} />
+              ))}
+            </div>
+          )}
 
-        <ScrollReveal className="flex justify-center mt-10" delay={100}>
-          <Link href="/news" className="flex items-center gap-2 border border-border bg-surface/50 hover:border-teal/40 hover:bg-teal/5 text-ink-primary font-semibold px-8 py-3 rounded-xl transition-all duration-300 text-sm group">
-            {language === 'en' ? 'View All News' : 'ดูข่าวทั้งหมด'}
-            <HiArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
-          </Link>
-        </ScrollReveal>
-      </div>
-    </section>
+          <ScrollReveal className="flex justify-center mt-10" delay={100}>
+            <Link href="/news" className="flex items-center gap-2 border border-border bg-surface/50 hover:border-teal/40 hover:bg-teal/5 text-ink-primary font-semibold px-8 py-3 rounded-xl transition-all duration-300 text-sm group">
+              {language === 'en' ? 'View All News' : 'ดูข่าวทั้งหมด'}
+              <HiArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+            </Link>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      <NewsModal item={selected} onClose={() => setSelected(null)} />
+    </>
   );
 }

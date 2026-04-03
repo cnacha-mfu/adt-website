@@ -202,7 +202,7 @@ export default function ProgramsSection() {
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       unoptimized
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent" />
                   </div>
                 )}
 
@@ -255,18 +255,6 @@ export default function ProgramsSection() {
           ))}
         </div>
 
-        {/* Bottom CTA */}
-        <ScrollReveal className="mt-10 flex justify-center" delay={100}>
-          <a
-            href="https://adt.mfu.ac.th/it-course/it-bachelor/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 border border-border bg-surface/50 hover:border-teal/40 hover:bg-teal/5 text-ink-primary font-semibold px-8 py-3 rounded-xl transition-all duration-300 text-sm group"
-          >
-            {language === 'en' ? 'All programs on official site' : 'หลักสูตรทั้งหมดบนเว็บไซต์ทางการ'}
-            <HiArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
-          </a>
-        </ScrollReveal>
 
       </div>
 

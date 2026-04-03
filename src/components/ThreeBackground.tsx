@@ -72,10 +72,7 @@ export default function ThreeBackground() {
     let isLight = document.documentElement.classList.contains('light');
 
     const pMat = new THREE.ShaderMaterial({
-      uniforms: {
-        uAlphaScale: { value: isLight ? 1.8 : 1.0 },
-        uLightMode:  { value: isLight ? 1.0 : 0.0 },
-      },
+      uniforms: {},
       vertexShader: `
         attribute vec3  aColor;
         attribute float aSize;
@@ -91,8 +88,6 @@ export default function ThreeBackground() {
         }
       `,
       fragmentShader: `
-        uniform float uAlphaScale;
-        uniform float uLightMode;
         varying vec3  vColor;
         varying float vNdcX;
         void main() {
@@ -102,9 +97,7 @@ export default function ThreeBackground() {
           float core = 1.0 - smoothstep(0.0, 0.25, length(uv));
           float halo = (1.0 - sqrt(d)) * 0.55;
           float fade = smoothstep(-0.85, 0.05, vNdcX);
-          // In light mode: darken near-white particles towards teal so they're visible
-          vec3 col = mix(vColor, vColor * 0.35 + vec3(0.0, 0.45, 0.52), uLightMode);
-          gl_FragColor = vec4(col, (core * 0.90 + halo) * 0.60 * uAlphaScale * fade);
+          gl_FragColor = vec4(vColor, (core * 0.90 + halo) * 0.60 * fade);
         }
       `,
       transparent: true,
@@ -119,7 +112,7 @@ export default function ThreeBackground() {
     const GX = 14, GY = 0, GZ = 2;
 
     // ── 1. Digital Globe (wireframe sphere = global network) ──────────────────
-    const globeGeo   = new THREE.SphereGeometry(9, 20, 14);
+    const globeGeo   = new THREE.SphereGeometry(14, 20, 14);
     const globeEdges = new THREE.EdgesGeometry(globeGeo);
     const globeMat   = new THREE.LineBasicMaterial({
       color: 0x0CC8D4, transparent: true, opacity: 0.15,
@@ -135,7 +128,7 @@ export default function ThreeBackground() {
     for (let i = 0; i < NODE_COUNT; i++) {
       const theta = Math.random() * Math.PI * 2;
       const phi   = Math.acos(2 * Math.random() - 1);
-      const r     = 11 + Math.random() * 5;
+      const r     = 17 + Math.random() * 7;
       nodePositions.push(new THREE.Vector3(
         r * Math.sin(phi) * Math.cos(theta),
         r * Math.sin(phi) * Math.sin(theta) * 0.65,
@@ -146,7 +139,7 @@ export default function ThreeBackground() {
     const edgeVerts: number[] = [];
     for (let i = 0; i < NODE_COUNT; i++) {
       for (let j = i + 1; j < NODE_COUNT; j++) {
-        if (nodePositions[i].distanceTo(nodePositions[j]) < 9) {
+        if (nodePositions[i].distanceTo(nodePositions[j]) < 14) {
           edgeVerts.push(nodePositions[i].x, nodePositions[i].y, nodePositions[i].z,
                          nodePositions[j].x, nodePositions[j].y, nodePositions[j].z);
         }
@@ -233,17 +226,14 @@ export default function ThreeBackground() {
     scene.add(hexInner);
 
     // ── Theme change → swap blending on all materials ─────────────────────────
-    const allLineMats  = [globeMat, netEdgeMat, ring1Mat];
-    const allMeshMats  = [ring2Mat, hexOuterMat, hexInnerMat];
+    const allLineMats   = [globeMat, netEdgeMat, ring1Mat];
+    const allMeshMats   = [ring2Mat, hexOuterMat, hexInnerMat];
     const allPacketMats = [packet1, packet2, packet3].map(p => p.material as THREE.MeshBasicMaterial);
 
     const applyTheme = (light: boolean) => {
       isLight = light;
       const blend = light ? THREE.NormalBlending : THREE.AdditiveBlending;
-      pMat.blending = blend;
-      pMat.uniforms.uAlphaScale.value = light ? 1.8 : 1.0;
-      pMat.uniforms.uLightMode.value  = light ? 1.0 : 0.0;
-      pMat.needsUpdate = true;
+      pMat.blending = blend; pMat.needsUpdate = true;
       netNodeMat.blending = blend; netNodeMat.needsUpdate = true;
       allLineMats.forEach(m  => { m.blending = blend; m.needsUpdate = true; });
       allMeshMats.forEach(m  => { m.blending = blend; m.needsUpdate = true; });
@@ -318,8 +308,8 @@ export default function ThreeBackground() {
       particles.rotation.x = my * 0.06;
 
       // Geometry fades out as user scrolls past the hero (gone by 50% scroll)
-      const geoFade = Math.max(0, 1 - scrollProgress * 2.0);
-      // In light mode boost geometry opacity so lines are visible
+      const geoFade   = Math.max(0, 1 - scrollProgress * 2.0);
+      // Boost geometry opacity in light mode so lines stay visible on pale bg
       const lightBoost = isLight ? 3.5 : 1.0;
 
       // ── Globe (slow, dignified — like a server globe)

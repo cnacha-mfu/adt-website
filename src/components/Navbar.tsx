@@ -47,7 +47,7 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
           ? isLight
-            ? 'bg-white/70 backdrop-blur-xl border-b border-teal/10 shadow-[0_4px_20px_rgba(12,200,212,0.08)]'
+            ? 'bg-white/85 backdrop-blur-xl border-b border-teal/15 shadow-[0_4px_20px_rgba(10,192,205,0.12)]'
             : 'bg-deep/90 backdrop-blur-xl border-b border-border shadow-[0_4px_30px_rgba(0,0,0,0.4)]'
           : 'bg-transparent'
       }`}
@@ -78,7 +78,7 @@ export default function Navbar() {
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 relative ${
                 pathname === link.href
                   ? 'text-teal bg-teal/10 after:absolute after:bottom-0 after:left-3 after:right-3 after:h-0.5 after:bg-teal after:rounded-full after:content-[\'\']'
-                  : `text-ink-secondary hover:text-ink-primary ${isLight ? 'hover:bg-teal/5' : 'hover:bg-white/5'}`
+                  : `text-ink-secondary hover:text-ink-primary ${isLight ? 'hover:bg-teal/8' : 'hover:bg-white/5'}`
               }`}
             >
               {language === 'en' ? link.label : link.labelTH}

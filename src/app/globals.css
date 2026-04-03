@@ -38,43 +38,43 @@
   --selection-text:   #EEF2FF;
 }
 
-/* ── Light theme — "Arctic Luminance" ────────────────────────────────────── */
+/* ── Light theme — "Luminous Day" ────────────────────────────────────────── */
+/* White / pale-blue base. Text flips to dark navy. Teal & gold full vibrance */
 html.light {
-  /* Backgrounds — cool arctic blue tint, never plain white */
-  --void-rgb:         240 248 255;   /* #F0F8FF alice blue — page base */
-  --deep-rgb:         220 238 255;   /* #DCEEff — alternating section bg */
-  --surface-rgb:      255 255 255;
-  --card-rgb:         248 252 255;
-  --border-rgb:       186 215 255;   /* soft sky-blue border */
+  --void-rgb:         240 249 255;   /* #F0F9FF — page base, pale sky       */
+  --deep-rgb:         226 242 255;   /* #E2F2FF — alternate section bg      */
+  --surface-rgb:      255 255 255;   /* pure white — inputs / raised areas  */
+  --card-rgb:         248 253 255;   /* near-white cards                    */
+  --border-rgb:       180 218 255;   /* soft sky-blue border                */
 
-  /* Teal — full vibrance, not dimmed */
-  --teal-rgb:         12 200 212;
+  /* Teal — full vibrance */
+  --teal-rgb:         10 192 205;    /* #0AC0CD — slightly deepened for contrast */
   --teal-bright-rgb:  34 235 248;
-  --teal-muted-rgb:   8 160 170;
+  --teal-muted-rgb:   8 152 165;
 
-  /* Gold — slightly deeper for readability on light bg */
-  --gold-rgb:         210 140 8;
-  --gold-light-rgb:   245 170 40;
-  --gold-muted-rgb:   162 104 6;
+  /* Gold — deepened for readability on white */
+  --gold-rgb:         210 145 8;     /* #D29108 */
+  --gold-light-rgb:   245 175 40;
+  --gold-muted-rgb:   165 110 6;
 
-  /* Ink — deep navy family instead of near-black */
-  --ink-primary-rgb:   8 22 58;      /* #08163A deep navy */
-  --ink-secondary-rgb: 28 55 100;
-  --ink-muted-rgb:     78 108 158;
-  --ink-faint-rgb:     184 210 240;
+  /* Ink — DARK family (light backgrounds → dark text) */
+  --ink-primary-rgb:   8 20 50;      /* #081432 deep navy */
+  --ink-secondary-rgb: 28 58 112;    /* #1C3A70 */
+  --ink-muted-rgb:     72 108 165;   /* #4870A5 */
+  --ink-faint-rgb:     182 212 242;  /* light blue-grey for subtle elements */
 
-  --body-bg:          #F0F8FF;
-  --glass-bg:         rgba(255, 255, 255, 0.72);
-  --glass-border:     rgba(12, 200, 212, 0.20);
-  --glass-shadow:     0 4px 24px rgba(12, 200, 212, 0.10), 0 1px 4px rgba(8, 22, 58, 0.06);
-  --shimmer-from:     #0CC8D4;
+  --body-bg:          #F0F9FF;
+  --glass-bg:         rgba(255, 255, 255, 0.82);
+  --glass-border:     rgba(10, 192, 205, 0.25);
+  --glass-shadow:     0 4px 24px rgba(10, 192, 205, 0.14), 0 1px 6px rgba(8, 20, 50, 0.08);
+  --shimmer-from:     #0AC0CD;
   --shimmer-mid:      #22EBF8;
-  --shimmer-to:       #F5A623;
-  --dot-color:        rgba(12, 200, 212, 0.15);
-  --scrollbar-track:  #E0EFFF;
-  --scrollbar-thumb:  #B0CEF0;
-  --selection-color:  rgba(12, 200, 212, 0.22);
-  --selection-text:   #08163A;
+  --shimmer-to:       #D29108;
+  --dot-color:        rgba(10, 192, 205, 0.20);
+  --scrollbar-track:  #DCF0FF;
+  --scrollbar-thumb:  #A8CCEA;
+  --selection-color:  rgba(10, 192, 205, 0.28);
+  --selection-text:   #081432;
 }
 
 /* ── Reset ────────────────────────────────────────────────────────────────── */
@@ -129,9 +129,9 @@ body {
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 html.light .glass-card {
-  background: rgba(255, 255, 255, 0.80);
-  border: 1px solid rgba(12, 200, 212, 0.18);
-  box-shadow: 0 2px 20px rgba(12, 200, 212, 0.08), 0 1px 3px rgba(8, 22, 58, 0.05);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(10, 192, 205, 0.22);
+  box-shadow: 0 4px 20px rgba(10, 192, 205, 0.12), 0 1px 4px rgba(8, 20, 50, 0.06);
 }
 
 /* Force dark — footer and other always-dark elements */
@@ -206,14 +206,27 @@ html.light .glass-card {
   @apply bg-red-900/30 hover:bg-red-800/50 border border-red-700/40 text-red-400
          font-medium px-4 py-2 rounded-lg transition-all duration-200 text-sm;
 }
-html.light .admin-btn-danger {
-  @apply bg-red-50 hover:bg-red-100 border-red-200 text-red-600;
+html.light .admin-input {
+  background: #ffffff;
+  color: #081432;
+  border-color: rgba(10, 192, 205, 0.35);
+}
+html.light .admin-label {
+  color: #1C3A70;
+}
+html.light .admin-btn-secondary {
+  background: #ffffff;
+  color: #1C3A70;
+  border-color: rgba(180, 218, 255, 1);
+}
+html.light .admin-btn-secondary:hover {
+  background: #F0F9FF;
 }
 
 /* Scroll reveal */
 .animate-on-scroll { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
 
-/* Map embed — dark-mode inversion */
+/* Map embed — inverted on dark bg, natural on light */
 .map-embed { filter: invert(90%) hue-rotate(180deg); }
 html.light .map-embed { filter: none; }
