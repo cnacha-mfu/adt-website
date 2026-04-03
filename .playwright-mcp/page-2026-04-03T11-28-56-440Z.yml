@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e4]:
+      - link "MFU Logo Applied Digital Technology Mae Fah Luang University" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "MFU Logo" [ref=e7]
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Applied Digital Technology
+          - paragraph [ref=e10]: Mae Fah Luang University
+      - generic [ref=e11]:
+        - link "Home" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - link "News" [ref=e13] [cursor=pointer]:
+          - /url: /news
+        - link "Faculty" [ref=e14] [cursor=pointer]:
+          - /url: /staff
+        - link "Programs" [ref=e15] [cursor=pointer]:
+          - /url: /#programs
+        - link "About" [ref=e16] [cursor=pointer]:
+          - /url: /#about
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e18]:
+        - button "Switch to light mode" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - button "EN / TH" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: EN
+          - generic [ref=e24]: /
+          - generic [ref=e25]: TH
+        - link "Apply Now" [ref=e26] [cursor=pointer]:
+          - /url: https://admission.mfu.ac.th/
+        - link "Admin Panel" [ref=e27] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e28]
+    - generic [ref=e31]:
+      - generic [ref=e34]: Get In Touch
+      - heading "Contact Us" [level=1] [ref=e35]
+      - paragraph [ref=e36]: We'd love to hear from you. Reach out for admissions, research collaboration, or general inquiries.
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - heading "School of Applied Digital Technology" [level=2] [ref=e42]
+          - paragraph [ref=e43]: Mae Fah Luang University
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - img [ref=e47]
+              - generic [ref=e49]:
+                - paragraph [ref=e50]: Address
+                - paragraph [ref=e51]: 333 Moo 1, Tha Sut Subdistrict, Mueang District, Chiang Rai 57100, Thailand
+            - generic [ref=e52]:
+              - img [ref=e54]
+              - generic [ref=e56]:
+                - paragraph [ref=e57]: Phone
+                - link "0-5391-6741 / 0-5391-6742" [ref=e58] [cursor=pointer]:
+                  - /url: tel:053916741
+            - generic [ref=e59]:
+              - img [ref=e61]
+              - generic [ref=e63]:
+                - paragraph [ref=e64]: Fax
+                - paragraph [ref=e65]: 0-5391-6743
+            - generic [ref=e66]:
+              - img [ref=e68]
+              - generic [ref=e71]:
+                - paragraph [ref=e72]: Email
+                - link "adtschool@mfu.ac.th" [ref=e73] [cursor=pointer]:
+                  - /url: mailto:adtschool@mfu.ac.th
+        - generic [ref=e74]:
+          - heading "Follow Us" [level=3] [ref=e75]
+          - generic [ref=e76]:
+            - link "Facebook" [ref=e77] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - img [ref=e78]
+              - generic [ref=e80]: Facebook
+            - link "YouTube" [ref=e81] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ
+              - img [ref=e82]
+              - generic [ref=e84]: YouTube
+        - generic [ref=e85]:
+          - heading "Interested in applying?" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Visit the MFU Admissions portal to apply for our undergraduate and graduate programs.
+          - link "Apply Now →" [ref=e88] [cursor=pointer]:
+            - /url: https://admission.mfu.ac.th/
+            - text: Apply Now
+            - generic [ref=e89]: →
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - heading "Campus Location" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Mae Fah Luang University, Chiang Rai
+          - iframe [ref=e96]:
+            - link "Open in Maps (opens in new tab)" [ref=f1e7] [cursor=pointer]:
+              - /url: undefined
+              - text: Open in Maps
+              - img [ref=f1e9]
+        - generic [ref=e97]:
+          - heading "Office Hours" [level=3] [ref=e98]
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: Monday – Friday
+              - generic [ref=e102]: 08:30 – 16:30
+            - generic [ref=e103]:
+              - generic [ref=e104]: Saturday – Sunday
+              - generic [ref=e105]: Closed
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - img "ADT Logo" [ref=e111]
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: ADT
+              - paragraph [ref=e114]: Mae Fah Luang University
+          - paragraph [ref=e115]: School of Applied Digital Technology — innovating education for the digital age.
+          - generic [ref=e116]:
+            - link [ref=e117] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - img [ref=e118]
+            - link [ref=e120] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - img [ref=e121]
+            - link [ref=e123] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e124]
+        - generic [ref=e126]:
+          - heading "Quick Links" [level=4] [ref=e127]
+          - list [ref=e128]:
+            - listitem [ref=e129]:
+              - link "News & Events" [ref=e130] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e131]:
+              - link "Faculty & Staff" [ref=e132] [cursor=pointer]:
+                - /url: /staff
+            - listitem [ref=e133]:
+              - link "Programs" [ref=e134] [cursor=pointer]:
+                - /url: /#programs
+            - listitem [ref=e135]:
+              - link "About Us" [ref=e136] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=e137]:
+              - link "Contact" [ref=e138] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e139]:
+              - link "Admin Portal" [ref=e140] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=e141]:
+          - heading "Programs" [level=4] [ref=e142]
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - link "B.Sc. Computer Science" [ref=e145] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e146]:
+              - link "B.Sc. Data Science" [ref=e147] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e148]:
+              - link "B.Sc. Cybersecurity" [ref=e149] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e150]:
+              - link "B.Sc. Digital Media" [ref=e151] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e152]:
+              - link "M.Sc. Information Technology" [ref=e153] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e154]:
+              - link "Ph.D. Computer Science" [ref=e155] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e156]:
+          - heading "Contact" [level=4] [ref=e157]
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - img [ref=e160]
+              - generic [ref=e162]: 333 Moo 1, Thasud, Mueang, Chiang Rai 57100
+            - listitem [ref=e163]:
+              - img [ref=e164]
+              - generic [ref=e166]:
+                - link "0-5391-6741" [ref=e167] [cursor=pointer]:
+                  - /url: tel:053916741
+                - text: /
+                - link "0-5391-6742" [ref=e168] [cursor=pointer]:
+                  - /url: tel:053916742
+            - listitem [ref=e169]:
+              - img [ref=e170]
+              - link "adtschool@mfu.ac.th" [ref=e173] [cursor=pointer]:
+                - /url: mailto:adtschool@mfu.ac.th
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: © 2026 School of Applied Digital Technology, Mae Fah Luang University. All rights reserved.
+        - paragraph [ref=e176]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+  - button "Open Next.js Dev Tools" [ref=e182] [cursor=pointer]:
+    - img [ref=e183]
+  - alert [ref=e186]

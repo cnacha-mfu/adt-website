@@ -1,0 +1,133 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - navigation [ref=e4]:
+        - link "MFU Logo Applied Digital Technology Mae Fah Luang University" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "MFU Logo" [ref=e7]
+          - generic [ref=e8]:
+            - paragraph [ref=e9]: Applied Digital Technology
+            - paragraph [ref=e10]: Mae Fah Luang University
+        - generic [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "News" [ref=e13] [cursor=pointer]:
+            - /url: /news
+          - link "Faculty" [ref=e14] [cursor=pointer]:
+            - /url: /staff
+          - link "Programs" [ref=e15] [cursor=pointer]:
+            - /url: /#programs
+          - link "About" [ref=e16] [cursor=pointer]:
+            - /url: /#about
+          - link "Contact" [ref=e17] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e18]:
+          - button "Switch to light mode" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+          - button "EN / TH" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: EN
+            - generic [ref=e24]: /
+            - generic [ref=e25]: TH
+          - link "Apply Now" [ref=e26] [cursor=pointer]:
+            - /url: https://admission.mfu.ac.th/
+          - link "Admin Panel" [ref=e27] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e28]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e34]: ADT
+        - heading "News & Stories" [level=1] [ref=e35]
+        - paragraph [ref=e36]: Stay up to date with the latest from the School of Applied Digital Technology.
+      - generic [ref=e38]:
+        - button "All" [ref=e39] [cursor=pointer]
+        - button "News" [ref=e40] [cursor=pointer]
+        - button "Events" [ref=e41] [cursor=pointer]
+        - button "Research" [ref=e42] [cursor=pointer]
+        - button "Achievement" [ref=e43] [cursor=pointer]
+        - button "Announcement" [ref=e44] [cursor=pointer]
+      - generic [ref=e46]: No news found.
+    - contentinfo [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - img "ADT Logo" [ref=e52]
+              - generic [ref=e53]:
+                - paragraph [ref=e54]: ADT
+                - paragraph [ref=e55]: Mae Fah Luang University
+            - paragraph [ref=e56]: School of Applied Digital Technology — innovating education for the digital age.
+            - generic [ref=e57]:
+              - link [ref=e58] [cursor=pointer]:
+                - /url: https://www.facebook.com/adtschoolmfu
+                - img [ref=e59]
+              - link [ref=e61] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+                - img [ref=e62]
+              - link [ref=e64] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e65]
+          - generic [ref=e67]:
+            - heading "Quick Links" [level=4] [ref=e68]
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - link "News & Events" [ref=e71] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=e72]:
+                - link "Faculty & Staff" [ref=e73] [cursor=pointer]:
+                  - /url: /staff
+              - listitem [ref=e74]:
+                - link "Programs" [ref=e75] [cursor=pointer]:
+                  - /url: /#programs
+              - listitem [ref=e76]:
+                - link "About Us" [ref=e77] [cursor=pointer]:
+                  - /url: /#about
+              - listitem [ref=e78]:
+                - link "Contact" [ref=e79] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e80]:
+                - link "Admin Portal" [ref=e81] [cursor=pointer]:
+                  - /url: /admin
+          - generic [ref=e82]:
+            - heading "Programs" [level=4] [ref=e83]
+            - list [ref=e84]:
+              - listitem [ref=e85]:
+                - link "B.Sc. Computer Science" [ref=e86] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e87]:
+                - link "B.Sc. Data Science" [ref=e88] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e89]:
+                - link "B.Sc. Cybersecurity" [ref=e90] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e91]:
+                - link "B.Sc. Digital Media" [ref=e92] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e93]:
+                - link "M.Sc. Information Technology" [ref=e94] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e95]:
+                - link "Ph.D. Computer Science" [ref=e96] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e97]:
+            - heading "Contact" [level=4] [ref=e98]
+            - list [ref=e99]:
+              - listitem [ref=e100]:
+                - img [ref=e101]
+                - generic [ref=e103]: 333 Moo 1, Thasud, Mueang, Chiang Rai 57100
+              - listitem [ref=e104]:
+                - img [ref=e105]
+                - generic [ref=e107]:
+                  - link "0-5391-6741" [ref=e108] [cursor=pointer]:
+                    - /url: tel:053916741
+                  - text: /
+                  - link "0-5391-6742" [ref=e109] [cursor=pointer]:
+                    - /url: tel:053916742
+              - listitem [ref=e110]:
+                - img [ref=e111]
+                - link "adtschool@mfu.ac.th" [ref=e114] [cursor=pointer]:
+                  - /url: mailto:adtschool@mfu.ac.th
+        - generic [ref=e115]:
+          - paragraph [ref=e116]: © 2026 School of Applied Digital Technology, Mae Fah Luang University. All rights reserved.
+          - paragraph [ref=e117]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+  - button "Open Next.js Dev Tools" [ref=e123] [cursor=pointer]:
+    - img [ref=e124]

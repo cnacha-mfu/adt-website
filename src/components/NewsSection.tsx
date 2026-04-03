@@ -95,7 +95,7 @@ export default function NewsSection() {
   if (!activeNews.length) return null;
 
   return (
-    <section className="py-20 bg-void relative overflow-hidden">
+    <section id="news" className="scroll-mt-20 py-20 bg-void/80 relative z-[2] overflow-hidden">
       {/* Subtle dot grid */}
       <div className="dot-grid absolute inset-0 opacity-25 pointer-events-none" />
 

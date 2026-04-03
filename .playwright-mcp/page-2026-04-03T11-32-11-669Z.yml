@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e4]:
+      - link "MFU Logo Applied Digital Technology Mae Fah Luang University" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "MFU Logo" [ref=e7]
+        - generic [ref=e8]:
+          - paragraph [ref=e9]: Applied Digital Technology
+          - paragraph [ref=e10]: Mae Fah Luang University
+      - generic [ref=e11]:
+        - link "Home" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - link "News" [ref=e13] [cursor=pointer]:
+          - /url: /news
+        - link "Faculty" [ref=e14] [cursor=pointer]:
+          - /url: /staff
+        - link "Programs" [ref=e15] [cursor=pointer]:
+          - /url: /#programs
+        - link "About" [ref=e16] [cursor=pointer]:
+          - /url: /#about
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e18]:
+        - button "Switch to light mode" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+        - button "EN / TH" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: EN
+          - generic [ref=e24]: /
+          - generic [ref=e25]: TH
+        - link "Apply Now" [ref=e26] [cursor=pointer]:
+          - /url: https://admission.mfu.ac.th/
+        - link "Admin Panel" [ref=e27] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e28]
+    - generic [ref=e30]:
+      - generic [ref=e34]:
+        - img "ADT Logo" [ref=e36]
+        - heading "School of Applied Digital Technology" [level=1] [ref=e37]:
+          - generic [ref=e38]: School of
+          - generic [ref=e39]: Applied Digital
+          - generic [ref=e40]: Technology
+        - paragraph [ref=e41]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+        - paragraph [ref=e42]: Shaping tomorrow's digital innovators through cutting-edge research, industry partnerships, and transformative education.
+        - generic [ref=e43]:
+          - link "Explore Programs" [ref=e44] [cursor=pointer]:
+            - /url: /#programs
+            - text: Explore Programs
+            - img [ref=e45]
+          - link "Latest News" [ref=e47] [cursor=pointer]:
+            - /url: /news
+        - link "Apply for 2025 intake" [ref=e49] [cursor=pointer]:
+          - /url: "#"
+          - text: Apply for 2025 intake
+          - img [ref=e50]
+      - button "Scroll down" [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: Scroll
+        - img [ref=e54]
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e61]: Education
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - heading "Degree Programs" [level=2] [ref=e64]
+            - paragraph [ref=e65]: 8 programs across undergraduate and graduate levels
+          - generic [ref=e66]:
+            - button "Undergraduate" [ref=e67] [cursor=pointer]
+            - button "Graduate" [ref=e68] [cursor=pointer]
+      - generic [ref=e69]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e75]
+            - generic [ref=e78]:
+              - text: B.Eng.
+              - paragraph [ref=e79]: 4 years
+          - heading "Digital Engineering & Communications" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Design and develop digital communication systems, networks, and modern telecommunications infrastructure.
+          - link "Learn more" [ref=e83] [cursor=pointer]:
+            - /url: /programs/digital-engineering
+            - text: Learn more
+            - img [ref=e84]
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - generic [ref=e94]:
+              - text: B.Eng.
+              - paragraph [ref=e95]: 4 years
+          - heading "Computer Engineering" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Hardware-software integration, embedded systems, and the engineering principles behind modern computing.
+          - link "Learn more" [ref=e99] [cursor=pointer]:
+            - /url: /programs/computer-engineering-beng
+            - text: Learn more
+            - img [ref=e100]
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - generic [ref=e110]:
+              - text: B.Sc.
+              - paragraph [ref=e111]: 4 years
+          - heading "Digital Technology for Business Innovation" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Apply digital tools to solve business challenges, drive innovation, and create competitive advantage.
+          - link "Learn more" [ref=e115] [cursor=pointer]:
+            - /url: /programs/digital-business
+            - text: Learn more
+            - img [ref=e116]
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - img [ref=e123]
+            - generic [ref=e126]:
+              - text: B.Eng.
+              - paragraph [ref=e127]: 4 years
+          - heading "Software Engineering" [level=3] [ref=e128]
+          - paragraph [ref=e129]: Systematic design, development, testing, and maintenance of large-scale software systems.
+          - link "Learn more" [ref=e131] [cursor=pointer]:
+            - /url: /programs/software-engineering
+            - text: Learn more
+            - img [ref=e132]
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img [ref=e139]
+            - generic [ref=e142]:
+              - text: B.Sc.
+              - paragraph [ref=e143]: 4 years
+          - heading "Multimedia Technology & Animation" [level=3] [ref=e144]
+          - paragraph [ref=e145]: Creative digital media production, 2D/3D animation, motion graphics, and interactive design.
+          - link "Learn more" [ref=e147] [cursor=pointer]:
+            - /url: /programs/multimedia
+            - text: Learn more
+            - img [ref=e148]
+      - link "All programs on official site" [ref=e151] [cursor=pointer]:
+        - /url: https://adt.mfu.ac.th/it-course/it-bachelor/
+        - text: All programs on official site
+        - img [ref=e152]
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e159]: About Us
+        - heading "Pioneering Digital Education Since 1998" [level=2] [ref=e160]
+        - paragraph [ref=e161]: One of MFU's two founding schools, ADT has grown from a single Information Technology program to 8 cutting-edge programs — producing 25+ graduating classes of digital innovators.
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - img [ref=e167]
+            - heading "Vision" [level=3] [ref=e170]
+          - paragraph [ref=e171]: To become the leading institution in digital education, research, and innovation — driving the Digital Valley of Northern Thailand.
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - img [ref=e176]
+            - heading "Mission" [level=3] [ref=e179]
+          - list [ref=e180]:
+            - listitem [ref=e181]:
+              - generic [ref=e182]: "1."
+              - generic [ref=e183]: Produce graduates with digital skills, ethics, and international competitiveness.
+            - listitem [ref=e184]:
+              - generic [ref=e185]: "2."
+              - generic [ref=e186]: Create digital research and innovation addressing regional and national needs.
+            - listitem [ref=e187]:
+              - generic [ref=e188]: "3."
+              - generic [ref=e189]: Build infrastructure and resources to support technological growth.
+            - listitem [ref=e190]:
+              - generic [ref=e191]: "4."
+              - generic [ref=e192]: Develop partnerships with government, private sector, and communities to build a Digital Valley ecosystem.
+            - listitem [ref=e193]:
+              - generic [ref=e194]: "5."
+              - generic [ref=e195]: Promote internationalization through academic cooperation and global exchange.
+      - generic [ref=e199]: Our Values — TEAM
+      - generic [ref=e200]:
+        - generic [ref=e202]:
+          - generic [ref=e203]: T
+          - heading "Trust" [level=4] [ref=e204]
+          - paragraph [ref=e205]: ความเชื่อมั่นและไว้วางใจ
+        - generic [ref=e207]:
+          - generic [ref=e208]: E
+          - heading "Excellence" [level=4] [ref=e209]
+          - paragraph [ref=e210]: ความเป็นเลิศ
+        - generic [ref=e212]:
+          - generic [ref=e213]: A
+          - heading "Agility" [level=4] [ref=e214]
+          - paragraph [ref=e215]: ความคล่องตัว
+        - generic [ref=e217]:
+          - generic [ref=e218]: M
+          - heading "Mutual Respect" [level=4] [ref=e219]
+          - paragraph [ref=e220]: การเคารพซึ่งกันและกัน
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - img "ADT Logo" [ref=e226]
+            - generic [ref=e227]:
+              - paragraph [ref=e228]: ADT
+              - paragraph [ref=e229]: Mae Fah Luang University
+          - paragraph [ref=e230]: School of Applied Digital Technology — innovating education for the digital age.
+          - generic [ref=e231]:
+            - link [ref=e232] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - img [ref=e233]
+            - link [ref=e235] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - img [ref=e236]
+            - link [ref=e238] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e239]
+        - generic [ref=e241]:
+          - heading "Quick Links" [level=4] [ref=e242]
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link "News & Events" [ref=e245] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e246]:
+              - link "Faculty & Staff" [ref=e247] [cursor=pointer]:
+                - /url: /staff
+            - listitem [ref=e248]:
+              - link "Programs" [ref=e249] [cursor=pointer]:
+                - /url: /#programs
+            - listitem [ref=e250]:
+              - link "About Us" [ref=e251] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=e252]:
+              - link "Contact" [ref=e253] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e254]:
+              - link "Admin Portal" [ref=e255] [cursor=pointer]:
+                - /url: /admin
+        - generic [ref=e256]:
+          - heading "Programs" [level=4] [ref=e257]
+          - list [ref=e258]:
+            - listitem [ref=e259]:
+              - link "B.Sc. Computer Science" [ref=e260] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e261]:
+              - link "B.Sc. Data Science" [ref=e262] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e263]:
+              - link "B.Sc. Cybersecurity" [ref=e264] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e265]:
+              - link "B.Sc. Digital Media" [ref=e266] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e267]:
+              - link "M.Sc. Information Technology" [ref=e268] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e269]:
+              - link "Ph.D. Computer Science" [ref=e270] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e271]:
+          - heading "Contact" [level=4] [ref=e272]
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - img [ref=e275]
+              - generic [ref=e277]: 333 Moo 1, Thasud, Mueang, Chiang Rai 57100
+            - listitem [ref=e278]:
+              - img [ref=e279]
+              - generic [ref=e281]:
+                - link "0-5391-6741" [ref=e282] [cursor=pointer]:
+                  - /url: tel:053916741
+                - text: /
+                - link "0-5391-6742" [ref=e283] [cursor=pointer]:
+                  - /url: tel:053916742
+            - listitem [ref=e284]:
+              - img [ref=e285]
+              - link "adtschool@mfu.ac.th" [ref=e288] [cursor=pointer]:
+                - /url: mailto:adtschool@mfu.ac.th
+      - generic [ref=e289]:
+        - paragraph [ref=e290]: © 2026 School of Applied Digital Technology, Mae Fah Luang University. All rights reserved.
+        - paragraph [ref=e291]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+  - button "Open Next.js Dev Tools" [ref=e297] [cursor=pointer]:
+    - img [ref=e298]

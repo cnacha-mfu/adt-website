@@ -1,0 +1,6 @@
+[     168ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0.0o_next_dist_12j4grt._.js:2431
+[     193ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0.0o_next_dist_12j4grt._.js:2431
+[     250ms] [WARNING] Image with src "/mfu-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/0.0o_next_dist_12j4grt._.js:2431
+[     250ms] [WARNING] Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/0.0o_next_dist_12j4grt._.js:2431
+[    3897ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0.0o_next_dist_12j4grt._.js:2431
+[    4151ms] [LOG] [Fast Refresh] done in 365ms @ http://localhost:3000/_next/static/chunks/0.0o_next_dist_12j4grt._.js:2431

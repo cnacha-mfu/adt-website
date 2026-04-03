@@ -38,39 +38,43 @@
   --selection-text:   #EEF2FF;
 }
 
-/* ── Light theme ──────────────────────────────────────────────────────────── */
+/* ── Light theme — "Arctic Luminance" ────────────────────────────────────── */
 html.light {
-  --void-rgb:         255 255 255;
-  --deep-rgb:         244 247 255;
+  /* Backgrounds — cool arctic blue tint, never plain white */
+  --void-rgb:         240 248 255;   /* #F0F8FF alice blue — page base */
+  --deep-rgb:         220 238 255;   /* #DCEEff — alternating section bg */
   --surface-rgb:      255 255 255;
-  --card-rgb:         238 243 255;
-  --border-rgb:       203 213 232;
+  --card-rgb:         248 252 255;
+  --border-rgb:       186 215 255;   /* soft sky-blue border */
 
-  --teal-rgb:         9 145 168;
-  --teal-bright-rgb:  12 200 212;
-  --teal-muted-rgb:   10 122 140;
+  /* Teal — full vibrance, not dimmed */
+  --teal-rgb:         12 200 212;
+  --teal-bright-rgb:  34 235 248;
+  --teal-muted-rgb:   8 160 170;
 
-  --gold-rgb:         196 125 10;
-  --gold-light-rgb:   245 166 35;
-  --gold-muted-rgb:   154 97 8;
+  /* Gold — slightly deeper for readability on light bg */
+  --gold-rgb:         210 140 8;
+  --gold-light-rgb:   245 170 40;
+  --gold-muted-rgb:   162 104 6;
 
-  --ink-primary-rgb:   15 23 42;
-  --ink-secondary-rgb: 51 65 85;
-  --ink-muted-rgb:     100 116 139;
-  --ink-faint-rgb:     203 213 225;
+  /* Ink — deep navy family instead of near-black */
+  --ink-primary-rgb:   8 22 58;      /* #08163A deep navy */
+  --ink-secondary-rgb: 28 55 100;
+  --ink-muted-rgb:     78 108 158;
+  --ink-faint-rgb:     184 210 240;
 
-  --body-bg:          #FFFFFF;
-  --glass-bg:         rgba(255, 255, 255, 0.85);
-  --glass-border:     rgba(15, 23, 42, 0.08);
-  --glass-shadow:     0 2px 12px rgba(15, 23, 42, 0.06);
-  --shimmer-from:     #0991A8;
-  --shimmer-mid:      #0CC8D4;
-  --shimmer-to:       #C47D0A;
-  --dot-color:        rgba(9, 145, 168, 0.18);
-  --scrollbar-track:  #F4F7FF;
-  --scrollbar-thumb:  #CBD5E8;
-  --selection-color:  rgba(9, 145, 168, 0.15);
-  --selection-text:   #0F172A;
+  --body-bg:          #F0F8FF;
+  --glass-bg:         rgba(255, 255, 255, 0.72);
+  --glass-border:     rgba(12, 200, 212, 0.20);
+  --glass-shadow:     0 4px 24px rgba(12, 200, 212, 0.10), 0 1px 4px rgba(8, 22, 58, 0.06);
+  --shimmer-from:     #0CC8D4;
+  --shimmer-mid:      #22EBF8;
+  --shimmer-to:       #F5A623;
+  --dot-color:        rgba(12, 200, 212, 0.15);
+  --scrollbar-track:  #E0EFFF;
+  --scrollbar-thumb:  #B0CEF0;
+  --selection-color:  rgba(12, 200, 212, 0.22);
+  --selection-text:   #08163A;
 }
 
 /* ── Reset ────────────────────────────────────────────────────────────────── */
@@ -124,6 +128,27 @@ body {
   box-shadow: var(--glass-shadow);
   transition: background 0.3s ease, border-color 0.3s ease;
 }
+html.light .glass-card {
+  background: rgba(255, 255, 255, 0.80);
+  border: 1px solid rgba(12, 200, 212, 0.18);
+  box-shadow: 0 2px 20px rgba(12, 200, 212, 0.08), 0 1px 3px rgba(8, 22, 58, 0.05);
+}
+
+/* Force dark — footer and other always-dark elements */
+.force-dark {
+  --void-rgb:         3 11 26;
+  --deep-rgb:         7 15 32;
+  --surface-rgb:      13 24 48;
+  --card-rgb:         17 30 53;
+  --border-rgb:       26 45 74;
+  --ink-primary-rgb:  238 242 255;
+  --ink-secondary-rgb:148 163 184;
+  --ink-muted-rgb:    71 85 105;
+  --ink-faint-rgb:    30 45 69;
+  --glass-bg:         rgba(13, 24, 48, 0.75);
+  --glass-border:     rgba(12, 200, 212, 0.12);
+  --glass-shadow:     none;
+}
 
 /* Teal glow text */
 .teal-glow {
@@ -159,7 +184,7 @@ body {
 .type-event        { --accent: rgb(var(--teal-rgb)); }
 .type-celebration  { --accent: rgb(var(--gold-rgb)); }
 .type-achievement  { --accent: rgb(var(--teal-bright-rgb)); }
-.type-announcement { --accent: #A78BFA; }
+.type-announcement { --accent: rgb(var(--teal-rgb)); }
 
 /* Admin styles */
 .admin-input {

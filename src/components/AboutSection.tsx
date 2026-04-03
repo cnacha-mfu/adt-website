@@ -38,7 +38,7 @@ export default function AboutSection() {
   const { language } = useApp();
 
   return (
-    <section id="about" className="py-24 bg-deep relative overflow-hidden">
+    <section id="about" className="py-24 bg-deep/80 relative z-[2] overflow-hidden">
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-teal/3 to-transparent pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gold/3 rounded-full blur-3xl pointer-events-none" />
       <div className="dot-grid absolute inset-0 opacity-15 pointer-events-none" />

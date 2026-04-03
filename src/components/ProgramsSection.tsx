@@ -137,7 +137,7 @@ export default function ProgramsSection() {
   const list = programs[active];
 
   return (
-    <section id="programs" className="py-20 bg-void relative overflow-hidden">
+    <section id="programs" className="py-20 bg-void/80 relative z-[2] overflow-hidden">
       <div className="dot-grid absolute inset-0 opacity-20 pointer-events-none" />
       <div className="absolute top-0 left-1/3 w-96 h-96 bg-teal/4 rounded-full blur-3xl pointer-events-none" />
 

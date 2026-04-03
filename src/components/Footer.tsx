@@ -10,7 +10,7 @@ export default function Footer() {
   const { language } = useApp();
 
   return (
-    <footer className="bg-deep border-t border-border relative overflow-hidden">
+    <footer className="force-dark bg-[#070F20]/80 border-t-2 border-teal/20 relative z-[2] overflow-hidden">
       {/* Decorative glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-96 h-32 bg-teal/5 blur-3xl rounded-full pointer-events-none" />
 
@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
-              <Image src="/logo.png" alt="ADT Logo" width={44} height={44} className="object-contain w-auto h-11" />
+              <Image src="/logo-light.png" alt="ADT Logo" width={44} height={44} className="object-contain w-auto h-11" />
               <div>
                 <p className="font-syne font-bold text-sm text-ink-primary leading-none">ADT</p>
                 <p className="text-ink-muted text-[10px]">Mae Fah Luang University</p>
@@ -38,8 +38,8 @@ export default function Footer() {
                 { Icon: FaLine,     href: '#' },
               ].map(({ Icon, href }, i) => (
                 <a key={i} href={href} target="_blank" rel="noopener noreferrer"
-                  className="w-9 h-9 rounded-lg bg-surface border border-border flex items-center justify-center text-ink-muted hover:text-teal hover:border-teal/40 transition-all duration-200">
-                  <Icon size={14} />
+                  className="w-10 h-10 rounded-lg bg-surface border border-border flex items-center justify-center text-ink-muted opacity-70 hover:opacity-100 hover:text-teal hover:border-teal/40 transition-all duration-200">
+                  <Icon size={18} />
                 </a>
               ))}
             </div>
@@ -75,15 +75,17 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                'B.Sc. Computer Science',
-                'B.Sc. Data Science',
-                'B.Sc. Cybersecurity',
-                'B.Sc. Digital Media',
-                'M.Sc. Information Technology',
-                'Ph.D. Computer Science',
-              ].map((p, i) => (
-                <li key={i}>
-                  <a href="#" className="text-ink-secondary hover:text-teal text-sm transition-colors duration-200">{p}</a>
+                { href: '/programs/digital-engineering',      en: 'Digital Engineering',             th: 'วิศวกรรมดิจิทัล' },
+                { href: '/programs/computer-engineering-beng',en: 'Computer Engineering (B.Eng.)',    th: 'วิศวกรรมคอมพิวเตอร์' },
+                { href: '/programs/software-engineering',     en: 'Software Engineering',            th: 'วิศวกรรมซอฟต์แวร์' },
+                { href: '/programs/digital-business',         en: 'Digital Business Innovation',     th: 'นวัตกรรมธุรกิจดิจิทัล' },
+                { href: '/programs/multimedia',               en: 'Multimedia Technology',           th: 'มัลติมีเดียเทคโนโลยี' },
+                { href: '/programs/digital-transformation-msc', en: 'Digital Transformation (M.Sc.)', th: 'การเปลี่ยนแปลงดิจิทัล (ป.โท)' },
+              ].map(link => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-ink-secondary hover:text-teal text-sm transition-colors duration-200">
+                    {language === 'en' ? link.en : link.th}
+                  </Link>
                 </li>
               ))}
             </ul>

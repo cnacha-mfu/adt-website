@@ -53,7 +53,7 @@ export default function ContactPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-16 overflow-hidden">
+      <section className="relative pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-hero-gradient pointer-events-none" />
         <div className="absolute inset-0 dot-grid opacity-40 pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6 relative">

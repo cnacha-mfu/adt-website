@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - navigation [ref=e4]:
+        - link "MFU Logo Applied Digital Technology Mae Fah Luang University" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "MFU Logo" [ref=e7]
+          - generic [ref=e8]:
+            - paragraph [ref=e9]: Applied Digital Technology
+            - paragraph [ref=e10]: Mae Fah Luang University
+        - generic [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "News" [ref=e13] [cursor=pointer]:
+            - /url: /news
+          - link "Faculty" [ref=e14] [cursor=pointer]:
+            - /url: /staff
+          - link "Programs" [ref=e15] [cursor=pointer]:
+            - /url: /#programs
+          - link "About" [ref=e16] [cursor=pointer]:
+            - /url: /#about
+          - link "Contact" [ref=e17] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e18]:
+          - button "Switch to light mode" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+          - button "EN / TH" [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: EN
+            - generic [ref=e24]: /
+            - generic [ref=e25]: TH
+          - link "Apply Now" [ref=e26] [cursor=pointer]:
+            - /url: https://admission.mfu.ac.th/
+          - link "Admin Panel" [ref=e27] [cursor=pointer]:
+            - /url: /admin
+            - img [ref=e28]
+    - paragraph [ref=e33]: Loading program...
+    - contentinfo [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - img "ADT Logo" [ref=e39]
+              - generic [ref=e40]:
+                - paragraph [ref=e41]: ADT
+                - paragraph [ref=e42]: Mae Fah Luang University
+            - paragraph [ref=e43]: School of Applied Digital Technology — innovating education for the digital age.
+            - generic [ref=e44]:
+              - link [ref=e45] [cursor=pointer]:
+                - /url: https://www.facebook.com/adtschoolmfu
+                - img [ref=e46]
+              - link [ref=e48] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+                - img [ref=e49]
+              - link [ref=e51] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e52]
+          - generic [ref=e54]:
+            - heading "Quick Links" [level=4] [ref=e55]
+            - list [ref=e56]:
+              - listitem [ref=e57]:
+                - link "News & Events" [ref=e58] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=e59]:
+                - link "Faculty & Staff" [ref=e60] [cursor=pointer]:
+                  - /url: /staff
+              - listitem [ref=e61]:
+                - link "Programs" [ref=e62] [cursor=pointer]:
+                  - /url: /#programs
+              - listitem [ref=e63]:
+                - link "About Us" [ref=e64] [cursor=pointer]:
+                  - /url: /#about
+              - listitem [ref=e65]:
+                - link "Contact" [ref=e66] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e67]:
+                - link "Admin Portal" [ref=e68] [cursor=pointer]:
+                  - /url: /admin
+          - generic [ref=e69]:
+            - heading "Programs" [level=4] [ref=e70]
+            - list [ref=e71]:
+              - listitem [ref=e72]:
+                - link "B.Sc. Computer Science" [ref=e73] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e74]:
+                - link "B.Sc. Data Science" [ref=e75] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e76]:
+                - link "B.Sc. Cybersecurity" [ref=e77] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e78]:
+                - link "B.Sc. Digital Media" [ref=e79] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e80]:
+                - link "M.Sc. Information Technology" [ref=e81] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e82]:
+                - link "Ph.D. Computer Science" [ref=e83] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e84]:
+            - heading "Contact" [level=4] [ref=e85]
+            - list [ref=e86]:
+              - listitem [ref=e87]:
+                - img [ref=e88]
+                - generic [ref=e90]: 333 Moo 1, Thasud, Mueang, Chiang Rai 57100
+              - listitem [ref=e91]:
+                - img [ref=e92]
+                - generic [ref=e94]:
+                  - link "0-5391-6741" [ref=e95] [cursor=pointer]:
+                    - /url: tel:053916741
+                  - text: /
+                  - link "0-5391-6742" [ref=e96] [cursor=pointer]:
+                    - /url: tel:053916742
+              - listitem [ref=e97]:
+                - img [ref=e98]
+                - link "adtschool@mfu.ac.th" [ref=e101] [cursor=pointer]:
+                  - /url: mailto:adtschool@mfu.ac.th
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: © 2026 School of Applied Digital Technology, Mae Fah Luang University. All rights reserved.
+          - paragraph [ref=e104]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+  - button "Open Next.js Dev Tools" [ref=e110] [cursor=pointer]:
+    - img [ref=e111]

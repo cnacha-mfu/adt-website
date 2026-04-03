@@ -160,7 +160,7 @@ export const programs: ProgramData[] = [
     credits: 126,
     name: 'Software Engineering',
     nameTH: 'วิศวกรรมซอฟต์แวร์',
-    color: '#A78BFA',
+    color: '#F5A623',
     description:
       'A commercially-focused program designed to produce job-ready engineers who can earn real income while studying. Year 1 graduates can take freelance work; Year 2 students publish mobile apps; Year 3 students lead small project teams; Year 4 graduates lead enterprise-scale projects. Covers the full software development lifecycle with modern tools: web, mobile, DevOps, Cloud, AI/ML, and emerging technologies.',
     descriptionTH:
@@ -326,7 +326,7 @@ export const programs: ProgramData[] = [
     credits: 48,
     name: 'Computer Engineering',
     nameTH: 'วิศวกรรมคอมพิวเตอร์',
-    color: '#A78BFA',
+    color: '#F5A623',
     description:
       'A fully personalised doctoral program where students freely define their own research topic and learning path, supported by an advisory team. Uses Constructivist Theory with competency-based progression. Research focus areas include Artificial Intelligence, Communication System Platforms, Edge Computing, and Autonomous Systems. Three entry paths for M.Eng. holders and direct B.Eng. entry.',
     descriptionTH:
