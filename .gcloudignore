@@ -5,7 +5,7 @@ node_modules
 .playwright-mcp
 data/*.db-shm
 data/*.db-wal
-# Root-level review/screenshot images (not needed for build)
-*.jpeg
-*.jpg
-*.png
+# Leading / = root-level only; public/uploads/** images are preserved
+/*.jpeg
+/*.jpg
+/*.png
