@@ -31,3 +31,12 @@ next-env.d.ts
 # SQLite WAL temp files (DB itself is committed)
 data/*.db-shm
 data/*.db-wal
+
+# Playwright MCP logs & snapshots
+.playwright-mcp/
+
+# Review/screenshot images at repo root
+*.jpeg
+*.jpg
+*.png
+!public/**
