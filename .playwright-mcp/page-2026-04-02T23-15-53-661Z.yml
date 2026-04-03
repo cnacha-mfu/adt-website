@@ -1,0 +1,381 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - link "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e9] [cursor=pointer]:
+          - /url: https://adt.mfu.ac.th
+          - img "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e10]
+        - generic [ref=e12]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "นักศึกษา" [ref=e17] [cursor=pointer]:
+                - /url: it-5433/it-5434.html
+            - listitem [ref=e18]:
+              - link "บุคลากร" [ref=e19] [cursor=pointer]:
+                - /url: it-5433/it-5435.html
+            - listitem [ref=e20]:
+              - link "นักศึกษาเก่า" [ref=e21] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/it-5433/it-5436.html
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/adt-home/search.html
+                - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "A-" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+              - link "A+" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: 
+              - text: 
+            - generic [ref=e35]:
+              - link "th" [ref=e37] [cursor=pointer]:
+                - /url: /it-course/it-phd/phd-computer-engineering.html
+              - link "en" [ref=e39] [cursor=pointer]:
+                - /url: /en/it-course/it-phd/translate-to-english-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C.html
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "หน้าแรก" [ref=e44] [cursor=pointer]:
+            - /url: /adt-home.html
+        - listitem [ref=e45]:
+          - 'generic "There are submenu below : hover to to check" [ref=e46] [cursor=pointer]': เกี่ยวกับสำนักวิชา
+        - listitem [ref=e47]:
+          - 'generic "There are submenu below : hover to to check" [ref=e48] [cursor=pointer]': บุคลากร
+        - listitem [ref=e49]:
+          - 'generic "There are submenu below : hover to to check" [ref=e50] [cursor=pointer]': หลักสูตร
+        - listitem [ref=e51]:
+          - 'generic "There are submenu below : hover to to check" [ref=e52] [cursor=pointer]': ประกาศ
+        - listitem [ref=e53]:
+          - 'generic "There are submenu below : hover to to check" [ref=e54] [cursor=pointer]': วิจัยและบริการวิชาการ
+        - listitem [ref=e55]:
+          - 'generic "There are submenu below : hover to to check" [ref=e56] [cursor=pointer]': ข่าว
+        - listitem [ref=e57]:
+          - 'generic "There are submenu below : hover to to check" [ref=e58] [cursor=pointer]': ระบบสารสนเทศภายใน
+        - listitem [ref=e59]:
+          - link "CI ADT" [ref=e60] [cursor=pointer]:
+            - /url: /ci-adt.html
+        - listitem [ref=e61]:
+          - link "ติดต่อสำนักวิชา" [ref=e62] [cursor=pointer]:
+            - /url: /it-contact.html
+      - text: 
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - banner [ref=e69]:
+          - heading "สาขาวิชาวิศวกรรมคอมพิวเตอร์ หลักสูตรปรัชญาดุษฎีบัณฑิต" [level=2] [ref=e70]
+        - generic [ref=e72]:
+          - paragraph
+      - separator [ref=e75]
+      - generic [ref=e76]:
+        - heading "หลักสูตร" [level=4] [ref=e77]
+        - paragraph [ref=e78]
+        - paragraph
+        - table [ref=e79]:
+          - rowgroup [ref=e80]:
+            - 'row "ภาษาไทย: หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์" [ref=e81]':
+              - cell "ภาษาไทย:" [ref=e82]
+              - cell "หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์" [ref=e83]
+            - 'row "ภาษาอังกฤษ: Doctor of Philosophy Program in Computer Engineering" [ref=e84]':
+              - cell "ภาษาอังกฤษ:" [ref=e85]
+              - cell "Doctor of Philosophy Program in Computer Engineering" [ref=e86]
+        - heading [level=4] [ref=e87]
+        - heading "ชื่อปริญญา" [level=4] [ref=e88]
+        - paragraph [ref=e89]
+        - paragraph
+        - table [ref=e90]:
+          - rowgroup [ref=e91]:
+            - 'row "ภาษาไทย: ชื่อเต็ม : ปรัชญาดุษฎีบัณฑิต (วิศวกรรมคอมพิวเตอร์)" [ref=e92]':
+              - cell "ภาษาไทย:" [ref=e93]
+              - cell "ชื่อเต็ม :" [ref=e94]
+              - cell "ปรัชญาดุษฎีบัณฑิต (วิศวกรรมคอมพิวเตอร์)" [ref=e95]
+            - 'row "ชื่อย่อ : ปร.ด. (วิศวกรรมคอมพิวเตอร์)" [ref=e96]':
+              - cell "ชื่อย่อ :" [ref=e97]
+              - cell "ปร.ด. (วิศวกรรมคอมพิวเตอร์)" [ref=e98]
+            - 'row "ภาษาอังกฤษ: ชื่อเต็ม : Doctor of Philosophy (Computer Engineering)" [ref=e99]':
+              - cell "ภาษาอังกฤษ:" [ref=e100]
+              - cell "ชื่อเต็ม :" [ref=e101]
+              - cell "Doctor of Philosophy (Computer Engineering)" [ref=e102]
+            - 'row "ชื่อย่อ : Ph.D. (Computer Engineering)" [ref=e103]':
+              - cell "ชื่อย่อ :" [ref=e104]
+              - cell "Ph.D. (Computer Engineering)" [ref=e105]
+        - heading [level=4] [ref=e106]
+        - heading "ปรัชญา / วัตถุประสงค์" [level=4] [ref=e107]
+        - paragraph [ref=e108]: วิศวกรรมคอมพิวเตอร์เป็นศาสตร์ที่เกี่ยวข้องกับการออกแบบและสร้างเครื่อง หรือระบบคอมพิวเตอร์และระบบที่ใช้คอมพิวเตอร์ เกี่ยวข้องโดยตรงกับ ฮาร์ดแวร์ ซอฟต์แวร์และการสื่อสาร มีบทบาทสำคัญในการปฎิรูปอุตสาหกรรมเพื่อพัฒนาเศรษฐกิจและสังคมมาตั้งแต่อดีตจนกระทั่งถึงปัจจุบันและยังเป็นอีกหนึ่งศาสตร์ที่จำเป็นต่อการใช้รับมือกับภาวะพลิกผันต่างๆที่กำลังจะเกิดขึ้นในปัจจุบันและอนาคต นับตั้งแต่มีการปฏิวัติอุตสาหกรรม ครั้งที่ 3 ในปี 1969 จนถึงปัจจุบัน เทคโนโลยีพลิกผัน (Disruptive Technologies) ได้เข้ามาทำให้หลายสิ่งเปลี่ยนแปลงไปจากที่เคยเป็นอยู่ ส่งกระทบต่อธุรกิจและการดำเนินชีวิตของผู้คน
+        - paragraph [ref=e109]: อย่างไรก็ตาม เทคโนโลยีที่เกิดใหม่ทุกชนิด ไม่สามารถทำให้ลักษณะของธุรกิจหรือสังคมเปลี่ยนแปลงได้ทั้งหมด มีเทคโนโลยีบางประเภทเท่านั้นที่มีศักยภาพอย่างแท้จริง ที่ส่งผลให้เกิดการเปลี่ยนแปลงต่อสถานการณ์ปัจจุบันอย่างมาก โดยเฉพาะวิศวกรรมคอมพิวเตอร์ ดังนั้นการคิดค้นทฤษฎีใหม่และนวัตกรรมทางวิศวกรรมคอมพิวเตอร์ยังคงมีความจำเป็นอย่างเร่งด่วนและต้องดำเนินการอย่างต่อเนื่องผ่านการพัฒนาทรัพยากรมนุษย์ในศาสตร์นี้
+        - paragraph [ref=e110]:
+          - text: รากฐานสำคัญของหลักสูตรนี้ คือ การนำทฤษฎีคอนสตรัคติวิสต์ (Constructivist Theory)
+          - text: มาผสมผสานกับการเรียนรู้เฉพาะบุคคล (Personalized Learning) โดยทฤษฎีคอนสตรัคติวิสต์ (Constructivist Theory) มีการผสมผสานแนวคิดแบบคอนสตรัคติวิสต์เชิงปัญญา (Cognitive Constructivism) และคอนสตรัคติวิสต์เชิงสังคม (Social Constructivism) เข้าด้วยกัน โดยเชื่อว่า ผู้เรียนเป็นผู้สร้างความรู้ โดยการนำประสบการณ์หรือสิ่งที่พบเห็นในสิ่งแวดล้อมหรือสารสนเทศใหม่ที่ได้รับมาเชื่อมโยงกับความรู้ความเข้าใจที่มีอยู่เดิม มาสร้างเป็นความเข้าใจของตนเอง และใช้สถานการณ์ที่เป็นปัญหาหรือความขัดแย้งทางปัญญาที่เกิดจากการปฏิสัมพันธ์ทางสังคมกับผู้อื่น ทำให้เกิดการไตร่ตรองเพื่อขจัดความขัดแย้งเหล่านั้นและนำไปสู่การสร้างโครงสร้างใหม่ทางปัญญาขึ้นกับผู้เรียน หลักสูตรจึงใช้กระบวนการจัดการเรียนการสอนโดยการใช้ปัญหาหรือโครงงานเป็นฐาน (Problem or Project based Learning) เพื่อสนับสนุนทฤษฎีดังกล่าว โดยเน้นให้ผู้เรียนเผชิญกับสถานการณ์จริง ค้นหาแนวทางการแก้ปัญหาด้วยตนเองผ่านการสนับสนุนของผู้สอนและการปฏิสัมพันธ์กับผู้อื่น
+        - paragraph [ref=e111]: การเรียนรู้เฉพาะบุคคล (Personalzied Learning) คือ การให้ผู้เรียนได้มีส่วนร่วมในการกำหนดแนวทางการเรียนการสอน ตามความถนัดหรือเป้าหมายของตนเอง อยู่บนพื้นฐานความเชื่อที่ว่า ผู้เรียนมีความแตกต่างกันในเรื่อง ความชอบ ความถนัดและความสามารถ ผู้เรียนแต่ละคนจึงควรมีโอกาส ตั้งเป้าหมายการเรียนรู้และเลือกเรียนรู้ในประเด็นที่ตนสนใจได้ด้วยตนเอง หลักสูตรนี้จึงดำเนินการจัดการเรียนการสอนโดยเอาสมรรถนะของผู้เรียน (Competency) เป็นตัวตั้ง โดยใช้เวลาและวิธีการอย่างยืดหยุ่นตามธรรมชาติของผู้เรียนแต่ละคน เพื่อพัฒนาผู้เรียนอย่างเต็มประสิทธิภาพตลอดทั้งกระบวนการของการศึกษา โดยมีกิจกรรมสนับสนุนการเรียนรู้ ทีมผู้ให้คำปรึกษาที่เข้มแข็ง และระบบการประเมินสมรรถนะที่สอดคล้องควบคู่ไปด้วย
+        - paragraph [ref=e112]: หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์นี้ จึงมุ่งเน้นในการผลิตดุษฎีบัณฑิตที่สามารถสร้างองค์ความรู้และนวัตกรรมเชิงพาณิชย์ทางด้านวิศวกรรมคอมพิวเตอร์ เพื่อแก้ปัญหาและตอบสนองต่อสถานการณ์จริงและตอบสนองต่อความต้องการการใช้งานของกลุ่มเป้าหมาย ได้หลากหลายกลุ่ม ผู้เรียนมีอิสระในการกำหนดหัวข้องานวิจัยและวางแผนเส้นทางการเรียนรู้ได้ด้วยตนเอง โดยมีทีมที่ปรึกษาให้คำแนะนำ ติดตามประเมินผล และมีกิจกรรมสนับสนุนการศึกษาตลอดหลักสูตร
+        - paragraph [ref=e113]:
+          - strong [ref=e114]: วัตถุประสงค์
+        - paragraph [ref=e115]
+        - paragraph
+        - list [ref=e116]:
+          - listitem [ref=e117]: มีความรู้ มีความสามารถในเชิงวิจัยขั้นสูงด้านวิศวกรรมคอมพิวเตอร์ การสื่อสารและสารสนเทศ
+          - listitem [ref=e118]: ยึดมั่นในจริยธรรมในการประกอบวิชาชีพ
+          - listitem [ref=e119]: มีความสามารถในการพัฒนาองค์ความรู้ใหม่และนวัตกรรมต้นแบบเชิงเทคนิคเพื่อการต่อยอดเชิงพาณิชย์
+          - listitem [ref=e120]: สามารถทำงานร่วมกับเครือข่ายทางวิชาการ งานวิจัย และนวัตกรรม
+          - listitem [ref=e121]: สามารถถ่ายทอดองค์ความรู้ใหม่หรือนวัตกรรมต้นแบบสู่ระดับท้องถิ่น ระดับชาติ ระดับ ภูมิภาค และระดับนานาชาติ
+        - heading [level=4] [ref=e122]
+        - heading "แนวทางในการประกอบอาชีพ" [level=4] [ref=e123]
+        - paragraph [ref=e124]
+        - paragraph
+        - list [ref=e125]:
+          - listitem [ref=e126]: นักวิชาการทางวิศวกรรมคอมพิวเตอร์ การสื่อสาร และสารสนเทศ
+          - listitem [ref=e127]: นักวิจัยและพัฒนานวัตกรรมทางวิศวกรรมคอมพิวเตอร์ การสื่อสาร และสารสนเทศ
+          - listitem [ref=e128]: วิศวกรและที่ปรึกษาทางวิศวกรรมคอมพิวเตอร์ การสื่อสาร และสารสนเทศ
+          - listitem [ref=e129]: ผู้ประกอบการทางวิศวกรรมคอมพิวเตอร์ การสื่อสาร และสารสนเทศ
+        - heading [level=4] [ref=e130]
+        - heading "ผลลัพธ์การเรียนรู้ระดับหลักสูตร" [level=4] [ref=e131]
+        - paragraph [ref=e132]
+        - paragraph
+        - list [ref=e133]:
+          - listitem [ref=e134]:
+            - text: PLO1 สร้างองค์ความรู้หลักด้านปัญญาประดิษฐ์ แพลตฟอร์มระบบสื่อสาร การประมวลผลต้นทางและระบบอัตโนมัติผ่านกระบวนการวิจัย
+            - list [ref=e135]:
+              - listitem [ref=e136]: Sub-PLOs 1.1 อภิปรายเชื่อมโยงสาระที่สำคัญของเทคโนโลยีพลิกผัน ด้านปัญญาประดิษฐ์ แพลตฟอร์มระบบสื่อสาร การประมวลผลต้นทาง และระบบอัตโนมัติ
+              - listitem [ref=e137]: Sub-PLOs 1.2 สร้างองค์ความรู้ใหม่โดยเชื่อมโยงองค์ความรู้ด้านปัญญาประดิษฐ์แพลตฟอร์มระบบสื่อสาร การประมวลผลต้นทาง และระบบอัตโนมัติผ่านกระบวนการวิจัย
+          - listitem [ref=e138]:
+            - text: PLO2 สร้างนวัตกรรมต้นแบบเชิงเทคนิค หรือต่อยอดองค์ความรู้หลักเพื่อนำไปใช้ประโยชน์เชิงสังคมหรือเชิงพาณิชย์
+            - list [ref=e139]:
+              - listitem [ref=e140]: Sub-PLOs 2.1 นำเสนอการต่อยอดองค์ความรู้ด้านปัญญาประดิษฐ์ แพลตฟอร์มระบบสื่อสาร การประมวลผลต้นทาง และระบบอัตโนมัติ
+              - listitem [ref=e141]: Sub-PLOs 2.2 พัฒนาและถ่ายทอดต้นแบบเชิงเทคนิคด้านปัญญาประดิษฐ์ แพลตฟอร์มระบบสื่อสาร การประมวลผลต้นทาง และระบบอัตโนมัติ เพื่อการใช้ประโยชน์เชิงสังคมหรือเชิงพาณิชย์ สู่ระดับท้องถิ่น ระดับชาติ ระดับภูมิภาค และระดับนานาชาติ
+          - listitem [ref=e142]:
+            - text: PLO3 ปฏิบัติตามหลักจริยธรรมวิจัยทั่วไปและหลักจริยธรรมวิจัยในมนุษย์เพื่อสร้างองค์ความรู้ใหม่
+            - list [ref=e143]:
+              - listitem [ref=e144]: Sub-PLOs 3.1 ใช้หลักจริยธรรมวิจัยในมนุษย์ในงานวิจัยที่เกี่ยวข้องกับมนุษย์
+              - listitem [ref=e145]: Sub-PLOs 3.2 ดำเนินกระบวนการวิจัย การรวบรวมข้อมูล การทดลอง และการวิเคราะห์ผลอย่างเที่ยงตรง
+              - listitem [ref=e146]: Sub-PLOs 3.3 สร้างผลงานวิชาการด้วยความซื่อสัตย์ ไม่คัดลอกผลงานผู้อื่น
+          - listitem [ref=e147]:
+            - text: PLO4 แสดงออกถึงการเรียนรู้ด้วยตนเอง พัฒนาตนเองอย่างต่อเนื่อง และปรับตัวในการทำงานเป็นทีมพร้อมรับความเปลี่ยนแปลง
+            - list [ref=e148]:
+              - listitem [ref=e149]: Sub-PLOs 4.1 วิพากษ์เชิงวิชาการด้วยความมั่นใจ รับฟังความเห็นต่าง และปรับตัวในการทำงานเป็นทีม
+              - listitem [ref=e150]: Sub-PLOs 4.2 เลือกแนวทางในการเรียนรู้ด้วยตนเองและพัฒนาตนเองอย่างต่อเนื่อง
+          - listitem [ref=e151]:
+            - text: PLO5 ปฏิบัติตนโดยมุ่งเน้นความสำเร็จในการพัฒนางานที่เกี่ยวข้องกับศาสตร์วิศวกรรมคอมพิวเตอร์ขั้นสูง
+            - list [ref=e152]:
+              - listitem [ref=e153]: Sub-PLOs 5.1 กำหนดเป้าหมายความสำเร็จทางวิชาการที่เกี่ยวข้องกับศาสตร์วิศวกรรม คอมพิวเตอร์ขั้นสูง
+              - listitem [ref=e154]: Sub-PLOs 5.2 ปฏิบัติตนตามเป้าหมายความสำเร็จ
+        - heading [level=4] [ref=e155]
+        - heading "ค่าธรรมเนียม" [level=4] [ref=e156]
+        - paragraph [ref=e157]
+        - paragraph
+        - list [ref=e158]:
+          - listitem [ref=e159]:
+            - strong [ref=e160]: แผน 1.1
+            - text: (จำนวน 6 ภาคการศึกษาในหลักสูตร)
+            - list [ref=e161]:
+              - listitem [ref=e162]: ค่าธรรมเนียมการศึกษาต่อหลักสูตร 270,000 .- บาท
+              - listitem [ref=e163]: ค่าธรรมเนียมการศึกษาต่อภาคการศึกษา 45,000 .- บาท
+          - listitem [ref=e164]:
+            - strong [ref=e165]: แผน 2.1
+            - text: (จำนวน 6 ภาคการศึกษาในหลักสูตร)
+            - list [ref=e166]:
+              - listitem [ref=e167]: ค่าธรรมเนียมการศึกษาต่อหลักสูตร 270,000 .- บาท
+              - listitem [ref=e168]: ค่าธรรมเนียมการศึกษาต่อภาคการศึกษา 45,000 .- บาท
+          - listitem [ref=e169]:
+            - strong [ref=e170]: แผน 2.2
+            - text: (จำนวน 10 ภาคการศึกษาในหลักสูตร)
+            - list [ref=e171]:
+              - listitem [ref=e172]: ค่าธรรมเนียมการศึกษาต่อหลักสูตร 450,000 .- บาท
+              - listitem [ref=e173]: ค่าธรรมเนียมการศึกษาต่อภาคการศึกษา 45,000 .- บาท
+        - heading [level=4] [ref=e174]
+        - heading "โครงสร้างหลักสูตร" [level=4] [ref=e175]
+        - paragraph [ref=e176]
+        - paragraph
+        - table [ref=e177]:
+          - rowgroup [ref=e178]:
+            - row "แผน 1.1" [ref=e179]:
+              - cell "แผน 1.1" [ref=e180]:
+                - strong [ref=e181]: แผน 1.1
+              - cell [ref=e182]
+            - row "จำนวนหน่วยกิตตลอดหลักสูตร 48 หน่วยกิต" [ref=e183]:
+              - cell [ref=e184]
+              - cell "จำนวนหน่วยกิตตลอดหลักสูตร" [ref=e185]:
+                - strong [ref=e186]: จำนวนหน่วยกิตตลอดหลักสูตร
+              - cell "48 หน่วยกิต" [ref=e187]:
+                - strong [ref=e188]: 48 หน่วยกิต
+            - row "1. หมวดดุษฎีนิพนธ์ 48 หน่วยกิต" [ref=e189]:
+              - cell [ref=e190]
+              - cell [ref=e191]
+              - cell "1. หมวดดุษฎีนิพนธ์" [ref=e192]
+              - cell "48 หน่วยกิต" [ref=e193]
+            - row [ref=e194]:
+              - cell [ref=e195]
+              - cell [ref=e196]
+              - cell [ref=e197]
+              - cell [ref=e198]
+            - row "แผน 2.1" [ref=e199]:
+              - cell "แผน 2.1" [ref=e200]:
+                - strong [ref=e201]: แผน 2.1
+              - cell [ref=e202]
+            - row "จำนวนหน่วยกิตตลอดหลักสูตร 48 หน่วยกิต" [ref=e203]:
+              - cell [ref=e204]
+              - cell "จำนวนหน่วยกิตตลอดหลักสูตร" [ref=e205]:
+                - strong [ref=e206]: จำนวนหน่วยกิตตลอดหลักสูตร
+              - cell "48 หน่วยกิต" [ref=e207]:
+                - strong [ref=e208]: 48 หน่วยกิต
+            - row "1. หมวดดุษฎีนิพนธ์ 36 หน่วยกิต" [ref=e209]:
+              - cell [ref=e210]
+              - cell [ref=e211]
+              - cell "1. หมวดดุษฎีนิพนธ์" [ref=e212]
+              - cell "36 หน่วยกิต" [ref=e213]
+            - row "2. หมวดวิชาบังคับ 9 หน่วยกิต" [ref=e214]:
+              - cell [ref=e215]
+              - cell [ref=e216]
+              - cell "2. หมวดวิชาบังคับ" [ref=e217]
+              - cell "9 หน่วยกิต" [ref=e218]
+            - row "3. หมวดวิชาเลือก 3 หน่วยกิต" [ref=e219]:
+              - cell [ref=e220]
+              - cell [ref=e221]
+              - cell "3. หมวดวิชาเลือก" [ref=e222]
+              - cell "3 หน่วยกิต" [ref=e223]
+            - row [ref=e224]:
+              - cell [ref=e225]
+              - cell [ref=e226]
+              - cell [ref=e227]
+              - cell [ref=e228]
+            - row "แผน 2.2" [ref=e229]:
+              - cell "แผน 2.2" [ref=e230]:
+                - strong [ref=e231]: แผน 2.2
+              - cell [ref=e232]
+            - row "จำนวนหน่วยกิตตลอดหลักสูตร 72 หน่วยกิต" [ref=e233]:
+              - cell [ref=e234]
+              - cell "จำนวนหน่วยกิตตลอดหลักสูตร" [ref=e235]:
+                - strong [ref=e236]: จำนวนหน่วยกิตตลอดหลักสูตร
+              - cell "72 หน่วยกิต" [ref=e237]:
+                - strong [ref=e238]: 72 หน่วยกิต
+            - row "1. หมวดดุษฎีนิพนธ์ 48 หน่วยกิต" [ref=e239]:
+              - cell [ref=e240]
+              - cell [ref=e241]
+              - cell "1. หมวดดุษฎีนิพนธ์" [ref=e242]
+              - cell "48 หน่วยกิต" [ref=e243]
+            - row "2. หมวดวิชาบังคับ 18 หน่วยกิต" [ref=e244]:
+              - cell [ref=e245]
+              - cell [ref=e246]
+              - cell "2. หมวดวิชาบังคับ" [ref=e247]
+              - cell "18 หน่วยกิต" [ref=e248]
+            - row "3. หมวดวิชาเลือก 6 หน่วยกิต" [ref=e249]:
+              - cell [ref=e250]
+              - cell [ref=e251]
+              - cell "3. หมวดวิชาเลือก" [ref=e252]
+              - cell "6 หน่วยกิต" [ref=e253]
+            - row [ref=e254]:
+              - cell [ref=e255]
+              - cell [ref=e256]
+              - cell [ref=e257]
+              - cell [ref=e258]
+        - heading [level=4] [ref=e259]
+        - heading "ข้อมูลอ้างอิง" [level=4] [ref=e260]
+        - paragraph [ref=e261]: อ้างอิงจาก หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ พ.ศ. 2566
+        - paragraph [ref=e262]
+        - paragraph
+        - list [ref=e263]:
+          - listitem [ref=e264]:
+            - link "แผน 1.1" [ref=e265] [cursor=pointer]:
+              - /url: https://reg.mfu.ac.th/th/program-infomation/667150111?tab=program-structure&admitacadyear=2566&admitsemester=1&studyplanid=667150111
+          - listitem [ref=e266]:
+            - link "แผน 2.1" [ref=e267] [cursor=pointer]:
+              - /url: https://reg.mfu.ac.th/th/program-infomation/667150121?tab=program-structure&admitacadyear=2566&admitsemester=1&studyplanid=667150121
+          - listitem [ref=e268]:
+            - link "แผน 2.2" [ref=e269] [cursor=pointer]:
+              - /url: https://reg.mfu.ac.th/th/program-infomation/667150122?tab=program-structure&admitacadyear=2566&admitsemester=1&studyplanid=667150122
+        - paragraph [ref=e270]:
+          - emphasis [ref=e271]: ปรับปรุงข้อมูลบนเว็บไซต์ล่าสุด 27 พ.ย. 66
+      - separator [ref=e273]
+      - generic [ref=e274]:
+        - banner [ref=e275]:
+          - heading "รายละเอียดหลักสูตรเพิ่มเติม" [level=5] [ref=e276]:
+            - link "รายละเอียดหลักสูตรเพิ่มเติม" [ref=e277] [cursor=pointer]:
+              - /url: https://www.mfu.ac.th/education/program/program-doctorate/doctor-it-school/doctor-it-program/phd-computerengineering.html
+        - generic [ref=e279]:
+          - paragraph [ref=e280]
+          - paragraph [ref=e281]:
+            - text: "More details (in Thai) : <<"
+            - generic:
+              - generic:
+                - link:
+                  - /url: https://www.mfu.ac.th/education/program/program-doctorate/doctor-it-school/doctor-it-program/phd-computerengineering.html
+          - paragraph [ref=e282]:
+            - link "link" [ref=e285] [cursor=pointer]:
+              - /url: https://www.mfu.ac.th/education/program/program-doctorate/doctor-it-school/doctor-it-program/phd-computerengineering.html
+              - generic [ref=e288]: link
+          - text: ">>"
+          - paragraph [ref=e289]:
+            - text: "More details (in English) : <<"
+            - generic:
+              - generic:
+                - link:
+                  - /url: https://en.mfu.ac.th/admission/programmes/doctoral-degree/school-of-information-technology/doctor-of-philosophy-programme/doctor-of-philosophy-programme-in-computer-engineering.html
+          - paragraph [ref=e290]:
+            - link "link" [ref=e293] [cursor=pointer]:
+              - /url: https://en.mfu.ac.th/admission/programmes/doctoral-degree/school-of-information-technology/doctor-of-philosophy-programme/doctor-of-philosophy-programme-in-computer-engineering.html
+              - generic [ref=e296]: link
+          - text: ">>"
+    - generic [ref=e298]:
+      - heading "ปริญญาเอก" [level=3] [ref=e299]
+      - list [ref=e300]:
+        - listitem [ref=e301]:
+          - link "สาขาวิชาวิศวกรรมคอมพิวเตอร์" [ref=e302] [cursor=pointer]:
+            - /url: /it-course/it-phd/phd-computer-engineering.html
+  - contentinfo [ref=e303]:
+    - generic [ref=e306]:
+      - generic [ref=e308]:
+        - img "School of ADT" [ref=e309]
+        - heading "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [level=2] [ref=e310]:
+          - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+          - text: มหาวิทยาลัยแม่ฟ้าหลวง
+      - generic [ref=e311]:
+        - heading "ติดต่อเรา" [level=3] [ref=e312]
+        - list [ref=e313]:
+          - listitem [ref=e314]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+          - listitem [ref=e315]: 333 หมู่ 1 ตำบลท่าสุด อำเภอเมือง
+          - listitem [ref=e316]: จังหวัดเชียงราย 57100
+          - listitem [ref=e317]:
+            - text: โทรศัพท์.
+            - link "0-5391-6741" [ref=e318] [cursor=pointer]:
+              - /url: tel:0-5391-6741
+            - text: ","
+            - link "0-5391-6742" [ref=e319] [cursor=pointer]:
+              - /url: tel:0-5391-6742
+          - listitem [ref=e320]:
+            - text: โทรสาร.
+            - link "0-5391-6743" [ref=e321] [cursor=pointer]:
+              - /url: tel:0-5391-6743
+          - listitem [ref=e322]:
+            - text: "อีเมล:"
+            - link "adtschool@mfu.ac.th" [ref=e323] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+        - list [ref=e324]:
+          - listitem [ref=e325]:
+            - link "" [ref=e326] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - generic [ref=e327]: 
+          - listitem [ref=e328]:
+            - link "" [ref=e329] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - generic [ref=e330]: 
+      - iframe [ref=e333]:
+        - generic [ref=f5e3]:
+          - link:
+            - /url: https://www.facebook.com/adtschoolmfu?ref=embed_page
+          - generic [ref=f5e6]:
+            - generic [ref=f5e8]:
+              - generic [ref=f5e9]:
+                - link [ref=f5e10] [cursor=pointer]:
+                  - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f5e11]:
+                  - link "ADTschool MFU" [ref=f5e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                  - generic [ref=f5e14]: 6,468 followers
+              - generic [ref=f5e15]:
+                - button "Follow Page" [ref=f5e19] [cursor=pointer]: Follow Page
+                - link "Share" [ref=f5e21] [cursor=pointer]:
+                  - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F145344555508195&display=popup&ref=embed_page&src=page
+                  - button "Share" [ref=f5e22]: Share
+            - progressbar [ref=f5e29]
+  - img "มหาวิทยาลัยแม่ฟ้าหลวงน้อมรำลึกในพระมหากรุณาธิคุณ สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง" [ref=e335]

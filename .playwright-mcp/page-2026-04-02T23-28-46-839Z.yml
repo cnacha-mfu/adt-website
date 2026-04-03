@@ -1,0 +1,685 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - link "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e9] [cursor=pointer]:
+          - /url: https://adt.mfu.ac.th
+          - img "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e10]
+        - generic [ref=e12]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "นักศึกษา" [ref=e17] [cursor=pointer]:
+                - /url: it-5433/it-5434.html
+            - listitem [ref=e18]:
+              - link "บุคลากร" [ref=e19] [cursor=pointer]:
+                - /url: it-5433/it-5435.html
+            - listitem [ref=e20]:
+              - link "นักศึกษาเก่า" [ref=e21] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/it-5433/it-5436.html
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/adt-home/search.html
+                - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "A-" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+              - link "A+" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: 
+              - text: 
+            - generic [ref=e35]:
+              - link "th" [ref=e37] [cursor=pointer]:
+                - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C.html
+              - link "en" [ref=e39] [cursor=pointer]:
+                - /url: /en/it-computer-engineering.html
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "หน้าแรก" [ref=e44] [cursor=pointer]:
+            - /url: /adt-home.html
+        - listitem [ref=e45]:
+          - 'generic "There are submenu below : hover to to check" [ref=e46] [cursor=pointer]': เกี่ยวกับสำนักวิชา
+        - listitem [ref=e47]:
+          - 'generic "There are submenu below : hover to to check" [ref=e48] [cursor=pointer]': บุคลากร
+        - listitem [ref=e49]:
+          - 'generic "There are submenu below : hover to to check" [ref=e50] [cursor=pointer]': หลักสูตร
+        - listitem [ref=e51]:
+          - 'generic "There are submenu below : hover to to check" [ref=e52] [cursor=pointer]': ประกาศ
+        - listitem [ref=e53]:
+          - 'generic "There are submenu below : hover to to check" [ref=e54] [cursor=pointer]': วิจัยและบริการวิชาการ
+        - listitem [ref=e55]:
+          - 'generic "There are submenu below : hover to to check" [ref=e56] [cursor=pointer]': ข่าว
+        - listitem [ref=e57]:
+          - 'generic "There are submenu below : hover to to check" [ref=e58] [cursor=pointer]': ระบบสารสนเทศภายใน
+        - listitem [ref=e59]:
+          - link "CI ADT" [ref=e60] [cursor=pointer]:
+            - /url: /ci-adt.html
+        - listitem [ref=e61]:
+          - link "ติดต่อสำนักวิชา" [ref=e62] [cursor=pointer]:
+            - /url: /it-contact.html
+      - text: 
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - banner [ref=e69]:
+        - heading "สาขาวิชาวิศวกรรมคอมพิวเตอร์ หลักสูตรปริญญาตรี" [level=2] [ref=e70]
+      - paragraph [ref=e72]:
+        - strong [ref=e73]:
+          - link "มคอ.2" [ref=e77] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1koRP2TSCdZ7K05fYstMy5pdPy_fEONj0/view?usp=sharing
+            - generic [ref=e82]: มคอ.2
+          - generic [ref=e87]: "|"
+          - link "มคอ.3" [ref=e91] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1crx5dzbhKxTJ4q0WJYCt511dCSqoKh-y/view?usp=drive_link
+            - generic [ref=e96]: มคอ.3
+          - generic [ref=e101]: "|"
+          - link "TABEE 2567" [ref=e105] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1qLFYe34DIeEiY7qkY5nhRADSknw00pbn/view?usp=drive_link
+            - generic [ref=e106]:
+              - generic [ref=e110]: TABEE
+              - generic [ref=e114]: "2567"
+      - generic [ref=e115]:
+        - paragraph [ref=e116]
+        - paragraph [ref=e117]
+        - paragraph [ref=e118]:
+          - strong [ref=e119]:
+            - text: หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์
+            - text: Bachelor of Engineering Program in Computer Engineering
+        - paragraph [ref=e120]:
+          - text: "ชื่อปริญญา ภาษาไทย : วิศวกรรมศาสตรบัณฑิต (วิศวกรรมคอมพิวเตอร์) (วศ.บ.)"
+          - text: "ภาษาอังกฤษ : Bachelor of Engineering (Computer Engineering) (B.Eng.)"
+        - paragraph [ref=e121]: หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ ผลิตนักศึกษาที่มีมีองค์ความรู้และทักษะความสามารถทั้งเชิงทฤษฎีและปฏิบัติทางวิศวกรรมคอมพิวเตอร์ในระดับสากล มีความชำนาญเฉพาะทางในการออกแบบและวางแผนเกี่ยวกับการนำเทคโนโลยีใหม่ ๆ ไปประยุกต์ใช้ในการสร้างสรรค์นวัตกรรม การบำรุงรักษาทั้งทางด้านฮาร์ดแวร์และซอฟต์แวร์ของระบบคอมพิวเตอร์ แบ่งสายการเรียนรู้เป็นสามด้านตามความถนัดของผู้เรียนเพื่อตอบโจทย์อุตสาหกรรมและภาคเอกชนยุคใหม่ ได้แก่ ฮาร์ดแวร์และระบบควบคุมอัจฉริยะ (Hardware and Intelligent Control System) วิทยาการข้อมูลและปัญญาประดิษฐ์ (Data Science and Artificial Intelligence) และเครือข่ายและการสื่อสารข้อมูล (Data Communications and Networks) รวมถึงการประยุกต์ใช้ระบบทางด้านคอมพิวเตอร์ในภาคอุตสาหกรรม มีความสามารถเรียนรู้ด้วยตนเอง แสวงหาความรู้เพิ่มเติมอยู่เสมอ สามารถสร้างสรรค์ผลงานทางวิศวกรรมเพื่อเป็นผู้นำด้านเทคโนโลยี
+        - paragraph [ref=e122]
+        - paragraph [ref=e123]
+        - paragraph [ref=e124]:
+          - strong [ref=e125]: แนวทางประกอบอาชีพ
+        - paragraph
+        - list [ref=e126]:
+          - listitem [ref=e127]: วิศวกรคอมพิวเตอร์
+          - listitem [ref=e128]: วิศวกรควบคุมอุปกรณ์อิเล็กทรอนิค
+          - listitem [ref=e129]: วิศวกรข้อมูลและปัญญาประดิษฐ์
+          - listitem [ref=e130]: นักพัฒนาโปรแกรม
+          - listitem [ref=e131]: วิศวกรเครือข่ายคอมพิวเตอร์
+          - listitem [ref=e132]: วิศวกรโทรคมนาคม
+          - listitem [ref=e133]: ผู้ประกอบการผลิตนวัตกรรม
+        - paragraph [ref=e134]
+        - paragraph [ref=e135]
+        - paragraph [ref=e136]
+        - paragraph [ref=e137]:
+          - strong [ref=e138]: แนวทางการศึกษาต่อ
+        - paragraph
+        - list [ref=e139]:
+          - listitem [ref=e140]: สามารถศึกษาต่อในระดับปริญญาโทและปริญญาเอก ทั้งในประเทศและต่างประเทศ ในด้านวิศวกรรมคอมพิวเตอร์ หรือสาขาอื่นๆ ที่มีความใกล้เคียงกัน เช่น วิศวกรรมไฟฟ้า วิศวกรรมอิเล็กทรอนิกส์ วิศวกรรมโทรคมนาคม เป็นต้น
+        - paragraph [ref=e141]
+        - paragraph [ref=e142]:
+          - strong [ref=e143]: “ทำไมต้องวิศวะฯ แม่ฟ้าหลวง”
+        - paragraph
+        - list [ref=e144]:
+          - listitem [ref=e145]: ใช้ภาษาอังกฤษในการเรียนการสอน เพิ่มโอกาศการได้งาน
+          - listitem [ref=e146]: ปรับหลักสูตรที่ทันสมัย ตรงกับความต้องการของผู้ประกอบการ
+          - listitem [ref=e147]: ห้องปฏิบัติการที่ทันสมัยและเพียบพร้อม
+          - listitem [ref=e148]: ปลูกฝังเรื่องของการเขียนโปรแกรมในระดับที่สามารถสร้างโปรแกรมและผลิตภัณฑ์ของตัวเองได้
+          - listitem [ref=e149]: ใช้การเรียนการสอนโดยใช้ปัญหาเป็นฐาน PBL (Problem Based Learning) ให้ผู้เรียนเกิดความเชี่ยวชาญและสนุกใน ด้านการปฏิบัติ
+          - listitem [ref=e150]: ได้รับประสบการณ์การทำงานจริงและรายได้ระหว่างเรียน
+          - listitem [ref=e151]: มีความร่วมมือกับหน่วยงานภาครัฐและเอกชนด้านไอทีที่มีชื่อเสียง
+        - paragraph [ref=e152]
+        - paragraph [ref=e153]
+        - paragraph [ref=e154]
+        - paragraph [ref=e155]:
+          - strong [ref=e156]: สโลแกนสาขาวิชา
+        - paragraph
+        - list [ref=e157]:
+          - listitem [ref=e158]: "\"วิศวะฯ แม่ฟ้าหลวง ลุยงานหนัก สู้งานจริง เข้าถึงง่าย เชี่ยวชาญวิชาชีพ\""
+        - paragraph [ref=e159]
+        - paragraph [ref=e160]
+      - separator [ref=e162]
+      - generic [ref=e163]:
+        - paragraph [ref=e164]:
+          - generic [ref=e169]: เส้นทางการเรียนรู้ (Learning Path)
+        - paragraph
+        - list [ref=e170]:
+          - listitem [ref=e171]:
+            - text: การเรียนการสอนครอบคลุมทั้งทฤษฎีและปฏิบัติในด้านวิศวกรรมคอมพิวเตอร์ เช่น การเขียนโปรแกรม การออกแบบระบบสมองกลฝังตัว (Embeded System) ระบบเครือข่ายคอมพิวเตอร์และความปลอดภัย (Computer Network and Security) และปัญญาประดิษฐ์ (AI)
+            - text: The program covers both theory and practice in computer engineering, such as programming, embedded system design, computer networks and security, and artificial intelligence (AI)
+          - listitem [ref=e172]:
+            - text: นักศึกษามีโอกาสทำโครงงานที่เน้นการประยุกต์ใช้ความรู้ในสถานการณ์จริง
+            - text: Students have the opportunity work on projects that focus on applying knowledge in real-world situations.
+          - listitem [ref=e173]:
+            - text: นักศึกษาสามารถเลือกเส้นทางการพัฒนาตนเองในด้านเฉพาะทาง ได้แก่ ด้านฮาร์ดแวร์และระบบฝังตัว ด้านการสื่อสารข้อมูลและโครงข่าย และด้านวิทยาการข้อมูลและปัญญาประดิษฐ์
+            - text: Students have the option to choose their self-development path in specialized fields, including hardware and embedded systems, data communication and networking, and data science and AI.
+        - paragraph [ref=e174]:
+          - generic [ref=e179]: รูปแบบการเรียนที่ไม่เหมือนใคร (Unique Learning Experience)
+        - paragraph
+        - list [ref=e180]:
+          - listitem [ref=e181]:
+            - text: การใช้เครื่องมือและการเรียนรู้ในเทคโนโลยีที่ทันสมัย เช่น Embeded System, IoT, Network and Security, Cloud Computing, AI และ Machine Learning
+            - text: The use of tools and learning in modern technologies such as Embedded Systems, IoT, Network and Security, Cloud Computing, AI, and Machine Learning.
+          - listitem [ref=e182]:
+            - text: สภาพแวดล้อมการเรียนที่เอื้อต่อการสร้างสรรค์นวัตกรรมด้วยการสนับสนุนจากอาจารย์ผู้เชี่ยวชาญ
+            - text: A learning environment that fosters creativity and innovation, supported by expert faculty members.
+        - paragraph [ref=e183]:
+          - generic [ref=e188]: จุดเด่นของหลักสูตรที่คุณห้ามพลาด (Key Highlights of the Program)
+        - paragraph
+        - list [ref=e189]:
+          - listitem [ref=e190]:
+            - text: หลักสูตรออกแบบตามแนวคิด Outcome-Based Education (OBE) ที่มุ่งเน้นผลลัพธ์ที่เกิดกับผู้เรียนและความต้องการของตลาดแรงงาน
+            - text: The program is designed based on the Outcome-Based Education (OBE) concept, focusing on the outcomes for students and the demands of the labor market.
+          - listitem [ref=e191]:
+            - text: เน้นการประยุกต์ใช้เทคโนโลยีเกิดใหม่ (Emerging Technology) ทั้งด้านซอฟต์แวร์และฮาร์ดแวร์
+            - text: Emphasis on applying emerging technologies in both software and hardware.
+          - listitem [ref=e192]:
+            - text: โอกาสฝึกงานในบริษัทเทคโนโลยีชั้นนำทั้งในและต่างประเทศ
+            - text: Opportunities for internships with leading technology companies, both locally and internationally.
+          - listitem [ref=e193]: โอกาสแลกเปลี่ยนประสบการณ์การเรียนรู้ ณ มหาวิทยาลัยชั้นนำในต่างประเทศ Opportunities for exchange programs at top universities abroad.
+        - paragraph [ref=e194]
+        - paragraph [ref=e195]:
+          - generic [ref=e200]: ใครที่เหมาะกับสาขานี้? (Is This the Right Fit for You?)
+        - paragraph
+        - list [ref=e201]:
+          - listitem [ref=e202]: ผู้ที่ชื่นชอบการแก้ปัญหาและสร้างสรรค์นวัตกรรมใหม่ ๆ ด้วยเทคโนโลยี For those who enjoy problem-solving and creating new innovations with technology.
+          - listitem [ref=e203]:
+            - text: ผู้ที่มีความสนใจด้านคอมพิวเตอร์ เช่น การเขียนโปรแกรม การออกแบบระบบไม่ว่าจะเป็นระบบสมองกลฝังตัว หรือระบบเครือข่ายคอมพิวเตอร์และความปลอดภัย ด้าน IoT, Data science และ AI
+            - text: For those interested in computers, such as programming, system design (whether embedded systems or computer networks and security), IoT, data science, and AI.
+          - listitem [ref=e204]: ผู้ที่ต้องการทำงานในอุตสาหกรรมที่เติบโตอย่างรวดเร็ว โดยเฉพาะทางด้าน IT, AI, และ IoT For those who want to work in rapidly growing industries, especially in IT, AI, and IoT.
+          - listitem [ref=e205]:
+            - text: ผู้ที่ต้องการทำงานในอุตสาหกรรมที่มีความต้องการอย่างสูงในปัจจุบัน เช่น ด้าน Network Security ด้าน Embed System และด้าน Data Science
+            - text: For those who want to work in industries that are in high demand today, such as network security, embedded systems, and data science.
+        - paragraph [ref=e206]
+        - paragraph [ref=e207]:
+          - generic [ref=e212]: ความร่วมมือกับภาคอุตสาหกรรมชั้นนำ (Collaboration with Leading Industries)
+        - paragraph
+        - table [ref=e213]:
+          - rowgroup [ref=e214]:
+            - row [ref=e215]:
+              - cell [ref=e216]:
+                - img [ref=e228]
+              - cell [ref=e229]
+              - cell [ref=e230]:
+                - img [ref=e242]
+              - cell [ref=e243]
+              - cell [ref=e244]:
+                - img [ref=e256]
+              - cell [ref=e257]
+            - row "HUAWEI TECHNOLOGIES (THAILAND) Palo Alto Networks Thailand Cisco Systems (Thailand)" [ref=e258]:
+              - cell "HUAWEI TECHNOLOGIES (THAILAND)" [ref=e259]
+              - cell [ref=e260]
+              - cell "Palo Alto Networks Thailand" [ref=e261]
+              - cell [ref=e262]
+              - cell "Cisco Systems (Thailand)" [ref=e263]
+              - cell [ref=e264]
+        - paragraph [ref=e265]
+        - paragraph [ref=e266]:
+          - generic [ref=e271]: กิจกรรมและนักศึกษาที่ได้รับรางวัล (Student Activities and Successes)
+      - generic [ref=e274]:
+        - paragraph [ref=e275]
+        - img [ref=e287]
+        - paragraph [ref=e288]:
+          - text: The Winner of the network track in Huawei ICT Competition Thailand 2024-2025!
+          - text: "Team: Union won 1st prize/Thailand's representative in the Asia-Pacific regional competition:"
+          - text: "- Min Thway Khant"
+          - text: "- Hein Htet Aung"
+          - text: "- Kanyakrit Bowonsuwan"
+          - text: "Grand Prize: 100,000 THB & Huawei Matepad 11.5 inch + an opportunity to represent Thailand at the Regional Round in Kuala Lumpur, Malaysia"
+        - paragraph [ref=e289]:
+          - text: "Team Noobs secured 2nd prize:"
+          - text: "- Myo Thet Paing"
+          - text: "- Jayvert Dale Ancheta"
+          - text: "- Zaw Linn Lhyo"
+          - text: "1st Runner-Up: 40,000 THB & Huawei Freebud 6i Skullpanda edition"
+        - paragraph [ref=e290]:
+          - generic [ref=e295]: —-----------------------------------------------------------------------------------------------------------------
+        - img [ref=e307]
+        - paragraph [ref=e308]: Ms. Piriyakorn Chonpattanapaisan – 4th-year Computer Engineering student
+        - paragraph [ref=e309]: full scholarships to participate in the ASEAN Cyber Shield Exchange Student Programme 2025 at Kangwon National University in the Republic of Korea from February to December 2025
+        - paragraph [ref=e310]:
+          - generic [ref=e315]: —-----------------------------------------------------------------------------------------------------------------
+        - heading "Ms. May Htet Htet Khine, a 4th-year Computer Engineering student, presented her research paper, \"Particle Weight Redistribution in Particle Filtering to Improve Nonlinear State Estimation,\" at The 8th International Conference on Information Technology (InCIT 2024), held on November 14–15, 2024, in Chonburi, Thailand." [level=2] [ref=e316]:
+          - generic [ref=e321]: Ms. May Htet Htet Khine, a 4th-year Computer Engineering student, presented her research paper, "Particle Weight Redistribution in Particle Filtering to Improve Nonlinear State Estimation," at The 8th International Conference on Information Technology (InCIT 2024), held on November 14–15, 2024, in Chonburi, Thailand.
+        - paragraph [ref=e322]:
+          - img [ref=e334]
+        - paragraph [ref=e335]
+        - paragraph [ref=e336]:
+          - generic [ref=e341]: —-----------------------------------------------------------------------------------------------------------------
+        - paragraph [ref=e342]: "Mr. Simeon Thosawongwat, a third-year Computer Engineering student, in collaboration with Ms. Kanyanat Somthong, a third-year Environmental Health student from the School of Health Science, received First Runner-Up in the 24th Thailand Innovation Awards for their project: \"Demeter: A Precision Agriculture Unmanned Aerial Vehicle.\""
+        - paragraph [ref=e343]: They were awarded a trophy of honor, a certificate of recognition, and a cash prize of 30,000 baht.
+        - heading [level=2] [ref=e344]:
+          - img [ref=e356]
+      - separator [ref=e358]
+      - generic [ref=e359]:
+        - heading "ปรัชญาของหลักสูตร" [level=4] [ref=e360]
+        - paragraph
+        - list [ref=e361]:
+          - listitem [ref=e362]: วิศวกรรมคอมพิวเตอร์ เป็นศาสตร์ที่มีบทบาทสำคัญในการปฎิรูปอุตสาหกรรมเพื่อพัฒนาเศรษฐกิจและสังคมมาตั้งแต่อดีตจนกระทั่งถึงปัจจุบันและยังเป็นอีกหนึ่งศาสตร์ที่จำเป็นต่อการใช้รับมือกับภาวพลิกผันต่างๆ ที่กำลังจะเกิดขึ้นในปัจจุบันและอนาคต การคิดค้นทฤษฎีใหม่และนวัตกรรมทางวิศวกรรมคอมพิวเตอร์ ยังคงมีความจำเป็นอย่างเร่งด่วนและต้องดำเนินการอย่างต่อเนื่องผ่านการพัฒนาทรัพยากรมนุษย์ในศาสตร์นี้ หลักสูตรนี้นำทฤษฎีการสร้างความรู้ของผู้เรียน คือ ทฤษฎีคอนสตรัคติวิสต์ (Constructivist Theory) มาเป็นรากฐานสำคัญในการออกแบบและพัฒนาหลักสูตร ทำการผสมผสานแนวคิดแบบคอนสตรัคติวิสต์เชิงปัญญา (Cognitive Constructivism) และคอนสตรัคติวิสต์เชิงสังคม (Social Constructivism) เข้าด้วยกัน โดยเชื่อว่า การเรียนรู้ หรือการสร้างความรู้ เป็นกระบวนการที่เกิดขึ้นภายในของผู้เรียน โดยที่ผู้เรียนเป็นผู้สร้างความรู้ โดยการนำประสบการณ์หรือสิ่งที่พบเห็นในสิ่งแวดล้อมหรือสารสนเทศใหม่ที่ได้รับมาเชื่อมโยงกับความรู้ความเข้าใจที่มีอยู่เดิม มาสร้างเป็นความเข้าใจของตนเอง หรือ เรียกว่า โครงสร้างทางปัญญา (Cognitive Structure) และใช้สถานการณ์ที่เป็นปัญหาและปฏิสัมพันธ์ทางสังคมก่อให้เกิดความขัดแย้งทางปัญญา เพื่อให้ได้มาซึ่งกิจกรรมการไตร่ตรองเพื่อขจัดความขัดแย้งเหล่านั้น ส่งผลให้มีการสร้างโครงสร้างใหม่ทางปัญญาขึ้นมาในที่สุด การจัดการเรียนการสอนตามทฤษฎีคอนสตรัคติวิสต์ จะสนับสนุนการสร้างมากกว่าความพยายามในการถ่ายทอดความรู้ หลักสูตรนี้จึงใช้การเรียนการสอนแบบใช้ปัญหาเป็นฐาน (Problem Based Learning Pedagogy) เป็นหลักสำคัญในการจัดการเรียนการสอน โดยเน้นให้ผู้เรียนเผชิญกับสถานการณ์จริง ค้นหาแนวทางการแก้ปัญหาด้วยตนเองผ่านการสนับสนุนของผู้สอนและการปฏิสัมพันธ์กับผู้อื่น
+        - paragraph
+        - list [ref=e363]:
+          - listitem [ref=e364]: ทั้งนี้ หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ สำนักวิชาเทคโนโลยีสารสนเทศ มหาวิทยาลัยแม่ฟ้าหลวง มุ่งเน้นผลิตบัณฑิตที่มีองค์ความรู้และทักษะความสามารถทั้งเชิงทฤษฎีและปฏิบัติทางวิศวกรรมคอมพิวเตอร์ในระดับสากล สามารถเรียนรู้ด้วยตนเอง มีความชำนาญที่หลากหลาย สามารถการออกแบบ วิจัยและพัฒนาระบบ โดยการนำเทคโนโลยีเกิดใหม่ (Emerging Technology) ทั้งทางด้านด้านฮาร์ดแวร์และระบบฝังตัว (Hardware and Embedded Systems) วิทยาการข้อมูลและปัญญาประดิษฐ์ (Data Science and Artificial Intelligence) และด้านการสื่อสารข้อมูลและโครงข่าย (Data Communications and Networks) ไปประยุกต์ใช้เพื่อแก้ปัญหาด้านวิศวกรรมคอมพิวเตอร์เพื่อตอบโจทย์ภาคอุตสาหกรรมและภาคเอกชนยุคใหม่
+        - paragraph [ref=e365]
+        - paragraph [ref=e366]: ความสำคัญของหลักสูตร
+        - paragraph
+        - list [ref=e367]:
+          - listitem [ref=e368]: "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ สำนักวิชาเทคโนโลยีสารสนเทศ มหาวิทยาลัยแม่ฟ้าหลวง ถูกพัฒนาขึ้นภายใต้กรอบของพระราชบัญญัติการอุดมศึกษา พ.ศ. 2562 และนโยบายในการพัฒนาประเทศตามยุทธศาสตร์ชาติ 20 ปี (พ.ศ. 2560-2579) ซึ่งส่งผลกระทบโดยตรงทั้งทางด้านเศรษฐกิจ สังคม และ วัฒนธรรม ทั้งนี้การพัฒนาทรัพยากรมนุษย์เพื่อตอบสนองต่อความต้องการข้างต้นจึงเป็นภาระกิจที่สำคัญเร่งด่วน ดังนั้น หลักสูตรนี้จึงเป็นการสร้างนักวิชาการและวิศวกรคอมพิวเตอร์ที่มีความรู้ ความสามารถในการวิจัยและพัฒนานวัตกรรมเพื่อเพิ่มศักยภาพในการแข่งขันของประเทศภายใต้ภาวะพลิกผันต่างๆ ของโลก เพื่อเป็นการตอบสนองความต้องการทรัพยากรมนุษย์ที่เป็นกำลังสำคัญในการขับเคลื่อนประเทศชาติต่อไปในอนาคต การจัดการศึกษาในหลักสูตรนี้ เป็นกระบวนการจัดการเรียนการสอนแบบเน้นผลลัพธ์ (Outcome Based Education: OBE) เพื่อให้นักศึกษามีจรรยาบรรณ มีความรู้และเชี่ยวชาญอย่างถ่องแท้ในเนื้อหาสาระของวิศวกรรมคอมพิวเตอร์ โดยเฉพาะการประยุกต์ใช้เทคโนโลยีเกิดใหม่ (Emerging Technology) ทั้งทางด้านฮาร์ดแวร์และระบบฝังตัว (Hardware and Embedded Systems) วิทยาการข้อมูลและปัญญาประดิษฐ์ (Data Science and Artificial Intelligence) และด้านการสื่อสารข้อมูลและโครงข่าย (Data Communications and Networks) ในการสร้างงานวิจัยและนวัตกรรมภายใต้ภาวะพลิกผันต่างๆของโลก มีทัศนคติที่เป็นบวก พร้อมสำหรับการพัฒนาตนเองและปรับตัวร่วมกับผู้อื่นภายใต้สังคมพหุวัฒนธรรมเพื่อเป็นผู้นำภายใต้ภาวะพลิกผันต่าง ๆ ได้"
+        - paragraph [ref=e369]
+        - paragraph [ref=e370]: "วัตถุประสงค์ของหลักสูตร (Program Education Objectives: PEOs)"
+        - paragraph
+        - list [ref=e371]:
+          - listitem [ref=e372]: ผลิตบัณฑิตที่มีความเข้าใจหลักการที่เกี่ยวข้องกับวิศวกรรมคอมพิวเตอร์ สื่อสารกับผู้อื่นได้อย่างมีประสิทธิภาพ และทำงานร่วมกับผู้อื่นได้ด้วยความรับผิดชอบ ทั้งในฐานะผู้นำและผู้ตาม
+          - listitem [ref=e373]: ผลิตบัณฑิตที่ใช้ความรู้และทักษะที่มีเพื่อการเรียนรู้อย่างต่อเนื่องในอนาคต ปรับตัวให้เข้ากับสถานการณ์ต่างๆ และการเปลี่ยนแปลงของสังคมได้ มีคุณธรรม จริยธรรม ประพฤติตนตามจรรยาบรรณวิชาชีพ
+          - listitem [ref=e374]: ผลิตบัณฑิตที่มีความรู้ความสามารถด้านการออกแบบและพัฒนาระบบทางวิศวกรรมคอมพิวเตอร์ ทั้งทางด้าน ฮาร์ดแวร์ ซอฟต์แวร์ วิทยาการข้อมูลและระบบเครือข่ายได้
+        - paragraph [ref=e375]
+        - paragraph [ref=e376]: "ผลลัพธ์การเรียนรู้ของหลักสูตร (Program Learning Outcomes: PLOs)"
+        - paragraph
+        - list [ref=e377]:
+          - listitem [ref=e378]: "PLO1: แสดงพฤติกรรมทางคุณธรรม จริยธรรมที่ดี เคารพกฎเกณฑ์ขององค์กรและสังคม ไม่ขัดต่อจริยธรรมและกฎหมายทางคอมพิวเตอร์"
+          - listitem [ref=e379]: "PLO2: อภิปรายเชื่อมโยงหลักการ ทฤษฎี ความรู้พื้นฐานด้านวิศวกรรมคอมพิวเตอร์และเทคโนโลยีเกิดใหม่ เพื่อแก้ไขปัญหาด้านวิศวกรรมคอมพิวเตอร์ได้อย่างเหมาะสม"
+          - listitem [ref=e380]: "PLO3: ออกแบบระบบด้านวิศวกรรมคอมพิวเตอร์โดยการประยุกต์ใช้ความรู้พื้นฐานด้านวิศวกรรมคอมพิวเตอร์ เทคโนโลยีเกิดใหม่และศาสตร์อื่นที่เกี่ยวข้องได้"
+          - listitem [ref=e381]: "PLO4: แสดงออกถึงความสามารถในการทำงานเป็นทีมภายใต้สังคมพหุวัฒนธรรมได้"
+          - listitem [ref=e382]: "PLO5: มีทักษะการวิเคราะห์เชิงตัวเลข การสื่อสารและการเลือกใช้เทคโนโลยีเกิดใหม่ ในการแก้ปัญหาทางด้านวิศวกรรมคอมพิวเตอร์ได้อย่างเหมาะสม"
+          - listitem [ref=e383]: "PLO6: พัฒนาระบบเพื่อแก้ไขปัญหาทางด้านวิศวกรรมคอมพิวเตอร์จากปัญหาในภาคอุตสาหกรรมได้อย่างมีประสิทธิภาพ"
+        - paragraph [ref=e384]: โครงสร้างหลักสูตร
+        - paragraph
+        - table [ref=e385]:
+          - rowgroup [ref=e386]:
+            - row "จำนวนหน่วยกิตรวมตลอดหลักสูตร 132 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e387]:
+              - cell "จำนวนหน่วยกิตรวมตลอดหลักสูตร 132 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e388]:
+                - paragraph [ref=e389]:
+                  - generic [ref=e391]: จำนวนหน่วยกิตรวมตลอดหลักสูตร 132 หน่วยกิต (หลักสูตร 4 ปี)
+              - cell [ref=e392]:
+                - paragraph [ref=e393]
+            - row "1. หมวดวิชาศึกษาทั่วไป 30 หน่วยกิต" [ref=e394]:
+              - cell "1. หมวดวิชาศึกษาทั่วไป" [ref=e395]:
+                - paragraph [ref=e396]:
+                  - generic [ref=e397]: 1. หมวดวิชาศึกษาทั่วไป
+              - cell "30 หน่วยกิต" [ref=e398]:
+                - paragraph [ref=e399]:
+                  - generic [ref=e400]: 30 หน่วยกิต
+            - row "2. หมวดวิชาเฉพาะ 87 หน่วยกิต" [ref=e401]:
+              - cell "2. หมวดวิชาเฉพาะ" [ref=e402]:
+                - paragraph [ref=e403]:
+                  - generic [ref=e404]: 2. หมวดวิชาเฉพาะ
+              - cell "87 หน่วยกิต" [ref=e405]:
+                - paragraph [ref=e406]:
+                  - generic [ref=e407]: 87 หน่วยกิต
+            - row "2.1 กลุ่มพื้นฐานอาชีพ 30 หน่วยกิต" [ref=e408]:
+              - cell [ref=e409]:
+                - paragraph [ref=e410]
+              - cell "2.1 กลุ่มพื้นฐานอาชีพ" [ref=e411]:
+                - paragraph [ref=e412]: 2.1 กลุ่มพื้นฐานอาชีพ
+              - cell "30 หน่วยกิต" [ref=e413]:
+                - paragraph [ref=e414]: 30 หน่วยกิต
+            - row "2.2 กลุ่มวิชาชีพบังคับ 36 หน่วยกิต" [ref=e415]:
+              - cell [ref=e416]:
+                - paragraph [ref=e417]
+              - cell "2.2 กลุ่มวิชาชีพบังคับ" [ref=e418]:
+                - paragraph [ref=e419]: 2.2 กลุ่มวิชาชีพบังคับ
+              - cell "36 หน่วยกิต" [ref=e420]:
+                - paragraph [ref=e421]: 36 หน่วยกิต
+            - row "2.3 กลุ่มวิชาชีพเลือก 21 หน่วยกิต" [ref=e422]:
+              - cell [ref=e423]:
+                - paragraph [ref=e424]
+              - cell "2.3 กลุ่มวิชาชีพเลือก" [ref=e425]:
+                - paragraph [ref=e426]: 2.3 กลุ่มวิชาชีพเลือก
+              - cell "21 หน่วยกิต" [ref=e427]:
+                - paragraph [ref=e428]: 21 หน่วยกิต
+            - row "3. หมวดวิชาเลือกเสรี 6 หน่วยกิต" [ref=e429]:
+              - cell "3. หมวดวิชาเลือกเสรี" [ref=e430]:
+                - paragraph [ref=e431]:
+                  - generic [ref=e432]: 3. หมวดวิชาเลือกเสรี
+              - cell "6 หน่วยกิต" [ref=e433]:
+                - paragraph [ref=e434]:
+                  - generic [ref=e435]: 6 หน่วยกิต
+            - row "4. วิชาประสบการณ์ภาคสนาม 9 หน่วยกิต" [ref=e436]:
+              - cell "4. วิชาประสบการณ์ภาคสนาม" [ref=e437]:
+                - paragraph [ref=e438]:
+                  - generic [ref=e439]: 4. วิชาประสบการณ์ภาคสนาม
+              - cell "9 หน่วยกิต" [ref=e440]:
+                - paragraph [ref=e441]:
+                  - generic [ref=e442]: 9 หน่วยกิต
+        - paragraph [ref=e443]
+        - paragraph [ref=e444]
+        - paragraph [ref=e445]: แผนการศึกษา
+        - paragraph [ref=e446]
+        - paragraph [ref=e447]
+        - paragraph [ref=e448]: กลุ่มวิชาชีพเลือก
+        - paragraph [ref=e449]
+        - paragraph [ref=e450]
+        - paragraph [ref=e451]
+        - paragraph [ref=e452]: ค่าธรรมเนียม
+        - paragraph
+        - list [ref=e453]:
+          - listitem [ref=e454]: ค่าธรรมเนียมการศึกษาตลอดหลักสูตร 224,000.- บาท
+          - listitem [ref=e455]: ค่าธรรมเนียมการศึกษาต่อภาคการศึกษา 28,000.- บาท
+        - paragraph [ref=e456]:
+          - link "รายละเอียดหลักสูตรเพิ่มเติม Click!" [ref=e458] [cursor=pointer]:
+            - /url: https://www.mfu.ac.th/education/program/program-bachelor/bachelor-information-technology/beng-program-engineer/beng-computer-engineering.html
+        - paragraph [ref=e459]: ข้อมูลอ้างอิง
+        - paragraph
+        - list [ref=e460]:
+          - listitem [ref=e461]:
+            - link "อ้างอิงจาก หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ พ.ศ. 2564" [ref=e470] [cursor=pointer]:
+              - /url: https://drive.google.com/file/d/1koRP2TSCdZ7K05fYstMy5pdPy_fEONj0/view?usp=sharing
+        - paragraph [ref=e471]: ปรับปรุงข้อมูลล่าสุด 17 มิ.ย. 68
+        - paragraph [ref=e472]
+    - generic [ref=e474]:
+      - heading "ปริญญาตรี" [level=3] [ref=e475]
+      - list [ref=e476]:
+        - listitem [ref=e477]:
+          - link "สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร (new)" [ref=e478] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3-new.html
+        - listitem [ref=e479]:
+          - link "สาขาวิชาวิศวกรรมคอมพิวเตอร์" [ref=e480] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C.html
+        - listitem [ref=e481]:
+          - link "สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ" [ref=e482] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88.html
+        - listitem [ref=e483]:
+          - link "สาขาวิชาวิศวกรรมซอฟต์แวร์" [ref=e484] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C.html
+        - listitem [ref=e485]:
+          - link "สาขาวิชาเทคโนโลยีมัลติมีเดียและการสร้างภาพเคลื่อนไหว" [ref=e486] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%A1%E0%B8%B1%E0%B8%A5%E0%B8%95%E0%B8%B4%E0%B8%A1%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7.html
+  - contentinfo [ref=e487]:
+    - generic [ref=e490]:
+      - generic [ref=e492]:
+        - img "School of ADT" [ref=e493]
+        - heading "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [level=2] [ref=e494]:
+          - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+          - text: มหาวิทยาลัยแม่ฟ้าหลวง
+      - generic [ref=e495]:
+        - heading "ติดต่อเรา" [level=3] [ref=e496]
+        - list [ref=e497]:
+          - listitem [ref=e498]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+          - listitem [ref=e499]: 333 หมู่ 1 ตำบลท่าสุด อำเภอเมือง
+          - listitem [ref=e500]: จังหวัดเชียงราย 57100
+          - listitem [ref=e501]:
+            - text: โทรศัพท์.
+            - link "0-5391-6741" [ref=e502] [cursor=pointer]:
+              - /url: tel:0-5391-6741
+            - text: ","
+            - link "0-5391-6742" [ref=e503] [cursor=pointer]:
+              - /url: tel:0-5391-6742
+          - listitem [ref=e504]:
+            - text: โทรสาร.
+            - link "0-5391-6743" [ref=e505] [cursor=pointer]:
+              - /url: tel:0-5391-6743
+          - listitem [ref=e506]:
+            - text: "อีเมล:"
+            - link "adtschool@mfu.ac.th" [ref=e507] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+        - list [ref=e508]:
+          - listitem [ref=e509]:
+            - link "" [ref=e510] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - generic [ref=e511]: 
+          - listitem [ref=e512]:
+            - link "" [ref=e513] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - generic [ref=e514]: 
+      - iframe [ref=e517]:
+        - generic [ref=f8e3]:
+          - link:
+            - /url: https://www.facebook.com/adtschoolmfu?ref=embed_page
+          - generic [ref=f8e6]:
+            - generic [ref=f8e8]:
+              - generic [ref=f8e9]:
+                - link [ref=f8e10] [cursor=pointer]:
+                  - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f8e11]:
+                  - link "ADTschool MFU" [ref=f8e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                  - generic [ref=f8e14]: 6,468 followers
+              - generic [ref=f8e15]:
+                - button "Follow Page" [ref=f8e19] [cursor=pointer]: Follow Page
+                - link "Share" [ref=f8e21] [cursor=pointer]:
+                  - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F145344555508195&display=popup&ref=embed_page&src=page
+                  - button "Share" [ref=f8e22]: Share
+            - generic [ref=f8e30]:
+              - feed [ref=f8e32]:
+                - generic [ref=f8e35]:
+                  - generic [ref=f8e36]:
+                    - link [ref=f8e41] [cursor=pointer]:
+                      - /url: https://www.facebook.com/photo.php?fbid=1412818637525437&set=a.691821482958493&type=3&ref=embed_page
+                    - generic [ref=f8e42]:
+                      - generic [ref=f8e43]:
+                        - link [ref=f8e44] [cursor=pointer]:
+                          - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                          - img [ref=f8e47]
+                        - link [ref=f8e50] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                        - generic [ref=f8e55]:
+                          - generic [ref=f8e56]: ADTschool MFU
+                          - link "16 hours ago" [ref=f8e57] [cursor=pointer]:
+                            - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                            - generic [ref=f8e58]: 16 hours ago
+                      - generic [ref=f8e60]:
+                        - paragraph [ref=f8e61]:
+                          - text: English Below
+                          - text: "["
+                          - generic [ref=f8e63]: 🚨
+                          - text: โอกาสสุดท้าย! วันนี้วันสุดท้ายเท่านั้น!
+                          - generic [ref=f8e65]: 🚨
+                          - text: "]"
+                        - paragraph [ref=f8e66]:
+                          - text: อยากอัปเกรดตัวเองให้เป็น "ผู้นำ" รุ่นใหม่ที่มี Mindset ปังกว่าเดิมไหม?
+                          - generic [ref=f8e68]: 🚀
+                          - text: กับกิจกรรม "Leadership and Growth Mindset" (Student Skills Development Program ครั้งที่3)
+                        - generic [ref=f8e69]: ...
+                        - link "See more" [ref=f8e72] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                  - table [ref=f8e74]:
+                    - rowgroup [ref=f8e75]:
+                      - row "2 Comment Share" [ref=f8e76]:
+                        - cell "2" [ref=f8e77]:
+                          - button "2" [ref=f8e78]:
+                            - generic "Like" [ref=f8e79] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f8e81]:
+                          - link "Comment" [ref=f8e82] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                            - generic "Comment" [ref=f8e83]: Comment
+                        - cell "Share" [ref=f8e85]:
+                          - link "Share" [ref=f8e86] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f8e87]: Share
+                - generic [ref=f8e91]:
+                  - generic [ref=f8e93]:
+                    - generic [ref=f8e94]:
+                      - link [ref=f8e95] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f8e98]
+                      - link [ref=f8e101] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                      - generic [ref=f8e106]:
+                        - generic [ref=f8e107]: ADTschool MFU
+                        - link "19 hours ago" [ref=f8e108] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                          - generic [ref=f8e109]: 19 hours ago
+                    - generic [ref=f8e111]:
+                      - paragraph [ref=f8e112]:
+                        - generic [ref=f8e114]: 📌
+                        - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ จัดโครงการ HACK-APG มุ่งสร้างนวัตกรดิจิทัลรุ่นเยาว์ผ่านการแข่งขัน AI & UX/UI Hackathon
+                      - paragraph [ref=f8e115]:
+                        - text: "เมื่อวันที่ 28-29 มีนาคม 2569 ที่ผ่านมา สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง เตรียมจัดโครงการแข่งขัน AI & UX/UI Software Programming Hackathon: Innovating the Future of Digital Solutions (HACK-APG) ณ อาคารศูนย์การเรียนรู้ภาษา (S7A-401) โดยมีวัตถุประสงค์หลักเพื่อยกระดับคุณภาพกิจกรรมการเรียนรู้ และบูรณาการองค์ความรู้ระหว่างนักศึกษาระดับอุ"
+                        - generic [ref=f8e116]: ...
+                      - link "See more" [ref=f8e119] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                    - generic [ref=f8e123]:
+                      - img "May be an image of one or more people and text that says \"ADT 三 ADT- ADT-NWa มฟล. จัด กิจ จัดกิจกรร กรร ระหว่างวันที่ 28- 28-29 29 มีนาคม 25\"" [ref=f8e126]
+                      - img "May be an image of text that says \"दमज Jun Hack ๕๘ ม MediHack- Junior 69 ณ มหาวิทยาลัยแม่ฟ้าหลวง\"" [ref=f8e129]
+                      - img "May be an image of studying and text" [ref=f8e132]
+                      - img "May be an image of studying and text" [ref=f8e135]
+                      - generic [ref=f8e136]:
+                        - img "May be an image of ‎map and ‎text that says \"‎VENTEX Freeze 4 ء 타대의 Mum س lack Junior ل Mediha Medi Hack Junior 2026 Hackathon -Hack حل 小 MediHack Junior Hackathon CRPROSCHOO DCRPROSCHOOL CAPRO SCHOOL‎\"‎‎" [ref=f8e138]
+                        - generic [ref=f8e141]: "+10"
+                  - table [ref=f8e143]:
+                    - rowgroup [ref=f8e144]:
+                      - row "18 Comment 2" [ref=f8e145]:
+                        - cell "18" [ref=f8e146]:
+                          - button "18" [ref=f8e147]:
+                            - generic "Like" [ref=f8e148] [cursor=pointer]: "18"
+                        - cell "Comment" [ref=f8e150]:
+                          - link "Comment" [ref=f8e151] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                            - generic "Comment" [ref=f8e152]: Comment
+                        - cell "2" [ref=f8e154]:
+                          - link "2" [ref=f8e155] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f8e156]: "2"
+                - generic [ref=f8e160]:
+                  - generic [ref=f8e162]:
+                    - generic [ref=f8e163]:
+                      - link [ref=f8e164] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f8e167]
+                      - link [ref=f8e170] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                      - generic [ref=f8e175]:
+                        - generic [ref=f8e176]: ADTschool MFU
+                        - link "on Sunday" [ref=f8e177] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                          - generic [ref=f8e178]: on Sunday
+                    - generic [ref=f8e179]:
+                      - paragraph [ref=f8e180]: We care about you! >> PM2.5 Air Pollution Advisory
+                      - paragraph [ref=f8e181]:
+                        - link "#maskon" [ref=f8e182] [cursor=pointer]:
+                          - /url: /hashtag/maskon?__eep__=6&fref=mentions&ref=embed_page
+                        - link "#mfucares" [ref=f8e183] [cursor=pointer]:
+                          - /url: /hashtag/mfucares?__eep__=6&fref=mentions&ref=embed_page
+                    - generic [ref=f8e187]:
+                      - link [ref=f8e191] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=122209269308348486&set=a.122108433308348486&type=3&ref=embed_page
+                      - generic [ref=f8e192]:
+                        - link "ม.แม่ฟ้าหลวง Mae Fah Luang University" [ref=f8e195] [cursor=pointer]:
+                          - /url: https://www.facebook.com/MFU2Connect?hc_ref=ARTtT8-g1B9PrSM4qE6UFzIbxBqcxl0kRO1m2F6RxRRqj7hzX1RUOHbCHgw9rogROis&fref=nf&ref=embed_page
+                        - generic [ref=f8e197]:
+                          - generic [ref=f8e198]: · 26,055 followers
+                          - text: ·
+                          - link "6d" [ref=f8e201] [cursor=pointer]:
+                            - /url: https://www.facebook.com/photo.php?fbid=122209269308348486&set=a.122108433308348486&type=3&ref=embed_page
+                            - generic [ref=f8e202]: 6d
+                        - generic [ref=f8e204]:
+                          - paragraph [ref=f8e205]:
+                            - text: "[English Below]"
+                            - link "#MFUPR" [ref=f8e206] [cursor=pointer]:
+                              - /url: /hashtag/mfupr?__eep__=6&fref=mentions&ref=embed_page
+                            - link "#ดินดินห่วงใย" [ref=f8e207] [cursor=pointer]:
+                              - /url: /hashtag/ดินดินห่วงใย?__eep__=6&fref=mentions&ref=embed_page
+                          - paragraph [ref=f8e208]:
+                            - text: แจ้งเตือนค่าฝุ่นละออง มีผลกระทบต่อสุขภาพ ขอให้นักศึกษา บุคลากรและประชาชน สวมหน้ากากอนามัยที่ป้องกันฝุ่นขนาดเล็ก PM2.5 ทุกค
+                            - generic [ref=f8e209]: ...
+                          - button "See more" [ref=f8e212] [cursor=pointer]
+                  - table [ref=f8e214]:
+                    - rowgroup [ref=f8e215]:
+                      - row "6 Comment 1" [ref=f8e216]:
+                        - cell "6" [ref=f8e217]:
+                          - button "6" [ref=f8e218]:
+                            - generic "Like" [ref=f8e219] [cursor=pointer]: "6"
+                        - cell "Comment" [ref=f8e221]:
+                          - link "Comment" [ref=f8e222] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                            - generic "Comment" [ref=f8e223]: Comment
+                        - cell "1" [ref=f8e225]:
+                          - link "1" [ref=f8e226] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f8e227]: "1"
+                - generic [ref=f8e231]:
+                  - generic [ref=f8e233]:
+                    - generic [ref=f8e234]:
+                      - link [ref=f8e235] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f8e238]
+                      - link [ref=f8e241] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                      - generic [ref=f8e246]:
+                        - generic [ref=f8e247]: ADTschool MFU
+                        - link "last Thursday" [ref=f8e248] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                          - generic [ref=f8e249]: last Thursday
+                    - generic [ref=f8e253]:
+                      - link [ref=f8e257] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=1388637443307669&set=a.559968629507892&type=3&ref=embed_page
+                      - generic [ref=f8e258]:
+                        - 'link "Student Union of MFU : อบ.มฟล" [ref=f8e261] [cursor=pointer]':
+                          - /url: https://www.facebook.com/mfu.su?hc_ref=ARQWFGMVG65ONfaFog5ULsKGtKhmkfcqHQrJz0qoZwX8AJwmiuqWi5N6i_JNprE_QRs&fref=nf&ref=embed_page
+                        - generic [ref=f8e263]:
+                          - generic [ref=f8e264]: 30,229 followers
+                          - text: ·
+                          - generic [ref=f8e266]:
+                            - link "6d" [ref=f8e267] [cursor=pointer]:
+                              - /url: https://www.facebook.com/photo.php?fbid=1388637443307669&set=a.559968629507892&type=3&ref=embed_page
+                              - generic [ref=f8e268]: 6d
+                            - text: ·
+                            - link "YOUNGOHM" [ref=f8e271] [cursor=pointer]:
+                              - /url: https://facebook.com/YOUNGOHMBKK?ref=embed_page
+                        - generic [ref=f8e273]:
+                          - paragraph [ref=f8e274]:
+                            - text: บี๋ค้าบบ สามารถมารับแมสฟรีกันได้น้าา คนละ 1 ชิ้น
+                            - text: เวลา 12:00 ณ โรงอาหาร D1 และ
+                            - text: เวลา 17:00 ณ ตลาดนัดนักศึกษา (L-PARK)
+                          - paragraph [ref=f8e275]:
+                            - text: Hey everyone! You can come and get a free ma
+                            - generic [ref=f8e276]: ...
+                          - button "See more" [ref=f8e279] [cursor=pointer]
+                  - table [ref=f8e281]:
+                    - rowgroup [ref=f8e282]:
+                      - row "2 Comment Share" [ref=f8e283]:
+                        - cell "2" [ref=f8e284]:
+                          - button "2" [ref=f8e285]:
+                            - generic "Like" [ref=f8e286] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f8e288]:
+                          - link "Comment" [ref=f8e289] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                            - generic "Comment" [ref=f8e290]: Comment
+                        - cell "Share" [ref=f8e292]:
+                          - link "Share" [ref=f8e293] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f8e294]: Share
+                - generic [ref=f8e298]:
+                  - generic [ref=f8e299]:
+                    - link [ref=f8e304] [cursor=pointer]:
+                      - /url: https://www.facebook.com/photo.php?fbid=1406819724791995&set=a.691821482958493&type=3&ref=embed_page
+                    - generic [ref=f8e305]:
+                      - generic [ref=f8e306]:
+                        - link [ref=f8e307] [cursor=pointer]:
+                          - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                          - img [ref=f8e310]
+                        - link [ref=f8e313] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                        - generic [ref=f8e318]:
+                          - generic [ref=f8e319]: ADTschool MFU
+                          - link "about a week ago" [ref=f8e320] [cursor=pointer]:
+                            - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                            - generic [ref=f8e321]: about a week ago
+                      - generic [ref=f8e323]:
+                        - paragraph [ref=f8e324]:
+                          - generic [ref=f8e326]: 📢
+                          - text: ประชาสัมพันธ์ แบบสำรวจความคิดเห็นผู้ปกครองของผู้สำเร็จการศึกษา รุ่นปีการศึกษา 2567
+                        - paragraph [ref=f8e327]:
+                          - generic [ref=f8e329]: 📌
+                          - text: เพื่อสำรวจความคิดเห็นผู้ปกครองของผู้สำเร็จการศึกษารุ่นปีการศึกษา 2567 ซึ่งเป็นผู้มีส่วนได้ส่วนเสียสำคัญของมหาวิทยาลัยเนื่องจากเป็นผู้รับผิดชอบและสนับสนุนค่าใช้จ่ายให้กับผู้สำเร็จการศึกษา โดยผลการสำรวจจะถูกนำมาวิเคราะห์เพื่อเป็นประโยชน์ต่อการพัฒนาปรับปรุงคุณภาพบัณฑิตและการจัดการเรียนการสอน
+                        - paragraph [ref=f8e330]:
+                          - text: "Link:"
+                          - link "https://forms.gle/uDBnbbUEmnBxVJ1J9" [ref=f8e331] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FuDBnbbUEmnBxVJ1J9&h=AT70y02F4SFWDxHrDXRQweoDHHZUP1kE3YUGkpL7zI9HODXahGWKQN1cRF-gAk60F7hMbCX506bqfFuVGBQwFrdj6N1qrgOGdKXX8mJ8T6n9JOLYOH3YUZ6Q7QswTcvPBTo72CX_AJRx87COsOGn_wjMWOJDCrvnaQUziCU
+                        - generic [ref=f8e332]: ...
+                        - link "See more" [ref=f8e335] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                  - table [ref=f8e337]:
+                    - rowgroup [ref=f8e338]:
+                      - row "2 Comment Share" [ref=f8e339]:
+                        - cell "2" [ref=f8e340]:
+                          - button "2" [ref=f8e341]:
+                            - generic "Like" [ref=f8e342] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f8e344]:
+                          - link "Comment" [ref=f8e345] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                            - generic "Comment" [ref=f8e346]: Comment
+                        - cell "Share" [ref=f8e348]:
+                          - link "Share" [ref=f8e349] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f8e350]: Share
+              - progressbar [ref=f8e353]
+              - link "Find us on Facebook" [ref=f8e354] [cursor=pointer]:
+                - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f8e355]: Find us on Facebook
+  - img "มหาวิทยาลัยแม่ฟ้าหลวงน้อมรำลึกในพระมหากรุณาธิคุณ สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง" [ref=e519]

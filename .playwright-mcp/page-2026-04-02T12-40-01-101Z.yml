@@ -1,0 +1,326 @@
+- main [ref=e2]:
+  - navigation [ref=e4]:
+    - link "ADT Applied Digital Technology Mae Fah Luang University" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: ADT
+      - generic [ref=e7]:
+        - paragraph [ref=e8]: Applied Digital Technology
+        - paragraph [ref=e9]: Mae Fah Luang University
+    - generic [ref=e10]:
+      - link "Home" [ref=e11] [cursor=pointer]:
+        - /url: /
+      - link "News" [ref=e12] [cursor=pointer]:
+        - /url: /news
+      - link "Faculty" [ref=e13] [cursor=pointer]:
+        - /url: /staff
+      - link "Programs" [ref=e14] [cursor=pointer]:
+        - /url: /#programs
+      - link "About" [ref=e15] [cursor=pointer]:
+        - /url: /#about
+    - generic [ref=e16]:
+      - button "EN / TH" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: EN
+        - generic [ref=e19]: /
+        - generic [ref=e20]: TH
+      - link "Admin" [ref=e21] [cursor=pointer]:
+        - /url: /admin
+        - img [ref=e22]
+        - text: Admin
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: Mae Fah Luang University
+        - heading "School of Applied Digital Technology" [level=1] [ref=e30]:
+          - generic [ref=e31]: School of
+          - generic [ref=e32]: Applied Digital
+          - generic [ref=e33]: Technology
+        - paragraph [ref=e34]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+        - paragraph [ref=e35]: Shaping tomorrow's digital innovators through cutting-edge research, industry partnerships, and transformative education.
+        - generic [ref=e36]:
+          - link "Explore News" [ref=e37] [cursor=pointer]:
+            - /url: /news
+            - text: Explore News
+            - img [ref=e38]
+          - link "Meet Our Faculty" [ref=e40] [cursor=pointer]:
+            - /url: /staff
+            - img [ref=e41]
+            - text: Meet Our Faculty
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - paragraph [ref=e45]: 2,400+
+          - paragraph [ref=e46]: Students
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: 120+
+          - paragraph [ref=e49]: Faculty & Staff
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: "8"
+          - paragraph [ref=e52]: Programs
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: 98%
+          - paragraph [ref=e55]: Employment Rate
+    - generic [ref=e57]: Scroll
+  - generic [ref=e59]:
+    - generic [ref=e60]:
+      - generic [ref=e63]: Highlights
+      - heading "What's Happening" [level=2] [ref=e64]
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "ADT Open House 2025" [ref=e70]
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e74]
+            - text: Event
+          - heading "ADT Open House 2025" [level=3] [ref=e76]
+          - paragraph [ref=e77]: Explore our programs, meet our faculty, and discover innovation labs. Join us for an unforgettable day of technology and discovery.
+          - paragraph [ref=e78]: August 15, 2025 — August 16, 2025
+          - link "Register Now" [ref=e79] [cursor=pointer]:
+            - /url: "#"
+            - text: Register Now
+            - img [ref=e80]
+        - button [ref=e83] [cursor=pointer]:
+          - img [ref=e84]
+        - button [ref=e86] [cursor=pointer]:
+          - img [ref=e87]
+      - generic [ref=e89]:
+        - button [ref=e90] [cursor=pointer]
+        - button [ref=e91] [cursor=pointer]
+        - button [ref=e92] [cursor=pointer]
+        - button [ref=e93] [cursor=pointer]
+  - generic [ref=e95]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e100]: Latest Updates
+        - heading "News & Stories" [level=2] [ref=e101]
+      - link "All news" [ref=e102] [cursor=pointer]:
+        - /url: /news
+        - text: All news
+        - img [ref=e103]
+    - generic [ref=e105]:
+      - article [ref=e106]:
+        - img "ADT Students Win National Hackathon 2025" [ref=e108]
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]: achievement
+              - generic [ref=e114]: Jun 15, 2025
+            - heading "ADT Students Win National Hackathon 2025" [level=3] [ref=e115]
+            - paragraph [ref=e116]: A team of four ADT students took first place at the Thailand National Hackathon, developing an AI-powered agricultural monitoring system.
+          - generic [ref=e117]:
+            - generic [ref=e118]: ADT Communications
+            - link "Read more" [ref=e119] [cursor=pointer]:
+              - /url: /news/news-1
+              - text: Read more
+              - img [ref=e120]
+      - article [ref=e122]:
+        - img "New Partnership with Huawei Thailand for AI Research" [ref=e124]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - generic [ref=e129]: news
+              - generic [ref=e130]: Jun 8, 2025
+            - heading "New Partnership with Huawei Thailand for AI Research" [level=3] [ref=e131]
+            - paragraph [ref=e132]: ADT signs MOU with Huawei Thailand to establish a joint AI research lab and provide cloud computing resources for student projects.
+          - generic [ref=e133]:
+            - generic [ref=e134]: Dr. Sunisa Thongprasert
+            - link "Read more" [ref=e135] [cursor=pointer]:
+              - /url: /news/news-2
+              - text: Read more
+              - img [ref=e136]
+    - generic [ref=e138]:
+      - article [ref=e139]:
+        - generic [ref=e140]:
+          - img "ADT Hosts International Symposium on Digital Health" [ref=e141]
+          - generic [ref=e143]: event
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: May 22, 2025
+          - heading "ADT Hosts International Symposium on Digital Health" [level=3] [ref=e146]
+          - paragraph [ref=e147]: Over 300 researchers from 15 countries gathered at MFU for the 3rd International Symposium on Digital Health Technologies.
+          - link "Read more" [ref=e148] [cursor=pointer]:
+            - /url: /news/news-3
+            - text: Read more
+            - img [ref=e149]
+      - article [ref=e151]:
+        - generic [ref=e152]:
+          - img "Research Paper Published in Nature Digital Medicine" [ref=e153]
+          - generic [ref=e155]: research
+        - generic [ref=e156]:
+          - paragraph [ref=e157]: May 10, 2025
+          - heading "Research Paper Published in Nature Digital Medicine" [level=3] [ref=e158]
+          - paragraph [ref=e159]: ADT researchers publish landmark study on using deep learning for early detection of dengue fever from blood cell images.
+          - link "Read more" [ref=e160] [cursor=pointer]:
+            - /url: /news/news-4
+            - text: Read more
+            - img [ref=e161]
+      - article [ref=e163]:
+        - generic [ref=e164]:
+          - img "New Bachelor's Program in Cybersecurity Launched" [ref=e165]
+          - generic [ref=e167]: announcement
+        - generic [ref=e168]:
+          - paragraph [ref=e169]: Apr 28, 2025
+          - heading "New Bachelor's Program in Cybersecurity Launched" [level=3] [ref=e170]
+          - paragraph [ref=e171]: ADT launches Thailand's first specialized undergraduate program in Cybersecurity, accepting 60 students for the 2025 academic year.
+          - link "Read more" [ref=e172] [cursor=pointer]:
+            - /url: /news/news-5
+            - text: Read more
+            - img [ref=e173]
+    - link "View All News" [ref=e176] [cursor=pointer]:
+      - /url: /news
+      - text: View All News
+      - img [ref=e177]
+  - generic [ref=e180]:
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e185]: Our People
+        - heading "Faculty & Staff" [level=2] [ref=e186]
+      - link "View all" [ref=e187] [cursor=pointer]:
+        - /url: /staff
+        - text: View all
+        - img [ref=e188]
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - img "Assoc. Prof. Dr. Nacha Chondamrongkul" [ref=e193]
+        - generic [ref=e195]: Dean
+        - heading "Assoc. Prof. Dr. Nacha Chondamrongkul" [level=3] [ref=e196]
+        - paragraph [ref=e197]: Dean, School of Applied Digital Technology
+        - generic [ref=e198]:
+          - generic [ref=e199]: Digital Technology
+          - generic [ref=e200]: Educational Innovation
+        - link "nacha.cho@mfu.ac.th" [ref=e201] [cursor=pointer]:
+          - /url: mailto:nacha.cho@mfu.ac.th
+          - img [ref=e202]
+          - text: nacha.cho@mfu.ac.th
+      - generic [ref=e205]:
+        - img "Dr. Apirak Wongwan" [ref=e207]
+        - generic [ref=e209]: Associate Dean
+        - heading "Dr. Apirak Wongwan" [level=3] [ref=e210]
+        - paragraph [ref=e211]: Associate Dean for Academic Affairs
+        - generic [ref=e212]:
+          - generic [ref=e213]: Software Engineering
+          - generic [ref=e214]: Agile Methods
+        - link "apirak.won@mfu.ac.th" [ref=e215] [cursor=pointer]:
+          - /url: mailto:apirak.won@mfu.ac.th
+          - img [ref=e216]
+          - text: apirak.won@mfu.ac.th
+      - generic [ref=e219]:
+        - img "Dr. Sunisa Thongprasert" [ref=e221]
+        - generic [ref=e223]: Associate Dean
+        - heading "Dr. Sunisa Thongprasert" [level=3] [ref=e224]
+        - paragraph [ref=e225]: Associate Dean for Research & Innovation
+        - generic [ref=e226]:
+          - generic [ref=e227]: Artificial Intelligence
+          - generic [ref=e228]: Machine Learning
+        - link "sunisa.tho@mfu.ac.th" [ref=e229] [cursor=pointer]:
+          - /url: mailto:sunisa.tho@mfu.ac.th
+          - img [ref=e230]
+          - text: sunisa.tho@mfu.ac.th
+      - generic [ref=e233]:
+        - img "Dr. Chakrit Pongnumkul" [ref=e235]
+        - generic [ref=e237]: Faculty
+        - heading "Dr. Chakrit Pongnumkul" [level=3] [ref=e238]
+        - paragraph [ref=e239]: Lecturer in Computer Networks & Cybersecurity
+        - generic [ref=e240]:
+          - generic [ref=e241]: Network Security
+          - generic [ref=e242]: Ethical Hacking
+        - link "chakrit.pon@mfu.ac.th" [ref=e243] [cursor=pointer]:
+          - /url: mailto:chakrit.pon@mfu.ac.th
+          - img [ref=e244]
+          - text: chakrit.pon@mfu.ac.th
+      - generic [ref=e247]:
+        - img "Asst. Prof. Dr. Natthaphat Ratanaphan" [ref=e249]
+        - generic [ref=e251]: Faculty
+        - heading "Asst. Prof. Dr. Natthaphat Ratanaphan" [level=3] [ref=e252]
+        - paragraph [ref=e253]: Assistant Professor in Data Science
+        - generic [ref=e254]:
+          - generic [ref=e255]: Big Data
+          - generic [ref=e256]: Business Intelligence
+        - link "natthaphat.rat@mfu.ac.th" [ref=e257] [cursor=pointer]:
+          - /url: mailto:natthaphat.rat@mfu.ac.th
+          - img [ref=e258]
+          - text: natthaphat.rat@mfu.ac.th
+      - generic [ref=e261]:
+        - img "Dr. Pornpat Chinarak" [ref=e263]
+        - generic [ref=e265]: Faculty
+        - heading "Dr. Pornpat Chinarak" [level=3] [ref=e266]
+        - paragraph [ref=e267]: Lecturer in Digital Media & UX Design
+        - generic [ref=e268]:
+          - generic [ref=e269]: UX Design
+          - generic [ref=e270]: Human-Computer Interaction
+        - link "pornpat.chi@mfu.ac.th" [ref=e271] [cursor=pointer]:
+          - /url: mailto:pornpat.chi@mfu.ac.th
+          - img [ref=e272]
+          - text: pornpat.chi@mfu.ac.th
+  - generic [ref=e276]:
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - generic [ref=e280]: ADT
+          - generic [ref=e281]:
+            - paragraph [ref=e282]: ADT
+            - paragraph [ref=e283]: Mae Fah Luang University
+        - paragraph [ref=e284]: School of Applied Digital Technology — innovating education for the digital age.
+        - generic [ref=e285]:
+          - link [ref=e286] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e287]
+          - link [ref=e289] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e290]
+          - link [ref=e292] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e293]
+      - generic [ref=e295]:
+        - heading "Quick Links" [level=4] [ref=e296]
+        - list [ref=e297]:
+          - listitem [ref=e298]:
+            - link "News & Events" [ref=e299] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e300]:
+            - link "Faculty & Staff" [ref=e301] [cursor=pointer]:
+              - /url: /staff
+          - listitem [ref=e302]:
+            - link "Programs" [ref=e303] [cursor=pointer]:
+              - /url: /#programs
+          - listitem [ref=e304]:
+            - link "About Us" [ref=e305] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e306]:
+            - link "Admin Portal" [ref=e307] [cursor=pointer]:
+              - /url: /admin
+      - generic [ref=e308]:
+        - heading "Programs" [level=4] [ref=e309]
+        - list [ref=e310]:
+          - listitem [ref=e311]:
+            - link "B.Sc. Computer Science" [ref=e312] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e313]:
+            - link "B.Sc. Data Science" [ref=e314] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e315]:
+            - link "B.Sc. Cybersecurity" [ref=e316] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e317]:
+            - link "B.Sc. Digital Media" [ref=e318] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e319]:
+            - link "M.Sc. Information Technology" [ref=e320] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e321]:
+            - link "Ph.D. Computer Science" [ref=e322] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e323]:
+        - heading "Contact" [level=4] [ref=e324]
+        - list [ref=e325]:
+          - listitem [ref=e326]:
+            - img [ref=e327]
+            - generic [ref=e329]: 333 Moo 1, Thasud, Mueang, Chiang Rai 57100
+          - listitem [ref=e330]:
+            - img [ref=e331]
+            - link "+66 53 916 736" [ref=e333] [cursor=pointer]:
+              - /url: tel:+6653916736
+          - listitem [ref=e334]:
+            - img [ref=e335]
+            - link "adt@mfu.ac.th" [ref=e338] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+    - generic [ref=e339]:
+      - paragraph [ref=e340]: © 2026 School of Applied Digital Technology, Mae Fah Luang University. All rights reserved.
+      - paragraph [ref=e341]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง

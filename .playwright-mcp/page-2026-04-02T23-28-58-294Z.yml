@@ -1,0 +1,403 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - link "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e9] [cursor=pointer]:
+          - /url: https://adt.mfu.ac.th
+          - img "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e10]
+        - generic [ref=e12]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "นักศึกษา" [ref=e17] [cursor=pointer]:
+                - /url: it-5433/it-5434.html
+            - listitem [ref=e18]:
+              - link "บุคลากร" [ref=e19] [cursor=pointer]:
+                - /url: it-5433/it-5435.html
+            - listitem [ref=e20]:
+              - link "นักศึกษาเก่า" [ref=e21] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/it-5433/it-5436.html
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/adt-home/search.html
+                - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "A-" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+              - link "A+" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: 
+              - text: 
+            - generic [ref=e35]:
+              - link "th" [ref=e37] [cursor=pointer]:
+                - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88.html
+              - link "en" [ref=e39] [cursor=pointer]:
+                - /url: /en/it-digital-technology-for-business-innovation.html
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "หน้าแรก" [ref=e44] [cursor=pointer]:
+            - /url: /adt-home.html
+        - listitem [ref=e45]:
+          - 'generic "There are submenu below : hover to to check" [ref=e46] [cursor=pointer]': เกี่ยวกับสำนักวิชา
+        - listitem [ref=e47]:
+          - 'generic "There are submenu below : hover to to check" [ref=e48] [cursor=pointer]': บุคลากร
+        - listitem [ref=e49]:
+          - 'generic "There are submenu below : hover to to check" [ref=e50] [cursor=pointer]': หลักสูตร
+        - listitem [ref=e51]:
+          - 'generic "There are submenu below : hover to to check" [ref=e52] [cursor=pointer]': ประกาศ
+        - listitem [ref=e53]:
+          - 'generic "There are submenu below : hover to to check" [ref=e54] [cursor=pointer]': วิจัยและบริการวิชาการ
+        - listitem [ref=e55]:
+          - 'generic "There are submenu below : hover to to check" [ref=e56] [cursor=pointer]': ข่าว
+        - listitem [ref=e57]:
+          - 'generic "There are submenu below : hover to to check" [ref=e58] [cursor=pointer]': ระบบสารสนเทศภายใน
+        - listitem [ref=e59]:
+          - link "CI ADT" [ref=e60] [cursor=pointer]:
+            - /url: /ci-adt.html
+        - listitem [ref=e61]:
+          - link "ติดต่อสำนักวิชา" [ref=e62] [cursor=pointer]:
+            - /url: /it-contact.html
+      - text: 
+  - generic [ref=e63]:
+    - generic [ref=e65]:
+      - banner [ref=e66]:
+        - heading "หลักสูตรเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ" [level=2] [ref=e67]
+      - paragraph [ref=e70]
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - banner [ref=e76]:
+          - heading "สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ หลักสูตรปริญญาตรี" [level=2] [ref=e77]
+        - generic [ref=e79]:
+          - banner [ref=e80]:
+            - heading "รายละเอียดหลักสูตร" [level=3] [ref=e81]:
+              - link "รายละเอียดหลักสูตร" [ref=e82] [cursor=pointer]:
+                - /url: https://www.mfu.ac.th/education/program/program-bachelor/bachelor-information-technology/bsc-program-science/bachelor-it-information.html
+          - paragraph [ref=e83]: หลักสูตร DTBI เป็นหลักสูตรที่เกิดจากวิสัยทัศน์ของสำนักวิชาเทคโนโลยีสารสนเทศ ที่มองเห็นถึงความเปลี่ยนแปลงอันรวดเร็วของเทคโนโลยีต่อชีวิตมนุษย์ โดยเฉพาะอย่างยิ่งด้านการสื่อสาร ซึ่งเป็นกิจกรรมหลักของมนุษย์ที่เป็นพื้นฐานต่อกิจกรรมอื่นๆอีกมากมาย เช่นการประกอบอาชีพ โดยเฉพาะด้านธุรกิจที่เทคโนโลยีดิจิทัลได้เข้ามามีบทบาทอย่างมาก ไม่ใช่เพียงเพื่อการประชาสัมพันธ์ สื่อสารกับผู้บริโภค หากแต่เทคโนโลยีเหล่านี้ถูกใช้มาเป็นกลไกหลักในการประกอบธุรกิจ ดังจะเห็นได้จากบริการอันหลากหลายเกี่ยวกับการซื้อขาย การให้บริการอาหาร การให้บริการแบบเคลื่อนที่ ที่สามารถเรียกใช้จากสถานที่ใด เวลาใด จากเครื่องมือใดก็ได้ที่มีการเชื่อมต่อกับโครงข่ายอินเตอร์เน็ต ดังนั้นการเปิดบริการหลักสูตรที่เน้นให้เป็นผู้ประยุกต์ใช้เทคโนโลยีเพื่อประกอบการให้เกิดผลประโยชน์ใดๆย่อมเป็นที่ต้องการของสังคม โดยเฉพาะอย่างยิ่งสังคมไทยที่มีภาคการผลิตอยู่เยอะ แต่ยังขาดการขาย การตลาดที่มีประสิทธิภาพและสะดวกใช้กับบุคคลที่แม้จะมีความรู้ด้านเทคโนโลยีน้อย ดังนั้นจึงเป็นโอกาสที่ดีต่อนักเรียน นักศึกษาตลอดจนผู้สนใจ ที่จะฝึกฝนตนเองเพื่อให้สามารถเป็นผู้ประกอบการยุคใหม่ที่เน้นประยุกต์ใช้เทคโนโลยีดิจิทัลเพื่อเป็นผู้เชื่อมต่อระหว่างผู้ผลิต และผู้บริโภค
+          - paragraph [ref=e84]: หลักสูตร DTBI มุ่งเน้นสร้างผู้ประกอบการที่เป็นลักษณะสตาร์ทอัพ โดยมีรายวิชาที่เกี่ยวกับการประกอบการ การทำ Startup หลากหลายวิชา ทั้งนี้ในรายวิชาชีพเลือก ทั้งหมด 5 รายวิชา ผู้เรียนยังสามารถเลือกรายวิชาในกลุ่มการวิเคราะห์ข้อมูล และการทำการตลาดดิจิทัลด้วย ซึ่งผู้ผ่านหลักสูตรสามารถเป็นผู้ประกอบการ นักการตลาดดิจิทัล นักวิเคราะห์ระบบ นักวิคราะห์ข้อมูล
+          - paragraph [ref=e85]: หลักสูตรได้จัดเตรียมรายวิชาที่ทันสมัย และสามารถนำไปใช้ได้จริง นอกจากนี้ยังนำรูปแบบการเรียนการสอนแบบใหม่ ในรูปแบบโครงงานเพื่อให้นักศึกษาได้ลงมือทำกับโจทย์จริง และเรียนในรูปแบบบูรณาการไม่แยกสาระวิชา ซึ่งจะช่วยให้ผู้เรียนสามารถเห็นความเชื่อมโยงของแต่ละศาสตร์วิชาในวางแผน ปฏิบัติ และแก้ปัญหาจริง หลักสูตรนี้เป็นหลักสูตรปริญญาตรีวิทยาศาสตร์บัณฑิต 4 ปี ตามมารตฐานของสำนักงานคณะกรรมการการอุดมศึกษา กระทรวงการอุดมศึกษา มีทั้งหมด 120 หน่วยกิต หากแต่สำนักวิชาฯจะจัดการเรียนการสอนให้ผู้เรียนสามารถจบได้ก่อน 4 ปี โดยเรียนทุกรายวิชาภายในปี 3 และฝึกงานอีกหนึ่งภาคการศึกษาใน ปี 4 เทอม 1 ทั้งนี้เพื่อเป็นการส่งเสริมให้ผู้เรียนได้เข้าสู่ชีวิตการทำงานให้เร็วขึ้น โดยในช่วงระหว่างการเรียนรู้ในมหาวิทยาลัย นักศึกษาจะได้เรียนรู้ ลองผิด ลองถูกกับการทำงานในมิติต่างๆของธุรกิจดิจิทัล
+          - paragraph [ref=e86]:
+            - strong [ref=e87]: แผนการเรียนแต่ละภาคการศึกษา
+          - paragraph [ref=e88]:
+            - strong [ref=e89]: ชั้นปีที่ 1
+            - strong [ref=e90]: ภาคการศึกษาต้น จำนวน 18 หน่วยกิต
+          - paragraph
+          - list [ref=e91]:
+            - listitem [ref=e92]: ภาษาไทยเพื่อการสื่อสาร (Thai for Communication)
+            - listitem [ref=e93]: ภาษาอังกฤษเพื่อการสื่อสาร 1 (English for Communication 1)
+            - listitem [ref=e94]: เทคโนโลยีสารสนเทศและวิทยาการข้อมูลเบื้องต้น (Introduction to Information Technology and Data Science)
+            - listitem [ref=e95]: การเริ่มต้นธุรกิจดิจิทัลเชิงปฏิบัติการ(Digital Business Initiation in Practice)
+            - listitem [ref=e96]: คณิตศาสตร์และสถิติเพื่อธุรกิจดิจิทัล (Mathematics and Statistics for Digital Business)
+            - listitem [ref=e97]: การออกแบบเชิงนวัตกรรมและตรรกะสำหรับการโปรแกรมแบบมีปฏิสัมพันธ์ (Innovative and Logical Design for Interactive Programming)
+            - listitem [ref=e98]: ความเป็นแม่ฟ้าหลวง (MFU Character)
+          - paragraph [ref=e99]:
+            - strong [ref=e100]: ภาคการศึกษาปลาย จำนวน 18 หน่วยกิต
+          - paragraph
+          - list [ref=e101]:
+            - listitem [ref=e102]: ภาษาอังกฤษเพื่อการสื่อสาร 2 (English for Communication 2)
+            - listitem [ref=e103]: วิชาเลือกในหมวดศึกษาทั่วไป (GE:Language, Humanities and Social Science Course 2)
+            - listitem [ref=e104]: สื่อโซเชียล การตลาดดิจิทัล และอีบิซิเนสแอพพลิเคชั่น (Social Media, digital marketing, and e-Business Applications)
+            - listitem [ref=e105]: การปฏิรูปและการพัฒนาธุรกิจดิจิทัล (Digital Business Transformation and Development)
+            - listitem [ref=e106]: การวิเคราะห์พฤติกรรมลูกค้าและการออกแบบประสบการณ์ผู้ใช้ (Customer Behavior Analysis and User Experience Design)
+            - listitem [ref=e107]: การสร้างแบรนด์และการมีส่วนร่วมแบบดิจิตอล (Digital Branding and Customer Engagement)
+          - paragraph [ref=e108]:
+            - strong [ref=e109]:
+              - text: ชั้นปีที่ 2
+              - text: ภาคการศึกษาต้น จำนวน 18 หน่วยกิต
+          - paragraph
+          - list [ref=e110]:
+            - listitem [ref=e111]: ภาษาจีน 1 (Chinese1)
+            - listitem [ref=e112]: "วิชาเลือกในหมวดศึกษาทั่วไป (GE: Science and Mathematics Course 2)"
+            - listitem [ref=e113]: ธุรกิจดิจิตอลในสภาพแวดล้อมระหว่างประเทศ (Digital Business in International Environments)
+            - listitem [ref=e114]: ทัศนศิลป์และเทคโนโลยีมัลติมีเดีย (Visual Art and Multimedia Technology)
+            - listitem [ref=e115]: ระบบนิเวศและการจัดการธุรกิจดิจิทัล (Digital Business Ecosystem and management)
+            - listitem [ref=e116]: นวัตกรรมและการจัดการความคิดสร้างสรรค์เพื่อความยั่งยืน (Innovation and Creativity Management for Sustainability)
+          - paragraph [ref=e117]:
+            - strong [ref=e118]: ภาคการศึกษาปลาย จำนวน 21 หน่วยกิต
+          - paragraph
+          - list [ref=e119]:
+            - listitem [ref=e120]: ภาษาจีน 2 (Chinese 2)
+            - listitem [ref=e121]: วิชาเลือกในหมวดศึกษาทั่วไป (GE:Language, Humanities and Social Science Course 3)
+            - listitem [ref=e122]: การวิเคราะห์ข้อมูลธุรกิจเบื้องต้น (Introduction to Business Data Analytics)
+            - listitem [ref=e123]: บุคลิกภาพและการพูดในที่สาธารณะเพื่อธุรกิจดิจิทัล (Personality and Public Speaking for Digital Business)
+            - listitem [ref=e124]: การวิเคราะห์และออกแบบระบบสารสนทางเทศธุรกิจ (Business Information System Analysis and Design)
+            - listitem [ref=e125]: การพัฒนาหุ้นส่วนทางธุรกิจ(Digital Business Partnership Development)
+            - listitem [ref=e126]: วิชาเลือกเสรี 2 (Free Elective2)
+          - paragraph [ref=e127]:
+            - strong [ref=e128]:
+              - text: ชั้นปีที่ 3
+              - text: ภาคการศึกษาต้น จำนวน 18 หน่วยกิต
+          - paragraph
+          - list [ref=e129]:
+            - listitem [ref=e130]: การจัดการโครงการสำหรับธุรกิจดิจิทัล Project Management for Digital Business)
+            - listitem [ref=e131]: การจัดการข้อมูลทางธุรกิจ (Digital Business Data Management )
+            - listitem [ref=e132]: เทคโนโลยีสมัยใหม่และปัญญาประดิษฐ์ในธุรกิจ (Modern Technology and AI in Business)
+            - listitem [ref=e133]: ความปลอดภัย กฎหมาย และภาษี ทางธุรกิจดิจิทัล (Digital Business Security, Law and Taxation)
+            - listitem [ref=e134]: วิชาชีพเลือก 1 (Major Elective1)
+            - listitem [ref=e135]: วิชาชีพเลือก 2 (Major Elective2)
+          - paragraph [ref=e136]:
+            - strong [ref=e137]: ภาคการศึกษาปลาย จำนวน 9 หน่วยกิต
+          - paragraph
+          - list [ref=e138]:
+            - listitem [ref=e139]: โครงงานนักศึกษาเชิงเทคโนโลยีดิจิทัล (Digital Technology Senior Project)
+            - listitem [ref=e140]: ความเป็นพลเมืองโลก (Global Citizenship)
+            - listitem [ref=e141]: วิชาลือกเสรี 2 (Free Elective2)
+          - paragraph [ref=e142]:
+            - strong [ref=e143]:
+              - text: ชั้นปีที่ 4
+              - text: ภาคการศึกษาต้น จำนวน 9 หน่วยกิต
+          - paragraph
+          - list [ref=e144]:
+            - listitem [ref=e145]: สหกิจศึกษา (Co-operative Education)
+            - listitem [ref=e146]: ภาคการศึกษาปลาย จำนวน 9 หน่วยกิต
+            - listitem [ref=e147]: วิชาชีพเลือก 3 (Major Elective3)
+            - listitem [ref=e148]: วิชาชีพเลือก 4 (Major Elective4)
+            - listitem [ref=e149]: วิชาชีพเลือก 5 (Major Elective5)
+          - paragraph [ref=e150]:
+            - strong [ref=e151]: "***สำนักวิชาฯจะจัดการเรียนการสอนให้ผู้เรียนสามารถจบได้ก่อน 4 ปี โดยเรียนทุกรายวิชาภายในปี 3 และฝึกงานอีกหนึ่งภาคการศึกษาใน ปี 4 เทอม 1***"
+          - paragraph [ref=e152]:
+            - strong [ref=e153]:
+              - text: กลุ่มวิชาชีพเลือก
+              - text: กลุ่มเน้นผู้ประกอบการที่ยกระดับธุรกิจด้วยดิจิทัล (Specialize in Digital Leveraged Entrepreneur)
+          - paragraph
+          - list [ref=e154]:
+            - listitem [ref=e155]: สตาร์ทอัพและอาชีพอิสระ (Startup and Freelancer)
+            - listitem [ref=e156]: การสร้างมูลค่าทางธุรกิจดิจิทัล (Value Creation in Digital Business)
+            - listitem [ref=e157]: การสร้างแนวคิดเพื่อหาแนวทางการแก้ปัญหาทางธุรกิจดิจิทัล (Digital Business Solution Ideation)
+            - listitem [ref=e158]: การเจรจาต่อรองและการพิทชิง (Negotiation and Pitching)
+            - listitem [ref=e159]: การระดมทุนออนไลน์ (Online Fundraising)
+          - paragraph [ref=e160]:
+            - strong [ref=e161]: กลุ่มเน้นนักวิเคราะห์ข้อมูลทางธุรกิจ (Specialize in Business Data Analyst)
+          - paragraph
+          - list [ref=e162]:
+            - listitem [ref=e163]: การเตรียมข้อมูลธุรกิจ (Business Data Preparation)
+            - listitem [ref=e164]: การสร้างภาพข้อมูลธุรกิจ (Business Data Visualization)
+            - listitem [ref=e165]: การทำเหมืองข้อมูลธุรกิจ (Business Data Mining)
+            - listitem [ref=e166]: การวิเคราะห์สื่อสังคมออนไลน์ (Social Media Analytics)
+            - listitem [ref=e167]: การวิเคราะห์ข้อมูลทางธุรกิจเชิงปฏิบัติการ (Business Data Analytics in Practice)
+          - paragraph [ref=e168]:
+            - strong [ref=e169]: กลุ่มเน้นการตลาดที่ขับเคลื่อนด้วยดิจิทัล (Specialize in Digital Driven Marketing)
+          - paragraph
+          - list [ref=e170]:
+            - listitem [ref=e171]: ระบบการจัดการลูกค้าสัมพันธ์ (Customer Relationship Management System)
+            - listitem [ref=e172]: การวิจัยตลาดโดยใช้เทคโนโลยีดิจิทัลในการแก้ปัญหา (Digital Technology Solution for Marketing Research)
+            - listitem [ref=e173]: การสร้างแบรนด์ขั้นสูงเพื่อธุรกิจดิจิทัล (Advanced Branding for Digital Business)
+            - listitem [ref=e174]: อัตลักษณ์ของนักการตลาดดิจิทัลแนวหน้า (Identity of Top Digital Marketer)
+            - listitem [ref=e175]: การปฏิบัติการตลาดดิจิทัล (Digital Marketing in Practice)
+          - paragraph [ref=e176]:
+            - strong [ref=e177]: "##"
+            - strong [ref=e178]: มาเป็นส่วนหนึ่งของทีม
+            - strong [ref=e179]: Business Innovation @ Mae Fah Luang##
+          - paragraph [ref=e180]:
+            - strong [ref=e181]:
+              - text: สอบถามข้อมูลเพิมที่เพจของเรา
+              - link "คลิกที่นี่" [ref=e182] [cursor=pointer]:
+                - /url: https://www.facebook.com/dbimfu/
+                - strong [ref=e184]: คลิกที่นี่
+        - separator [ref=e186]
+        - generic [ref=e187]:
+          - heading "หลักสูตร" [level=4] [ref=e188]
+          - paragraph [ref=e189]
+          - paragraph
+          - table [ref=e190]:
+            - rowgroup [ref=e191]:
+              - 'row "ภาษาไทย: หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ" [ref=e192]':
+                - cell "ภาษาไทย:" [ref=e193]
+                - cell "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ" [ref=e194]
+              - 'row "ภาษาอังกฤษ: Bachelor of Science Program in Digital Technology for Business Innovation" [ref=e195]':
+                - cell "ภาษาอังกฤษ:" [ref=e196]
+                - cell "Bachelor of Science Program in Digital Technology for Business Innovation" [ref=e197]
+          - heading "ชื่อปริญญา" [level=4] [ref=e198]: ชื่อปริญญา
+          - paragraph [ref=e199]
+          - paragraph
+          - table [ref=e200]:
+            - rowgroup [ref=e201]:
+              - 'row "ภาษาไทย: ชื่อเต็ม : วิทยาศาสตรบัณฑิต (เทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ)" [ref=e202]':
+                - cell "ภาษาไทย:" [ref=e203]
+                - cell "ชื่อเต็ม :" [ref=e204]
+                - cell "วิทยาศาสตรบัณฑิต (เทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ)" [ref=e205]
+              - 'row "ชื่อย่อ : วท.บ. (เทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ)" [ref=e206]':
+                - cell "ชื่อย่อ :" [ref=e207]
+                - cell "วท.บ. (เทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ)" [ref=e208]
+              - 'row "ภาษาอังกฤษ: ชื่อเต็ม : Bachelor of Science (Digital Technology for Business Innovation)" [ref=e209]':
+                - cell "ภาษาอังกฤษ:" [ref=e210]
+                - cell "ชื่อเต็ม :" [ref=e211]
+                - cell "Bachelor of Science (Digital Technology for Business Innovation)" [ref=e212]
+              - 'row "ชื่อย่อ : B.Sc. (Digital Technology for Business Innovation)" [ref=e213]':
+                - cell "ชื่อย่อ :" [ref=e214]
+                - cell "B.Sc. (Digital Technology for Business Innovation)" [ref=e215]
+          - heading "ปรัชญา / วัตถุประสงค์" [level=4] [ref=e216]: ปรัชญา / วัตถุประสงค์
+          - paragraph [ref=e217]: หลักสูตรมุ่งผลิตบัณฑิตที่ใช้เทคโนโลยีดิจิทัลเป็นเครื่องมือในการประกอบหรือสร้างธุรกิจดิจิทัลในระดับสากลที่มีความรู้ ความคิดริเริ่มสร้างสรรค์ มีศักยภาพในการศึกษาค้นคว้า และสามารถประยุกต์ใช้ความรู้ในการวิเคราะห์แก้ไขปัญหาโดยคิดอย่างเป็นระบบ มีความรอบรู้ครอบคลุมตั้งแต่การใช้เครื่องมือดิจิทัลเพื่อส่งเสริมผู้ประกอบการ นักการตลาด นักขาย รวมถึงมีความเชี่ยวชาญในด้านวิทยาการข้อมูล ทั้งยังเป็นผู้มีคุณธรรม จริยธรรม และจรรยาบรรณวิชาชีพ เพื่อปฏิบัติงานในองค์กรต่างๆ ทั้งในประเทศและระดับสากล อันจะก่อให้เกิดการพัฒนาประเทศในส่วนรวมอย่างยั่งยืน มุ่งผลิตบัณฑิตที่มีคุณลักษณะดังนี้
+          - paragraph [ref=e218]
+          - paragraph
+          - list [ref=e219]:
+            - listitem [ref=e220]: มีความรู้ทางทฤษฎีและปฏิบัติด้านธุรกิจดิจิทัล สามารถบูรณาการวิชาการ และประยุกต์ใช้ความรู้เพื่อเป็นผู้ประกอบการหรือตำแหน่งงานที่เกี่ยวข้อง
+            - listitem [ref=e221]: มีความรอบรู้และเชี่ยวชาญในการใช้ระบบและซอฟต์แวร์สำหรับอุปกรณ์ที่เกี่ยวเนื่องรวมไปถึงวิทยาการข้อมูล (Data Science)
+            - listitem [ref=e222]: มีศักยภาพในการศึกษาค้นคว้าด้วยตัวเอง ปรับตัวเข้ากับเทคโนโลยี ที่เปลี่ยนแปลงอย่างรวดเร็ว
+            - listitem [ref=e223]: มีความคิดอย่างเป็นระบบ วิเคราะห์แก้ไขปัญหาได้ดี มีทักษะในการสื่อสาร การนำเสนอ สามารถทำงานเป็นทีมร่วมกับผู้อื่นได้ และมีความเป็นผู้นำ
+            - listitem [ref=e224]: มีคุณธรรม จริยธรรม จรรยาบรรณวิชาชีพ มีความเสียสละ และรับผิดชอบต่อชุมชน สังคม และประเทศชาติ
+          - heading "จุดเด่นของหลักสูตร" [level=4] [ref=e225]: จุดเด่นของหลักสูตร
+          - paragraph [ref=e226]
+          - paragraph
+          - list [ref=e227]:
+            - listitem [ref=e228]: หลักสูตรเน้นการบูรณาการทั้งด้านทักษะและความรู้เกี่ยวกับ นวัตกรรม เทคโนโลยีและการทำธุรกิจ โดยมุ่งเน้นการปฏิบัติในภาคธุรกิจจริง
+            - listitem [ref=e229]: จัดการเรียนการสอนเป็นหน่วยบูรณาการ
+            - listitem [ref=e230]: ผู้เรียนจะมีการเริ่มทำธุรกิจตั้งแต่ปีที่หนึ่งเพื่อให้มีความรู้ ความเข้าใจในปัจจัยที่เกี่ยวข้องในการประกอบธุรกิจ อีกทั้งการปรับเปลี่ยนธุรกิจดั้งเดิมเป็นธุรกิจดิจิทัลอย่างยั่งยืน
+            - listitem [ref=e231]: สามารถใช้เครื่องมือและเทคโนโลยีดิจิทัลในการวิเคราะห์ข้อมูลเพื่อสนับสนุนการตัดสินใจทางธุรกิจ
+            - listitem [ref=e232]: มีความสามารถในวิเคราะห์ธุรกิจและสร้างนวัตกรรมดิจิทัลเพื่อสนับสนุนธุรกิจดิจิทัล
+            - listitem [ref=e233]: มีทักษะในด้านการเจรจาต่อรอง การนำเสนอแนวความคิดด้านการสร้างนวัตกรรมเพื่อระดมทุนในการสร้างธุรกิจที่ยั่งยืน
+          - heading "แนวทางประกอบอาชีพ" [level=4] [ref=e234]: แนวทางประกอบอาชีพ
+          - paragraph [ref=e235]
+          - paragraph
+          - list [ref=e236]:
+            - listitem [ref=e237]: นักเทคโนโลยีสารสนเทศที่ใช้เทคโนโลยีดิจิทัลมาประกอบธุรกิจ (Information Technologist Using Digital technology for business)
+            - listitem [ref=e238]: ผู้ประกอบการที่ยกระดับธุรกิจด้วยดิจิทัล (Digital Leveraged Entrepreneur)
+            - listitem [ref=e239]: นักวิเคราะห์ข้อมูลทางธุรกิจ (Business Data Analyst)
+            - listitem [ref=e240]: นักวิเคราะห์และออกแบบระบบสารสนเทศดิจิทัล (Digital System Analyst)
+            - listitem [ref=e241]: นักการตลาดโดยใช้ดิจิทัลเป็นตัวขับเคลื่อน (Digital Driven Marketer)
+          - heading "ผลลัพธ์การเรียนรู้ระดับหลักสูตร" [level=4] [ref=e242]: ผลลัพธ์การเรียนรู้ระดับหลักสูตร
+          - paragraph [ref=e243]
+          - paragraph
+          - list [ref=e244]:
+            - listitem [ref=e245]: PLO1 แสดงออกถึงความซื่อสัตย์ รับผิดชอบต่อหน้าที่และสังคม กล้าหาญเชิงจริยธรรม และมีจิตสาธารณะ
+            - listitem [ref=e246]: PLO2 อธิบายความรู้พื้นฐาน ความรู้ทางธุรกิจ และเทคโนโลยีดิจิทัล
+            - listitem [ref=e247]: PLO3 มีความสามารถในการประยุกต์ใช้เทคโนโลยีดิจิทัลเพื่อสร้างนวัตกรรมทางธุรกิจ ทันกับเทคโนโลยีที่เปลี่ยนแปลงในสังคมโลก
+            - listitem [ref=e248]: PLO4 มีภาวะผู้นำ มีความคิดริเริ่มสร้างสรรค์ ปรับตัวและสามารถทำงานเป็นทีมในสังคมพหุวัฒนธรรมได้
+            - listitem [ref=e249]: PLO5 มีมีความสามารถใช้เครื่องมือเทคโนโลยีดิจิทัล ในการวิเคราะห์ข้อมูลขนาดใหญ่และนำเสนอข้อมูลเพื่อการตัดสินใจทางธุรกิจ
+          - heading "ค่าธรรมเนียม" [level=4] [ref=e250]: ค่าธรรมเนียม
+          - paragraph [ref=e251]
+          - paragraph
+          - list [ref=e252]:
+            - listitem [ref=e253]: ค่าธรรมเนียมการศึกษาตลอดหลักสูตร 224,000.- บาท
+            - listitem [ref=e254]: ค่าธรรมเนียมการศึกษาต่อภาคการศึกษา 28,000.- บาท
+          - heading "โครงสร้างหลักสูตร" [level=4] [ref=e255]: โครงสร้างหลักสูตร
+          - paragraph [ref=e256]
+          - paragraph
+          - table [ref=e257]:
+            - rowgroup [ref=e258]:
+              - row "จำนวนหน่วยกิตรวมตลอดหลักสูตร 120 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e259]:
+                - cell "จำนวนหน่วยกิตรวมตลอดหลักสูตร 120 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e260]
+              - row "1. หมวดวิชาศึกษาทั่วไป 30 หน่วยกิต" [ref=e261]:
+                - cell "1. หมวดวิชาศึกษาทั่วไป" [ref=e262]
+                - cell "30 หน่วยกิต" [ref=e263]
+              - row [ref=e264]:
+                - cell [ref=e265]
+                - cell [ref=e266]
+                - cell [ref=e267]
+              - row "2. หมวดวิชาเฉพาะ 84 หน่วยกิต" [ref=e268]:
+                - cell "2. หมวดวิชาเฉพาะ" [ref=e269]
+                - cell "84 หน่วยกิต" [ref=e270]
+              - row "1) กลุ่มวิชาพื้นฐานวิชาชีพ 15 หน่วยกิต" [ref=e271]:
+                - cell [ref=e272]
+                - cell "1) กลุ่มวิชาพื้นฐานวิชาชีพ" [ref=e273]
+                - cell "15 หน่วยกิต" [ref=e274]
+              - row "2) กลุ่มวิชาชีพบังคับ 45 หน่วยกิต" [ref=e275]:
+                - cell [ref=e276]
+                - cell "2) กลุ่มวิชาชีพบังคับ" [ref=e277]
+                - cell "45 หน่วยกิต" [ref=e278]
+              - row "3) กลุ่มวิชาชีพเลือก 15 หน่วยกิต" [ref=e279]:
+                - cell [ref=e280]
+                - cell "3) กลุ่มวิชาชีพเลือก" [ref=e281]
+                - cell "15 หน่วยกิต" [ref=e282]
+              - row "4) กลุ่มประสบการณ์ภาคสนาม 9 หน่วยกิต" [ref=e283]:
+                - cell [ref=e284]
+                - cell "4) กลุ่มประสบการณ์ภาคสนาม" [ref=e285]
+                - cell "9 หน่วยกิต" [ref=e286]
+              - row [ref=e287]:
+                - cell [ref=e288]
+                - cell [ref=e289]
+                - cell [ref=e290]
+              - row "3. หมวดวิชาเลือกเสรี 6 หน่วยกิต" [ref=e291]:
+                - cell "3. หมวดวิชาเลือกเสรี" [ref=e292]
+                - cell "6 หน่วยกิต" [ref=e293]
+              - row [ref=e294]:
+                - cell [ref=e295]
+                - cell [ref=e296]
+                - cell [ref=e297]
+                - cell [ref=e298]
+          - heading "ข้อมูลอ้างอิง" [level=4] [ref=e299]: ข้อมูลอ้างอิง
+          - paragraph [ref=e300]
+          - paragraph
+          - list [ref=e301]:
+            - listitem [ref=e302]:
+              - link "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ พ.ศ. 2563" [ref=e303] [cursor=pointer]:
+                - /url: https://reg.mfu.ac.th/th/program-infomation/653130101?tab=program-structure&admitacadyear=2565&admitsemester=1&studyplanid=653130101
+          - paragraph [ref=e304]:
+            - emphasis [ref=e305]: ปรับปรุงข้อมูลล่าสุด 30 มิ.ย. 64
+      - generic [ref=e307]:
+        - heading "ปริญญาตรี" [level=3] [ref=e308]
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร (new)" [ref=e311] [cursor=pointer]:
+              - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3-new.html
+          - listitem [ref=e312]:
+            - link "สาขาวิชาวิศวกรรมคอมพิวเตอร์" [ref=e313] [cursor=pointer]:
+              - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C.html
+          - listitem [ref=e314]:
+            - link "สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ" [ref=e315] [cursor=pointer]:
+              - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88.html
+          - listitem [ref=e316]:
+            - link "สาขาวิชาวิศวกรรมซอฟต์แวร์" [ref=e317] [cursor=pointer]:
+              - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C.html
+          - listitem [ref=e318]:
+            - link "สาขาวิชาเทคโนโลยีมัลติมีเดียและการสร้างภาพเคลื่อนไหว" [ref=e319] [cursor=pointer]:
+              - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%A1%E0%B8%B1%E0%B8%A5%E0%B8%95%E0%B8%B4%E0%B8%A1%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7.html
+  - contentinfo [ref=e320]:
+    - generic [ref=e323]:
+      - generic [ref=e325]:
+        - img "School of ADT" [ref=e326]
+        - heading "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [level=2] [ref=e327]:
+          - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+          - text: มหาวิทยาลัยแม่ฟ้าหลวง
+      - generic [ref=e328]:
+        - heading "ติดต่อเรา" [level=3] [ref=e329]
+        - list [ref=e330]:
+          - listitem [ref=e331]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+          - listitem [ref=e332]: 333 หมู่ 1 ตำบลท่าสุด อำเภอเมือง
+          - listitem [ref=e333]: จังหวัดเชียงราย 57100
+          - listitem [ref=e334]:
+            - text: โทรศัพท์.
+            - link "0-5391-6741" [ref=e335] [cursor=pointer]:
+              - /url: tel:0-5391-6741
+            - text: ","
+            - link "0-5391-6742" [ref=e336] [cursor=pointer]:
+              - /url: tel:0-5391-6742
+          - listitem [ref=e337]:
+            - text: โทรสาร.
+            - link "0-5391-6743" [ref=e338] [cursor=pointer]:
+              - /url: tel:0-5391-6743
+          - listitem [ref=e339]:
+            - text: "อีเมล:"
+            - link "adtschool@mfu.ac.th" [ref=e340] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+        - list [ref=e341]:
+          - listitem [ref=e342]:
+            - link "" [ref=e343] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - generic [ref=e344]: 
+          - listitem [ref=e345]:
+            - link "" [ref=e346] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - generic [ref=e347]: 
+      - iframe [ref=e350]:
+        - generic [ref=f9e3]:
+          - link:
+            - /url: https://www.facebook.com/adtschoolmfu?ref=embed_page
+          - generic [ref=f9e6]:
+            - generic [ref=f9e8]:
+              - generic [ref=f9e9]:
+                - link [ref=f9e10] [cursor=pointer]:
+                  - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f9e11]:
+                  - link "ADTschool MFU" [ref=f9e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                  - generic [ref=f9e14]: 6,468 followers
+              - generic [ref=f9e15]:
+                - button "Follow Page" [ref=f9e19] [cursor=pointer]: Follow Page
+                - link "Share" [ref=f9e21] [cursor=pointer]:
+                  - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F145344555508195&display=popup&ref=embed_page&src=page
+                  - button "Share" [ref=f9e22]: Share
+            - progressbar [ref=f9e29]
+  - img "มหาวิทยาลัยแม่ฟ้าหลวงน้อมรำลึกในพระมหากรุณาธิคุณ สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง" [ref=e352]

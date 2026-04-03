@@ -1,0 +1,389 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - link "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e9] [cursor=pointer]:
+          - /url: https://adt.mfu.ac.th
+          - img "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e10]
+        - generic [ref=e12]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "นักศึกษา" [ref=e17] [cursor=pointer]:
+                - /url: it-5433/it-5434.html
+            - listitem [ref=e18]:
+              - link "บุคลากร" [ref=e19] [cursor=pointer]:
+                - /url: it-5433/it-5435.html
+            - listitem [ref=e20]:
+              - link "นักศึกษาเก่า" [ref=e21] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/it-5433/it-5436.html
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/adt-home/search.html
+                - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "A-" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+              - link "A+" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: 
+              - text: 
+            - generic [ref=e35]:
+              - link "th" [ref=e37] [cursor=pointer]:
+                - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C.html
+              - link "en" [ref=e39] [cursor=pointer]:
+                - /url: /en/it-software-engineering.html
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "หน้าแรก" [ref=e44] [cursor=pointer]:
+            - /url: /adt-home.html
+        - listitem [ref=e45]:
+          - 'generic "There are submenu below : hover to to check" [ref=e46] [cursor=pointer]': เกี่ยวกับสำนักวิชา
+        - listitem [ref=e47]:
+          - 'generic "There are submenu below : hover to to check" [ref=e48] [cursor=pointer]': บุคลากร
+        - listitem [ref=e49]:
+          - 'generic "There are submenu below : hover to to check" [ref=e50] [cursor=pointer]': หลักสูตร
+        - listitem [ref=e51]:
+          - 'generic "There are submenu below : hover to to check" [ref=e52] [cursor=pointer]': ประกาศ
+        - listitem [ref=e53]:
+          - 'generic "There are submenu below : hover to to check" [ref=e54] [cursor=pointer]': วิจัยและบริการวิชาการ
+        - listitem [ref=e55]:
+          - 'generic "There are submenu below : hover to to check" [ref=e56] [cursor=pointer]': ข่าว
+        - listitem [ref=e57]:
+          - 'generic "There are submenu below : hover to to check" [ref=e58] [cursor=pointer]': ระบบสารสนเทศภายใน
+        - listitem [ref=e59]:
+          - link "CI ADT" [ref=e60] [cursor=pointer]:
+            - /url: /ci-adt.html
+        - listitem [ref=e61]:
+          - link "ติดต่อสำนักวิชา" [ref=e62] [cursor=pointer]:
+            - /url: /it-contact.html
+      - text: 
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - banner [ref=e69]:
+        - heading "สาขาวิชาวิศวกรรมซอฟต์แวร์ หลักสูตรปริญญาตรี" [level=2] [ref=e70]
+      - generic [ref=e71]:
+        - paragraph [ref=e72]
+        - paragraph [ref=e73]:
+          - text: สาขา วิศวกรรมซอฟต์แวร์ (Software Engineering) เราปรับหลักสูตรรับปีการศึกษา 2563 เพื่อเลือกสิ่งที่เป็นที่ต้องการมากที่สุดในตลาด ให้ผู้เรียนได้เรียนรู้ ที่เห็นด้านล่างเป็น Software Engineering Framework ที่ทีมงานได้จัดสรรค์ และคัดสรรค์ เป็นอย่างดี โดยผ่านการวิเคราะห์ ทั้งจากทีม อาจารย์ พี่ๆที่อยู่ในวงการซอฟต์แวร์ รวมถึงรุ่นพี่ ที่ทำงานอยู่ในวงการ ในการปรับให้เทคโนโลยีในแต่ละชั้นปี มีความเหมาะสม ทั้งในแง่ของการพัฒนาความสามารถ สอดคล้องกับโมเดลในการสร้างรายได้ของผู้เรียน
+          - strong [ref=e74]: (ที่นี่ เรียนเสร็จ เอาไปใช้งานได้เลย ใช้วิชา หาเงินได้จริง)
+          - text: นอกจากนี้เรายังเสริมความรู้ด้าน Emerging Technology เช่น AI, ML, Big Data, Data Analytic, รวมไปถึง BlockChain
+          - emphasis [ref=e75]: (*จัดอยู่ในกลุ่มวิชาเลือก ตามความถนัด หรือสนใจของผู้เรียน) เ
+          - text: พื่อนำมาใช้ในการพัฒนา ระบบที่ฉลาด Smart กว่าเดิม และเป็นที่ต้องการของผู้ใช้ และตลาดงาน
+        - heading "ทักษะที่จะได้รับการพัฒนาในแต่ละชั้นปี" [level=3] [ref=e76]:
+          - strong [ref=e77]: ทักษะที่จะได้รับการพัฒนาในแต่ละชั้นปี
+        - paragraph [ref=e78]
+        - paragraph
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - strong [ref=e81]: "ปี 1 น้องใหม่:"
+            - text: เราจะเรียนรู้กระบวนการในการพัฒนาซอฟต์แวร์ในรูปแบบ Agile หลักวิธีคิดและอัลกอริทึม การแปลงโจทย์ปัญหา ให้เป็นแผนภาพ เพื่อให้สามารถส่งต่อให้ทีมงาน พัฒนาต่อได้ การเรียนรู้หลักการของ OOP (Object Oriented Programming) และภาษา Java ซึ่งยังคงมีใช้งานในระบบงานปัจจุบัน การจัดการกับโค้ดด้วย Git ให้สามารถทำงานเป็นทีมร่วมกันได้ การใช้เครื่องมือ ที่ยังได้รับความนิยมในองค์กร อย่าง eclipse และ Netbeans การเรียนรู้วิธีการพัฒนาเว็ปไซต์ ด้วยเทคโนโลยี HTML5, CSS3, และ JavaScript โดยระหว่างเรียน
+            - strong [ref=e82]: ผู้เรียนจะสามารถรับงานเขียนโปรแกรมหรือเว็ปไซต์หลัก ร้อย ถึง หลักหมื่น ได้
+          - listitem [ref=e83]:
+            - strong [ref=e84]: "ปี 2 เริ่มหัดเดิน:"
+            - text: จะเริ่มเข้าสู่การเรียนรู้วิธีการพัฒนาระบบ แต่ละประเภท ทั้ง Mobile Application, Web Application, การออกแบบ UX/UI การแปลงความต้องการของผู้ใช้ (Software Requirements) ให้กลายเป็น Software Spec ที่มีความกระชับ ชัดเจน การเขียน User Story แล้วเลือกวิธีการพัฒนาที่เหมาะสม โดยสามารถใช้เทคโนโลยีและเครื่องมือที่เหมาะสม การพัฒนา Mobile Application ต่อยอดจากวิชาที่เรียน ทั้ง Android/iOS (ตามความสนใจ เพราะเรามีกลุ่มชมรมรองรับ) การพัฒนา Web Application ด้วย Framework ที่เหมาะสม ทั้ง Angular, Vue.js, NUXT.JS, ReactJS , SpringBoot โดยเรียนรู้ควบคู่กับการใช้ฐานข้อมูล MySQL, PostgreSQL, MongoDB หรือแม้แต่ Firebase RDB (Realtime Database) เพื่อให้ผู้เรียนมีความรู้ความเข้าใจ และสามารถ "ฉลาดเลือก" เครื่องมือและแพลตฟอร์ม ให้เหมาะสมกับงาน นอกจากนี้เรายังปลูกฝังกระบวนการทำงานแบบ DevOps ซึ่งเริ่มมีการถูกนำมาใช้งานอย่างแพร่หลายในกลุ่มบริษัทพัฒนาซอฟต์แวร์ยุคใหม่ ตั้งแต่กระบวนการ Development, Build , Test, และ Deploy โดยเป็นการเรียนรู้ทั้งภาคทฤษฏีและปฏิบัติ เพื่อให้พร้อมสำหรับการออกไปทำงานร่วมกับทีมงานมืออาชีพได้จริง หลังจากผ่านปี 2
+            - strong [ref=e85]: ผู้เรียนสามารถเริ่มรับงานโครงการหลัก พัน จนถึง หลักหมื่น ได้ อีกทั้งยังสามารถเริ่มพัฒนา Mobile App และส่งขึ้น Store (ตามแบบรุ่นพี่และอาจารย์) เพื่อสร้างรายได้แบบ Passive Income ได้แบบยั่งยืน
+          - listitem [ref=e86]:
+            - strong [ref=e87]: "ปี 3 เริ่มเดินและออกวิ่ง:"
+            - text: จะเร่ิมเข้าสู่ช่วงของการคิดและพัฒนาโครงงานของตนเอง โดยใช้เทคโนโลยีทางเลือก ที่เป็นที่นิยมในตลาด ทั้งตลาดในประเทศและต่างประเทศ (ณ.ตอนนี้ เราเลือก Docker, K8S, React, Node ในการตั้งต้น) การวางโครงสร้างสถาปัตยกรรมซอฟต์แวร์ด้วยตัวเอง และวางสภาพแวดล้อมในการทำงานร่วมกันเป็นทีม การบริหารโครงการขนาดกลางและขนาดใหญ่ การสร้าง Web APIs สำหรับโครงการขนาดใหญ่ ทำให้ผู้เรียน สามารถทำงานในลักษณะ Full Stack Devlopment ได้อย่างมั่นใจ นอกจากนั้นผู้เรียนยังสามารถเริ่มเรียนรู้ภาษาทางเลือกอย่าง Python หรือภาษาอื่น เพื่อต่อยอดไปยังเทคโนโลยีขั้นสูงต่อไป
+            - strong [ref=e88]: หลังจากผ่านชั้นปีนี้ ระดับวุฒิภาวะของผู้เรียนจะสูงขึ้น มีศักยภาพในการเรียนรู้สิ่งใหม่ๆ ได้ด้วยตัวเอง และรู้จักการให้และถ่ายทอดความรู้ โดยสามารถเริ่มสร้างทีมงานของตัวเอง (ขนาดประมาณ 3-5 คน) ในการรับงานหลักหมื่น ถึง หลักแสน ได้ โดยมีทีมอาจารย์ คอยช่วยให้คำปรึกษาอย่างใกล้ชิด และหากยังพัฒนา Mobile App ควบคู่ไปด้วยตั้งแต่จบปี 2 (ใช้หลักการ 1 เดือน 1 แอพ) ผู้เรียนจะเริ่มมีรายได้ในลักษณะ Passive ประมาณ $100-$300 เหรียญ ต่อเดือน ได้ (ประมาณ 3000 - 9000 บาท ต่อเดือน)
+          - listitem [ref=e89]:
+            - strong [ref=e90]: "ปี 4 เตรียมตัวออกเดินทาง:"
+            - text: เป็นช่วงทางเลือก ทั้งเรื่องของการเลือกสถานที่ฝึกงาน และเลือกเส้นทางในการเป็น Specialist ในแต่ละด้านที่ตนเองชอบ โดยผู้เรียนสามารถเลือกที่จะเรียน และเข้าร่วมกลุ่มชมรมพิเศษ เช่น กลุ่มงาน BigData, กลุ่ม IoT (Internet of Things), Emerging Technology เช่น AI, ML, Blockchain, กลุ่ม BI/BA (Business Inteligence, Business Analytic) หรือกลุ่ม Enterprise Application อย่าง SAP ERP เป็นต้น โดยแต่ละกลุ่มจะเป็นกลุ่มที่สามารถรับงานจริง เข้ามาพัฒนา การแบ่งปันองค์ความรู้ และการถ่ายทอดทักษะ ทั้งในด้านของการพัฒนา การวางแผน การเจรจาธุรกิจ รวมถึงการเข้าถึงแหล่งทุนต่างๆ โดยมีทีมอาจารย์ รุ่นพี่ศิษย์เก่า เครื่อข่ายผู้ประกอบการและนักลงทุน รวมไปถึงหน่วยงานสนับสนุนของมหาวิทยาลัย ในการผลักดันให้สามารถก้าวไปได้ไกลกว่าที่คุณคิด
+            - strong [ref=e91]: หลังจากจบปี 4 ผู้เรียนที่ผ่านตามเกณฑ์จะสามารถ คุมทีมขนาด 5-10 คนได้ และสามารถรับงาน หลักหมื่น จนถึงหลักล้าน ได้ และถ้ายังพัฒนาปรับปรุง Mobile App อย่างต่อเนื่อง ผู้เรียนสามารถมีรายได้แบบ Passive Income อยุ่ที่ $300-$1000 ต่อเดือน (9,000 - 30,000 บาท ต่อเดือน)
+        - heading "รายวิชาที่เปิดสอน ในสาขาวิศวกรรมซอฟต์แวร์" [level=3] [ref=e92]:
+          - strong [ref=e93]: รายวิชาที่เปิดสอน ในสาขาวิศวกรรมซอฟต์แวร์
+        - paragraph [ref=e94]:
+          - strong [ref=e95]
+        - paragraph [ref=e96]: กลุ่มวิชาที่จัดไว้ สร้างมาเพื่อความสมดุล เน้นเรียนรู้ตั้งแต่พื้นฐาน การออกแบบ การบริหารจัดการ การพัฒนา การควบคุมคูณภาพ การออกแบบสถาปัตยกรรม สู่การเลือกเส้นทางที่สนใจ เพื่อพร้อมสู่การเป็นวิศวกรซอฟต์แวร์มืออาชีพ หรือเป็นผู้ประกอบการ
+        - heading "รูปแบบการเนียนการสอน" [level=3] [ref=e97]
+        - paragraph [ref=e98]: การเรียนการสอนเน้นทั้งทฤษฏีและปฏิบัติ โดย น.ศ. จะได้ลงมือทำงานจริง ผ่านกิจกรรมด้วยโจทย์จริง และพัฒนาผลงานเพื่อนำเผยแพร่ ด้วยมาตรฐานเดียวกับการทำงานจริง ส่วนของ mobile application จะได้นำขึ้น App Store และ Play Store จริง ทำให้ น.ศ. มีประสบการณ์ในการทำงานจริงๆ
+        - paragraph [ref=e99]
+        - paragraph [ref=e100]: กิจกรรมเสริมการเรียนรู้ ตั้งแต่เข้าเรียน น้องปี 1 จะปรับพื้นฐานด้วยกิจกรรม Code Camp และ ปี 2 จะฝึกฝนการพัฒนาระบบด้วยกิจกรรม Hackathon ส่วนปี 3, 4 จะได้โอกาสในการแลกเปลี่ยนกับนักพัฒนาและผู้ประกอบการซอฟต์แวร์ ผ่านกิจกรรม BarCamp
+        - paragraph [ref=e101]
+        - heading "เรียนสายนี้ งานดี เงินดี แน่นอน" [level=3] [ref=e102]
+        - paragraph [ref=e103]:
+          - text: ที่เห็นคือตัวอย่างประกาศรับสมัครงาน จากเว็บดังด้านไอที เงินเดือนเฉลี่ยของสายงานนี้ หลังจากทำงานไปแล้ว 2-3 ปี อยู่ที่ 30,000 - 150,000 บาท ต่อเดือน ขึ้นอยู่กับประสบการณ์และความสามารถ สำหรับใครที่เรียนสาย Software Engineering ตอนนี้กำลังเป็นที่ต้องการและยื้อแย่งกันในตลาด เนื่องมาจาก
+          - strong [ref=e104]: คนสายนี้จะครบเครื่องทั้งเรื่องกระบวนการในการพัฒนา และทักษะในการพัฒนาซอฟต์แวร์
+        - paragraph [ref=e105]:
+          - strong [ref=e106]
+        - paragraph [ref=e107]
+        - paragraph [ref=e108]: เรียน SE เป็นที่ต้องการของตลาด งานดี เงินดี รับประกัน ... หรือจะผันตัวเองไปเป็น Start Up หรือเปิดบริษัท ของตัวเอง เราก็มีหน่วยงาน และทีมอาจารย์ที่พร้อมให้การสนับสนุน
+        - paragraph [ref=e109]:
+          - strong [ref=e110]: แนวทางการประกอบอาชีพ ของผู้จบการศึกษา สาขาวิศวกรรมซอฟต์แวร์
+        - paragraph
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - text: นักวิเคราะห์ระบบ (
+            - strong [ref=e113]: Software Analyst
+            - text: ) ฐานเงินเดือน
+            - strong [ref=e114]: 30,000 – 100,000 บาท
+          - listitem [ref=e115]:
+            - text: นักวิเคราะห์ซอฟต์แวร์ธุรกิจ (
+            - strong [ref=e116]: Business Analyst
+            - text: ) ฐานเงินเดือน
+            - strong [ref=e117]: 30,000 – 100,000 บาท
+          - listitem [ref=e118]:
+            - text: นักพัฒนาระบบ (
+            - strong [ref=e119]: Programmer / Developer
+            - text: ) ฐานเงินเดือน
+            - strong [ref=e120]: 25,000 – 100,000 บาท
+          - listitem [ref=e121]:
+            - text: นักทดสอบระบบ (
+            - strong [ref=e122]: Software Tester
+            - text: ) ฐานเงินเดือน
+            - strong [ref=e123]: 25,000 – 100,000 บาท
+          - listitem [ref=e124]:
+            - text: นักออกแบบสถาปัตยกรรมระบบ (
+            - strong [ref=e125]: Software Architect
+            - text: ) ฐานเงินเดือน
+            - strong [ref=e126]: 35,000 – 100,000 บาท
+          - listitem [ref=e127]:
+            - text: ผู้จัดการโครงการซอฟต์แวร์ (
+            - strong [ref=e128]: Project Manager
+            - text: ) ฐานเงินเดือน
+            - strong [ref=e129]: 45,000 – 100,000 บาท
+          - listitem [ref=e130]:
+            - text: ผู้ตรวจสอบคุณภาพซอฟต์แวร์ (
+            - strong [ref=e131]: SQA
+            - text: ) ฐานเงินเดือน
+            - strong [ref=e132]: 35,000 – 100,000 บาท
+          - listitem [ref=e133]:
+            - text: เจ้าของกิจการซอฟต์แวร์ (
+            - strong [ref=e134]: CEO/ Tech Startup
+            - text: ) รายได้ต่อเดือน
+            - strong [ref=e135]: 500,000 – 10,000,000 บาท
+        - heading "ถามตัวเอง เราเหมาะกับการเรียน วิศวกรรมซอฟต์แวร์หรือไม่?" [level=3] [ref=e136]:
+          - strong [ref=e137]: ถามตัวเอง เราเหมาะกับการเรียน วิศวกรรมซอฟต์แวร์หรือไม่?
+        - paragraph
+        - list [ref=e138]:
+          - listitem [ref=e139]: คุณชอบเรียนรู้เทคโนโลยีใหม่ๆ อยากออกแบบและสร้างมันขึ้นมาเอง ใช่หรือไม่?
+          - listitem [ref=e140]: คุณต้องการมีรายได้ในระดับสูง โดยที่ยังมีความสุขกับการพัฒนาระบบ และอยู่กับทีม ใช่หรือไม่?
+          - listitem [ref=e141]: คุณชอบทดสอบระบบต่างๆ ชอบลอง ชอบเล่นระบบแบบแปลกๆ?
+          - listitem [ref=e142]: คุณมีไอเดีย และอยากแปลงจากไอเดีย ให้เป็นผลงาน หรือผลิตภัณฑ์ ที่สามารถทำเงินได้ในที่สุด?
+          - listitem [ref=e143]: คุณมีความอยาก ที่จะเป็นผู้ประกอบการด้านซอฟต์แวร์ ที่มีรายได้ขั้นต่ำเดือนละ 1-10 ล้าน?
+        - paragraph [ref=e144]: ถ้ามีอย่างน้อย 2 ข้อที่ตอบว่าใช่ ก็เหมาะแล้วที่จะเริ่มกับสาขานี้ เพราะทุกอย่างเริ่มจากความต้องการ และแรงขับจากภายใน ที่เหลือ กระบวนการในการเรียนรู้ รุ่นพี่ ทีมงานอาจารย์ และสภาพแวดล้อม จะช่วยหล่อหลอมให้คุณไปให้ถึงในส่ิงที่ต้องการ
+        - paragraph [ref=e145]
+        - paragraph [ref=e146]: เรามีรุ่นพี่ ที่จบไปแล้วกว่า 12 รุ่น ทำงานและเปิดบริษัท ทั้งใน และต่างประเทศ ที่เป็นเครือข่ายที่เข้มแข็ง เหนียวแน่น หลากหลายสายงาน พร้อมให้ความช่วยเหลือน้องๆ
+        - paragraph [ref=e147]
+      - separator [ref=e150]
+      - generic [ref=e151]:
+        - heading "หลักสูตร" [level=4] [ref=e152]
+        - paragraph [ref=e153]
+        - paragraph
+        - table [ref=e154]:
+          - rowgroup [ref=e155]:
+            - 'row "ภาษาไทย: หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมซอฟต์แวร์" [ref=e156]':
+              - cell "ภาษาไทย:" [ref=e157]
+              - cell "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมซอฟต์แวร์" [ref=e158]
+            - 'row "ภาษาอังกฤษ: Bachelor of Engineering Program in Software Engineering" [ref=e159]':
+              - cell "ภาษาอังกฤษ:" [ref=e160]
+              - cell "Bachelor of Engineering Program in Software Engineering" [ref=e161]
+        - heading "ชื่อปริญญา" [level=4] [ref=e162]: ชื่อปริญญา
+        - paragraph [ref=e163]
+        - paragraph
+        - table [ref=e164]:
+          - rowgroup [ref=e165]:
+            - 'row "ภาษาไทย: ชื่อเต็ม : วิศวกรรมศาสตรบัณฑิต (วิศวกรรมซอฟต์แวร์)" [ref=e166]':
+              - cell "ภาษาไทย:" [ref=e167]
+              - cell "ชื่อเต็ม :" [ref=e168]
+              - cell "วิศวกรรมศาสตรบัณฑิต (วิศวกรรมซอฟต์แวร์)" [ref=e169]
+            - 'row "ชื่อย่อ : วศ.บ. (วิศวกรรมซอฟต์แวร์)" [ref=e170]':
+              - cell "ชื่อย่อ :" [ref=e171]
+              - cell "วศ.บ. (วิศวกรรมซอฟต์แวร์)" [ref=e172]
+            - 'row "ภาษาอังกฤษ: ชื่อเต็ม : Bachelor of Engineering (Software Engineering)" [ref=e173]':
+              - cell "ภาษาอังกฤษ:" [ref=e174]
+              - cell "ชื่อเต็ม :" [ref=e175]
+              - cell "Bachelor of Engineering (Software Engineering)" [ref=e176]
+            - 'row "ชื่อย่อ : B.Eng. (Software Engineering)" [ref=e177]':
+              - cell "ชื่อย่อ :" [ref=e178]
+              - cell "B.Eng. (Software Engineering)" [ref=e179]
+        - heading "ปรัชญา / วัตถุประสงค์" [level=4] [ref=e180]: ปรัชญา / วัตถุประสงค์
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: ปรัชญาของหลักสูตร
+          - text: วิศวกรรมซอฟต์แวร์เป็นศาสตร์ที่เกี่ยวข้องกับกระบวนการทางวิศวกรรมในการพัฒนาซอฟต์แวร์ ตั้งแต่การรวบรวม ระบุความต้องการจากผู้ใช้งาน การกำหนดขอบเขต การออกแบบ การพัฒนา
+        - paragraph [ref=e183]: การทดสอบ การบริหารจัดการโครงการ การควบคุมคุณภาพ และความมั่นคงของระบบซอฟต์แวร์ มีบทบาทสำคัญในการปฏิรูปอุตสาหกรรมเพื่อพัฒนาเศรษฐกิจและสังคม โดยนำซอฟต์แวร์เข้ามาจัดเก็บและประมวลผลข้อมูล เพิ่มขีดความสามารถในการแข่งขันทั้งภาคการผลิตและบริการ เพื่อให้พร้อมรับมือกับภาวะที่พลิกผันต่าง ๆ ที่กำลังจะเกิดขึ้นในอนาคต หลักสูตรนี้เชื่อว่า ทฤษฎีการสร้างความรู้ด้วยตนเอง(Constructivism) ซึ่งเป็นหนึ่งในทฤษฎีการเรียนรู้ของมนุษย์ สามารถนำมาประยุกต์ใช้ในการออกแบบและพัฒนาหลักสูตร ให้บัณฑิตได้คิดเชิงวิพากษ์ (Critical Thinking) จากการสร้างมโนทัศน์และฝึกแก้ไขปัญหา (Problem Solving) อย่างเป็นระบบ โดยจัดการเรียนการสอนด้วยโครงงานเป็นฐาน (Project based learning)
+        - paragraph [ref=e184]: หลักสูตรนี้มุ่งผลิตวิศวกรซอฟต์แวร์ที่คิดอย่างสร้างสรรค์ ใช้กระบวนการพัฒนาซอฟต์แวร์ ในการวิเคราะห์บูรณาความรู้เพื่อแก้ปัญหาที่หลากหลาย สามารถทำงานร่วมกับคนในองค์กรสื่อสารได้อย่างมีประสิทธิภาพ มีคุณธรรม จริยธรรม ปฏิบัติงานได้จริง มีความรู้ ความเข้าใจในวิชาชีพ สามารถจัดการกับปัญหา มีความรับผิดชอบ ซื่อสัตย์ เสียสละ เป็นแบบอย่างที่ดี ตอบสนองความต้องการบุคลากรที่มีคุณภาพในภาคอุตสาหกรรมซอฟต์แวร์ในการพัฒนา
+        - separator [ref=e185]
+        - paragraph [ref=e186]:
+          - strong [ref=e187]: วัตถุประสงค์ของหลักสูตร
+          - text: เพื่อมุ่งผลิตบัณฑิตที่มีความรู้ ความสามารถ และประสบการณ์ จากสถานการณ์จริงที่สามารถสร้างซอฟต์แวร์หรือระบบสารสนเทศที่สามารถนำไปใช้ประโยชน์เชิงพาณิชย์หรือพัฒนาสังคม มีจริยธรรมและยึดมั่นในจรรยาบรรณ สามารถทำงานร่วมในสังคมพหุวัฒนธรรม มีทักษะศตวรรษที่ 21 ก้าวทันเทคโนโลยีที่พลิกผัน สามารถพัฒนาและต่อยอดองค์ความรู้ด้วยตนเอง บูรณาการกับศาสตร์อื่น ๆ ที่เกี่ยวข้อง
+        - heading "แนวทางประกอบอาชีพ" [level=4] [ref=e188]: แนวทางประกอบอาชีพ
+        - paragraph [ref=e189]
+        - paragraph
+        - list [ref=e190]:
+          - listitem [ref=e191]: วิศวกรซอฟต์แวร์ (Software Engineer)
+          - listitem [ref=e192]: นักวิเคราะห์ระบบหรือนักออกแบบระบบ (System Analyst/Designer)
+          - listitem [ref=e193]: วิศวกรความต้องการ (Requirements Engineer)
+          - listitem [ref=e194]: นักทดสอบระบบซอฟต์แวร์ (Software Tester)
+          - listitem [ref=e195]: ผู้จัดการโครงการซอฟต์แวร์ (Software Project Manager)
+          - listitem [ref=e196]: วิศวกรด้านคำปรึกษา (Solution/Sales Engineer)
+          - listitem [ref=e197]: ผู้ตรวจสอบด้านเทคโนโลยีสารสนเทศ (IT Auditor)
+          - listitem [ref=e198]: ผู้จัดการด้านเทคโนโลยีสารสนเทศ (IT Manager)
+          - listitem [ref=e199]: ผู้ประกอบการธุรกิจซอฟต์แวร์ (Software Business Entrepreneur)
+          - listitem [ref=e200]: นักพัฒนาส่วนเชื่อมต่อผู้ใช้งาน (UX/UI Designer)
+          - listitem [ref=e201]: นักเขียน/พัฒนาโปรแกรม (Programmer/Developer)
+          - listitem [ref=e202]: นักพัฒนาโซลูชันระดับองค์กร (Enterprise Solution Developer)
+          - listitem [ref=e203]: สถาปนิกซอฟต์แวร์ (Software Architect)
+          - listitem [ref=e204]: นักพัฒนาเว็บ/อุปกรณ์เคลื่อนที่ (Web/Mobile Developer)
+          - listitem [ref=e205]: นักพัฒนาแพลตฟอร์ม (Full-stack Developer)
+          - listitem [ref=e206]: นักประกันคุณภาพซอฟต์แวร์ (Software Quality Assurance)
+          - listitem [ref=e207]: วิศวกรปรับปรุงกระบวนการซอฟต์แวร์ (Software Process Improvement Engineer)
+          - listitem [ref=e208]: วิศวกรกระบวนพัฒนาอัตโนมัติ (DevOps Engineer)
+        - heading "ผลลัพธ์การเรียนรู้ระดับหลักสูตร" [level=4] [ref=e209]: ผลลัพธ์การเรียนรู้ระดับหลักสูตร
+        - paragraph [ref=e210]
+        - paragraph
+        - list [ref=e211]:
+          - listitem [ref=e212]: PLO1 มีความซื่อสัตย์ เคารพความเป็นส่วนตัวของผู้อื่น และรับผิดชอบต่อหน้าที่ คำนึงถึงประโยชน์ส่วนรวม มีความรับผิดชอบในวิชาชีพ
+          - listitem [ref=e213]: PLO2 อภิปรายเชื่อมโยงสาระที่สำคัญของเทคโนโลยีและวิธีการทางซอฟต์แวร์ การเป็นผู้ประกอบการ เทคโนโลยีกำเนิดใหม่สำหรับวิศวกรรมซอฟต์แวร์ กับศาสตร์อื่น ๆ ที่เกี่ยวข้องภายใต้เทคโนโลยีที่พลิกผัน
+          - listitem [ref=e214]: PLO3 ออกแบบโครงสร้างสถาปัตยกรรมซอฟต์แวร์หรือระบบสารสนเทศ โดยบูรณาการศาสตร์ของเทคโนโลยีและวิธีการทางซอฟต์แวร์ร่วมกับศาสตร์อื่น ๆ ที่เกี่ยวข้องได้อย่างเหมาะสมภายใต้เทคโนโลยีที่พลิกผัน
+          - listitem [ref=e215]: PLO4 มีมีภาวะความเป็นผู้นำและผู้ตามที่ดี และปฏิบัติงานร่วมกับผู้อื่นภายใต้สังคมพหุวัฒนธรรม
+          - listitem [ref=e216]: PLO5 มีทักษะวิเคราะห์เชิงตัวเลข เลือกใช้ชุดเครื่องมือในการพัฒนาซอฟต์แวร์ และสามารถสื่อสารโดยใช้ภาษาอังกฤษ
+          - listitem [ref=e217]: PLO6 สร้างซอฟต์แวร์หรือระบบสารสนเทศที่ก้าวทันกับเทคโนโลยีที่พลิกผัน และสามารถนำไปใช้ประโยชน์เชิงพาณิชย์หรือพัฒนาสังคมได้
+        - heading "ค่าธรรมเนียม" [level=4] [ref=e218]: ค่าธรรมเนียม
+        - paragraph [ref=e219]
+        - paragraph
+        - list [ref=e220]:
+          - listitem [ref=e221]: ค่าธรรมเนียมการศึกษาตลอดหลักสูตร 240,000.- บาท
+          - listitem [ref=e222]: ค่าธรรมเนียมการศึกษาต่อภาคการศึกษา 30,000.- บาท
+        - heading "โครงสร้างหลักสูตร" [level=4] [ref=e223]: โครงสร้างหลักสูตร
+        - paragraph [ref=e224]
+        - paragraph
+        - table [ref=e225]:
+          - rowgroup [ref=e226]:
+            - row "จำนวนหน่วยกิตรวมตลอดหลักสูตร 126 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e227]:
+              - cell "จำนวนหน่วยกิตรวมตลอดหลักสูตร 126 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e228]:
+                - strong [ref=e229]: จำนวนหน่วยกิตรวมตลอดหลักสูตร 126 หน่วยกิต (หลักสูตร 4 ปี)
+              - cell [ref=e230]
+            - row "1. หมวดวิชาศึกษาทั่วไป 30 หน่วยกิต" [ref=e231]:
+              - cell "1. หมวดวิชาศึกษาทั่วไป" [ref=e232]:
+                - strong [ref=e233]: 1. หมวดวิชาศึกษาทั่วไป
+              - cell "30 หน่วยกิต" [ref=e234]:
+                - strong [ref=e235]: 30 หน่วยกิต
+            - row [ref=e236]:
+              - cell [ref=e237]
+              - cell [ref=e238]
+              - cell [ref=e239]
+            - row "2. หมวดวิชาเฉพาะ 89 หน่วยกิต" [ref=e240]:
+              - cell "2. หมวดวิชาเฉพาะ" [ref=e241]:
+                - strong [ref=e242]: 2. หมวดวิชาเฉพาะ
+              - cell "89 หน่วยกิต" [ref=e243]:
+                - strong [ref=e244]: 89 หน่วยกิต
+            - row "2.1 กลุ่มวิชาพื้นฐานวิชาชีพ 9 หน่วยกิต" [ref=e245]:
+              - cell [ref=e246]
+              - cell "2.1 กลุ่มวิชาพื้นฐานวิชาชีพ" [ref=e247]
+              - cell "9 หน่วยกิต" [ref=e248]
+            - row "2.2 กลุ่มวิชาชีพบังคับ 63 หน่วยกิต" [ref=e249]:
+              - cell [ref=e250]
+              - cell "2.2 กลุ่มวิชาชีพบังคับ" [ref=e251]
+              - cell "63 หน่วยกิต" [ref=e252]
+            - row "2.3 กลุ่มวิชาชีพเลือก 9 หน่วยกิต" [ref=e253]:
+              - cell [ref=e254]
+              - cell "2.3 กลุ่มวิชาชีพเลือก" [ref=e255]
+              - cell "9 หน่วยกิต" [ref=e256]
+            - row "2.4 กลุ่มวิชาประสบการณ์ภาคสนาม 9 หน่วยกิต" [ref=e257]:
+              - cell [ref=e258]
+              - cell "2.4 กลุ่มวิชาประสบการณ์ภาคสนาม" [ref=e259]
+              - cell "9 หน่วยกิต" [ref=e260]
+            - row [ref=e261]:
+              - cell [ref=e262]
+              - cell [ref=e263]
+              - cell [ref=e264]
+            - row "3. หมวดวิชาเลือกเสรี 6 หน่วยกิต" [ref=e265]:
+              - cell "3. หมวดวิชาเลือกเสรี" [ref=e266]:
+                - strong [ref=e267]: 3. หมวดวิชาเลือกเสรี
+              - cell "6 หน่วยกิต" [ref=e268]:
+                - strong [ref=e269]: 6 หน่วยกิต
+            - row [ref=e270]:
+              - cell [ref=e271]
+              - cell [ref=e272]
+              - cell [ref=e273]
+              - cell [ref=e274]
+        - heading "ข้อมูลอ้างอิง" [level=4] [ref=e275]: ข้อมูลอ้างอิง
+      - banner [ref=e277]:
+        - heading "รายละเอียดหลักสูตรเพิ่มเติม" [level=3] [ref=e278]:
+          - link "รายละเอียดหลักสูตรเพิ่มเติม" [ref=e279] [cursor=pointer]:
+            - /url: https://www.mfu.ac.th/education/program/program-bachelor/bachelor-information-technology/beng-program-engineer/bachelor-it-se.html
+      - paragraph [ref=e281]:
+        - strong [ref=e284]:
+          - link "มคอ.2" [ref=e285] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/1MP-LLBsb6rjhRmSLq0CDxjr29Egfk_wv/view?usp=sharing
+            - generic [ref=e286]: มคอ.2
+    - generic [ref=e288]:
+      - heading "ปริญญาตรี" [level=3] [ref=e289]
+      - list [ref=e290]:
+        - listitem [ref=e291]:
+          - link "สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร (new)" [ref=e292] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3-new.html
+        - listitem [ref=e293]:
+          - link "สาขาวิชาวิศวกรรมคอมพิวเตอร์" [ref=e294] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C.html
+        - listitem [ref=e295]:
+          - link "สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ" [ref=e296] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88.html
+        - listitem [ref=e297]:
+          - link "สาขาวิชาวิศวกรรมซอฟต์แวร์" [ref=e298] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C.html
+        - listitem [ref=e299]:
+          - link "สาขาวิชาเทคโนโลยีมัลติมีเดียและการสร้างภาพเคลื่อนไหว" [ref=e300] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%A1%E0%B8%B1%E0%B8%A5%E0%B8%95%E0%B8%B4%E0%B8%A1%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7.html
+  - contentinfo [ref=e301]:
+    - generic [ref=e304]:
+      - generic [ref=e306]:
+        - img "School of ADT" [ref=e307]
+        - heading "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [level=2] [ref=e308]:
+          - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+          - text: มหาวิทยาลัยแม่ฟ้าหลวง
+      - generic [ref=e309]:
+        - heading "ติดต่อเรา" [level=3] [ref=e310]
+        - list [ref=e311]:
+          - listitem [ref=e312]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+          - listitem [ref=e313]: 333 หมู่ 1 ตำบลท่าสุด อำเภอเมือง
+          - listitem [ref=e314]: จังหวัดเชียงราย 57100
+          - listitem [ref=e315]:
+            - text: โทรศัพท์.
+            - link "0-5391-6741" [ref=e316] [cursor=pointer]:
+              - /url: tel:0-5391-6741
+            - text: ","
+            - link "0-5391-6742" [ref=e317] [cursor=pointer]:
+              - /url: tel:0-5391-6742
+          - listitem [ref=e318]:
+            - text: โทรสาร.
+            - link "0-5391-6743" [ref=e319] [cursor=pointer]:
+              - /url: tel:0-5391-6743
+          - listitem [ref=e320]:
+            - text: "อีเมล:"
+            - link "adtschool@mfu.ac.th" [ref=e321] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+        - list [ref=e322]:
+          - listitem [ref=e323]:
+            - link "" [ref=e324] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - generic [ref=e325]: 
+          - listitem [ref=e326]:
+            - link "" [ref=e327] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - generic [ref=e328]: 
+      - iframe [ref=e331]:
+        - generic [ref=f10e3]:
+          - link:
+            - /url: https://www.facebook.com/adtschoolmfu?ref=embed_page
+          - generic [ref=f10e6]:
+            - generic [ref=f10e8]:
+              - generic [ref=f10e9]:
+                - link [ref=f10e10] [cursor=pointer]:
+                  - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f10e11]:
+                  - link "ADTschool MFU" [ref=f10e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                  - generic [ref=f10e14]: 6,468 followers
+              - generic [ref=f10e15]:
+                - button "Follow Page" [ref=f10e19] [cursor=pointer]: Follow Page
+                - link "Share" [ref=f10e21] [cursor=pointer]:
+                  - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F145344555508195&display=popup&ref=embed_page&src=page
+                  - button "Share" [ref=f10e22]: Share
+            - progressbar [ref=f10e29]
+  - img "มหาวิทยาลัยแม่ฟ้าหลวงน้อมรำลึกในพระมหากรุณาธิคุณ สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง" [ref=e333]

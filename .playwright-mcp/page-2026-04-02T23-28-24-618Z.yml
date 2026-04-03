@@ -1,0 +1,273 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - link "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e9] [cursor=pointer]:
+          - /url: https://adt.mfu.ac.th
+          - img "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e10]
+        - generic [ref=e12]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "นักศึกษา" [ref=e17] [cursor=pointer]:
+                - /url: it-5433/it-5434.html
+            - listitem [ref=e18]:
+              - link "บุคลากร" [ref=e19] [cursor=pointer]:
+                - /url: it-5433/it-5435.html
+            - listitem [ref=e20]:
+              - link "นักศึกษาเก่า" [ref=e21] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/it-5433/it-5436.html
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/adt-home/search.html
+                - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "A-" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+              - link "A+" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: 
+              - text: 
+            - generic [ref=e35]:
+              - link "th" [ref=e37] [cursor=pointer]:
+                - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3-new.html
+              - link "en" [ref=e39] [cursor=pointer]:
+                - /url: /en/it-digital-and-communication-engineering.html
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "หน้าแรก" [ref=e44] [cursor=pointer]:
+            - /url: /adt-home.html
+        - listitem [ref=e45]:
+          - 'generic "There are submenu below : hover to to check" [ref=e46] [cursor=pointer]': เกี่ยวกับสำนักวิชา
+        - listitem [ref=e47]:
+          - 'generic "There are submenu below : hover to to check" [ref=e48] [cursor=pointer]': บุคลากร
+        - listitem [ref=e49]:
+          - 'generic "There are submenu below : hover to to check" [ref=e50] [cursor=pointer]': หลักสูตร
+        - listitem [ref=e51]:
+          - 'generic "There are submenu below : hover to to check" [ref=e52] [cursor=pointer]': ประกาศ
+        - listitem [ref=e53]:
+          - 'generic "There are submenu below : hover to to check" [ref=e54] [cursor=pointer]': วิจัยและบริการวิชาการ
+        - listitem [ref=e55]:
+          - 'generic "There are submenu below : hover to to check" [ref=e56] [cursor=pointer]': ข่าว
+        - listitem [ref=e57]:
+          - 'generic "There are submenu below : hover to to check" [ref=e58] [cursor=pointer]': ระบบสารสนเทศภายใน
+        - listitem [ref=e59]:
+          - link "CI ADT" [ref=e60] [cursor=pointer]:
+            - /url: /ci-adt.html
+        - listitem [ref=e61]:
+          - link "ติดต่อสำนักวิชา" [ref=e62] [cursor=pointer]:
+            - /url: /it-contact.html
+      - text: 
+  - generic [ref=e66]:
+    - generic [ref=e67]:
+      - banner [ref=e69]:
+        - heading "สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร หลักสูตรปริญญาตรี" [level=2] [ref=e70]
+      - generic [ref=e72]:
+        - heading "หลักสูตร" [level=4] [ref=e73]
+        - paragraph [ref=e74]
+        - paragraph
+        - table [ref=e75]:
+          - rowgroup [ref=e76]:
+            - 'row "ภาษาไทย: หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร" [ref=e77]':
+              - cell "ภาษาไทย:" [ref=e78]
+              - cell "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร" [ref=e79]
+            - 'row "ภาษาอังกฤษ: Bachelor of Engineering Program in Digital and Communication Engineering" [ref=e80]':
+              - cell "ภาษาอังกฤษ:" [ref=e81]
+              - cell "Bachelor of Engineering Program in Digital and Communication Engineering" [ref=e82]
+        - heading "ชื่อปริญญา" [level=4] [ref=e83]: ชื่อปริญญา
+        - paragraph [ref=e84]
+        - paragraph
+        - table [ref=e85]:
+          - rowgroup [ref=e86]:
+            - 'row "ภาษาไทย: ชื่อเต็ม : วิศวกรรมศาสตรบัณฑิต (วิศวกรรมดิจิทัลและการสื่อสาร)" [ref=e87]':
+              - cell "ภาษาไทย:" [ref=e88]
+              - cell "ชื่อเต็ม :" [ref=e89]
+              - cell "วิศวกรรมศาสตรบัณฑิต (วิศวกรรมดิจิทัลและการสื่อสาร)" [ref=e90]
+            - 'row "ชื่อย่อ : วศ.บ. (วิศวกรรมดิจิทัลและการสื่อสาร)" [ref=e91]':
+              - cell "ชื่อย่อ :" [ref=e92]
+              - cell "วศ.บ. (วิศวกรรมดิจิทัลและการสื่อสาร)" [ref=e93]
+            - 'row "ภาษาอังกฤษ: ชื่อเต็ม : Bachelor of Engineering (Digital and Communication Engineering)" [ref=e94]':
+              - cell "ภาษาอังกฤษ:" [ref=e95]
+              - cell "ชื่อเต็ม :" [ref=e96]
+              - cell "Bachelor of Engineering (Digital and Communication Engineering)" [ref=e97]
+            - 'row "ชื่อย่อ : B.Eng. (Digital and Communication Engineering)" [ref=e98]':
+              - cell "ชื่อย่อ :" [ref=e99]
+              - cell "B.Eng. (Digital and Communication Engineering)" [ref=e100]
+        - heading "ปรัชญา/วัตถุประสงค์" [level=4] [ref=e101]: ปรัชญา/วัตถุประสงค์
+        - paragraph [ref=e102]:
+          - strong [ref=e103]: ปรัชญาของหลักสูตร
+          - text: ณ ปัจจุบัน องค์ความรู้ด้านวิศวกรรมดิจิทัลและการสื่อสารมีความจำเป็นต่อการดำเนินอุตสาหกรรมเพื่อพัฒนาเศรษฐกิจภายใต้การเปลี่ยนแปลงทางเทคโนโลยีสารสนเทศอย่างรวดเร็ว ไม่ว่าจะเป็นวิทยาการด้านอินเตอร์เน็ตของสรรพสิ่งซึ่งพบได้ในอุปกรณ์ต่าง ๆ รอบตัว การประมวลผลข้อมูลเพื่อให้ได้มาซึ่งสารสนเทศ ความปลอดภัยของสารสนเทศและระบบสารสนเทศ ความปลอดภัยไซเบอร์ซึ่งเกี่ยวเนื่องถึงความปลอดภัยของระบบการสื่อสารข้อมูล ซึ่งล้วนแต่ก่อให้เกิดการดำเนินการของการดำเนินชีวิตและเศรษฐกิจยุคใหม่
+        - paragraph [ref=e104]: และดังที่ได้กล่าวมาข้างต้น บุคลากรที่มีส่วนสำคัญในการพัฒนาสิ่งเหล่านี้มีความต้องการจากภาคธุรกิจเป็นอย่างมาก เนื่องจากยังขาดบุคลากรที่มีความรู้และทักษะการนำไปใช้เป็นอย่างมาก
+        - paragraph [ref=e105]: ด้วยเหตุนี้หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง ได้มองเห็นความต้องการของภาคธุรกิจและความสำคัญขององค์ความรู้ดังกล่าวนี้ จึงได้ปรับปรุงหลักสูตรโดยมุ่งเน้นผลิตบัณฑิตทางด้านวิศวกรรมดิจิทัลและการสื่อสารที่เป็นผู้รู้จริง สามารถปฏิบัติงานได้จริงในระดับสากล (Pragmatism) โดยมีความรู้ความสามารถเฉพาะทางในการใช้งาน ประยุกต์ใช้ ออกแบบ สร้าง บำรุงรักษา และพัฒนาต่อยอด โดยมีความรู้ในด้านอินเตอร์เน็ตของสรรพสิ่ง การประมวลผลสารสนเทศ ความปลอดภัยของสารสนเทศ และความปลอดภัยไซเบอร์ โดยมุ่งเน้นการสร้างความรู้ที่ต้องมีการผสมผสานของเทคโนโลยีหลายด้านเข้าด้วยกัน เพื่อรองรับการให้บริการสารสนเทศภายใต้เทคโนโลยีสารสนเทศยุคใหม่ รวมถึงประกอบไปด้วย คุณธรรม และจริยธรรมวิชาชีพ อันจะก่อให้เกิดการพัฒนาประเทศในส่วนรวมอย่างยั่งยืน
+        - separator [ref=e106]
+        - paragraph [ref=e107]:
+          - strong [ref=e108]: วัตถุประสงค์ของหลักสูตร
+          - text: เพื่อผลิตบัณฑิตที่มีองค์ความรู้และความสามารถทั้งเชิงทฤษฎีและปฏิบัติทางด้านวิศวกรรมดิจิทัลและการสื่อสารในระดับสากล เน้นการออกแบบและพัฒนาระบบทางด้านวิศวกรรมดิจิทัลและการสื่อสาร ที่มีกรอบแนวคิดการเป็นผู้ประกอบการ ตลอดจนสามารถร่วมสร้างสรรค์ผลงานทางวิศวกรรมเพื่อตอบสนองตลาดแรงงานภาคอุตสาหกรรมภายใต้จริยธรรมทางวิชาการ
+        - heading "อาชีพที่สามารถประกอบได้หลังสำเร็จการศึกษา" [level=4] [ref=e109]: อาชีพที่สามารถประกอบได้หลังสำเร็จการศึกษา
+        - paragraph [ref=e110]
+        - paragraph
+        - list [ref=e111]:
+          - listitem [ref=e112]: วิศวกรระบบสารสนเทศและการสื่อสาร
+          - listitem [ref=e113]: วิศวกรระบบเทคโนโลยีดิจิทัล
+          - listitem [ref=e114]: วิศวกรอิเล็คทรอนิกส์และไอโอที
+          - listitem [ref=e115]: วิศวกรระบบความปลอดภัยไซเบอร์
+          - listitem [ref=e116]: ข้าราชการและพนักงานของรัฐ พนักงานขององค์กรเอกชนและรัฐวิสาหกิจ รวมถึงสามารถประกอบอาชีพอิสระ และอาชีพอื่น ๆ ที่เกี่ยวข้องกับวิศวกรรมดิจิทัลและการสื่อสาร
+        - heading "ผลลัพธ์การเรียนรู้ระดับหลักสูตร" [level=4] [ref=e117]: ผลลัพธ์การเรียนรู้ระดับหลักสูตร
+        - paragraph [ref=e118]
+        - paragraph
+        - list [ref=e119]:
+          - listitem [ref=e120]: "PLO1: มีวินัย เคารพกฎเกณฑ์ขององค์กรและสังคม มีจิตอาสาต่อส่วนรวม มีจริยธรรมทางวิชาการด้านวิศวกรรมดิจิทัลและการสื่อสาร"
+          - listitem [ref=e121]: "PLO2: อธิบายหลักการและทฤษฎีด้านการประมวลผลข้อมูล ความปลอดภัยของสารสนเทศ ความปลอดภัยของระบบสารสนเทศ การสื่อสารข้อมูลและระบบสื่อสารข้อมูล และศาสตร์อื่นที่เกี่ยวข้องที่ทันกับการเปลี่ยนแปลงของเทคโนโลยี และวิศวกรรมดิจิทัลและการสื่อสารสมัยใหม่ และมีแนวคิดการเป็นผู้ประกอบการ"
+          - listitem [ref=e122]: "PLO3: ออกแบบระบบหรือนวัตกรรมโดยบูรณาการความรู้ด้านวิศวกรรมดิจิทัลและการสื่อสาร ความต้องการของผู้ใช้และศาสตร์อื่น ๆ ที่เกี่ยวข้อง เพื่อแก้ไขปัญหาทางวิศวกรรมดิจิทัลและการสื่อสารได้"
+          - listitem [ref=e123]: "PLO4: สามารถทำงานเป็นทีมร่วมกับสหวิชาชีพภายใต้สังคมพหุวัฒนธรรม"
+          - listitem [ref=e124]: "PLO5: สามารถวิเคราะห์ข้อมูลเชิงตัวเลข ประยุกต์ใช้เทคโนโลยีด้านวิศวกรรมดิจิทัลและการสื่อสารสมัยใหม่ในการทำงานจริงได้ และสื่อสารทางวิชาการเพื่อตอบสนองความต้องการของผู้ใช้ได้"
+          - listitem [ref=e125]: "PLO6: สร้างสรรค์และพัฒนาระบบทางด้านวิศวกรรมดิจิทัลและการสื่อสารที่ตอบสนองตลาดแรงงานภาคอุตสาหกรรม"
+        - heading "ค่าธรรมเนียม" [level=4] [ref=e126]: ค่าธรรมเนียม
+        - paragraph [ref=e127]
+        - paragraph
+        - list [ref=e128]:
+          - listitem [ref=e129]: ค่าธรรมเนียมการศึกษาตลอดหลักสูตร 224,000.- บาท
+          - listitem [ref=e130]: ค่าธรรมเนียมการศึกษาต่อภาคการศึกษา 28,000.- บาท
+        - heading "โครงสร้างหลักสูตร" [level=4] [ref=e131]: โครงสร้างหลักสูตร
+        - paragraph [ref=e132]
+        - paragraph
+        - table [ref=e133]:
+          - rowgroup [ref=e134]:
+            - row "จำนวนหน่วยกิตรวมตลอดหลักสูตร 132 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e135]:
+              - cell "จำนวนหน่วยกิตรวมตลอดหลักสูตร 132 หน่วยกิต (หลักสูตร 4 ปี)" [ref=e136]
+              - cell [ref=e137]
+            - row "1. หมวดวิชาศึกษาทั่วไป 30 หน่วยกิต" [ref=e138]:
+              - cell "1. หมวดวิชาศึกษาทั่วไป" [ref=e139]
+              - cell "30 หน่วยกิต" [ref=e140]
+            - row [ref=e141]:
+              - cell [ref=e142]
+              - cell [ref=e143]
+              - cell [ref=e144]
+            - row "2. หมวดวิชาเฉพาะ 96 หน่วยกิต" [ref=e145]:
+              - cell "2. หมวดวิชาเฉพาะ" [ref=e146]
+              - cell "96 หน่วยกิต" [ref=e147]
+            - row "2.1 กลุ่มพื้นฐานอาชีพ 30 หน่วยกิต" [ref=e148]:
+              - cell [ref=e149]
+              - cell "2.1 กลุ่มพื้นฐานอาชีพ" [ref=e150]
+              - cell "30 หน่วยกิต" [ref=e151]
+            - row "2.2 กลุ่มวิชาชีพบังคับ 54 หน่วยกิต" [ref=e152]:
+              - cell [ref=e153]
+              - cell "2.2 กลุ่มวิชาชีพบังคับ" [ref=e154]
+              - cell "54 หน่วยกิต" [ref=e155]
+            - row "2.3 กลุ่มวิชาชีพเลือก 6 หน่วยกิต" [ref=e156]:
+              - cell [ref=e157]
+              - cell "2.3 กลุ่มวิชาชีพเลือก" [ref=e158]
+              - cell "6 หน่วยกิต" [ref=e159]
+            - row [ref=e160]:
+              - cell [ref=e161]
+              - cell [ref=e162]
+              - cell [ref=e163]
+            - row "3. หมวดวิชาเลือกเสรี 6 หน่วยกิต" [ref=e164]:
+              - cell "3. หมวดวิชาเลือกเสรี" [ref=e165]
+              - cell "6 หน่วยกิต" [ref=e166]
+            - row [ref=e167]:
+              - cell [ref=e168]
+              - cell [ref=e169]
+              - cell [ref=e170]
+              - cell [ref=e171]
+        - heading "ข้อมูลอ้างอิง" [level=4] [ref=e172]: ข้อมูลอ้างอิง
+        - paragraph [ref=e173]
+        - paragraph
+        - list [ref=e174]:
+          - listitem [ref=e175]:
+            - link "อ้างอิงจาก หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิศวกรรมดิจิทัลและการสื่อสาร" [ref=e176] [cursor=pointer]:
+              - /url: https://reg.mfu.ac.th/th/program-infomation/653150400?tab=program-structure&admitacadyear=2565&admitsemester=1&studyplanid=653150400
+        - paragraph [ref=e177]:
+          - emphasis [ref=e178]: ปรับปรุงข้อมูลล่าสุด 8 เม.ย. 65
+      - separator [ref=e180]
+      - banner [ref=e182]:
+        - heading "รายละเอียดหลักสูตรเพิ่มเติม Click!" [level=3] [ref=e183]:
+          - link "รายละเอียดหลักสูตรเพิ่มเติม Click!" [ref=e184] [cursor=pointer]:
+            - /url: https://www.mfu.ac.th/education/program/program-bachelor/bachelor-information-technology/beng-program-engineer/beng-digital-communication-eng.html
+      - generic [ref=e185]:
+        - paragraph
+        - list [ref=e186]:
+          - listitem [ref=e187]:
+            - link "โครงสร้างหลักสูตร" [ref=e188] [cursor=pointer]:
+              - /url: https://reg.mfu.ac.th/th/program-infomation/693150400?tab=program-structure&admitacadyear=2569&admitsemester=1&studyplanid=693150401
+          - listitem [ref=e189]:
+            - link "แผนการศึกษา" [ref=e190] [cursor=pointer]:
+              - /url: https://reg.mfu.ac.th/th/program-infomation/693150400?tab=study-plan&admitacadyear=2569&admitsemester=1&studyplanid=693150401
+    - generic [ref=e192]:
+      - heading "ปริญญาตรี" [level=3] [ref=e193]
+      - list [ref=e194]:
+        - listitem [ref=e195]:
+          - link "สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร (new)" [ref=e196] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3-new.html
+        - listitem [ref=e197]:
+          - link "สาขาวิชาวิศวกรรมคอมพิวเตอร์" [ref=e198] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C.html
+        - listitem [ref=e199]:
+          - link "สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ" [ref=e200] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88.html
+        - listitem [ref=e201]:
+          - link "สาขาวิชาวิศวกรรมซอฟต์แวร์" [ref=e202] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%A8%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C.html
+        - listitem [ref=e203]:
+          - link "สาขาวิชาเทคโนโลยีมัลติมีเดียและการสร้างภาพเคลื่อนไหว" [ref=e204] [cursor=pointer]:
+            - /url: /it-course/it-bachelor/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%A1%E0%B8%B1%E0%B8%A5%E0%B8%95%E0%B8%B4%E0%B8%A1%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7.html
+  - contentinfo [ref=e205]:
+    - generic [ref=e208]:
+      - generic [ref=e210]:
+        - img "School of ADT" [ref=e211]
+        - heading "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [level=2] [ref=e212]:
+          - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+          - text: มหาวิทยาลัยแม่ฟ้าหลวง
+      - generic [ref=e213]:
+        - heading "ติดต่อเรา" [level=3] [ref=e214]
+        - list [ref=e215]:
+          - listitem [ref=e216]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+          - listitem [ref=e217]: 333 หมู่ 1 ตำบลท่าสุด อำเภอเมือง
+          - listitem [ref=e218]: จังหวัดเชียงราย 57100
+          - listitem [ref=e219]:
+            - text: โทรศัพท์.
+            - link "0-5391-6741" [ref=e220] [cursor=pointer]:
+              - /url: tel:0-5391-6741
+            - text: ","
+            - link "0-5391-6742" [ref=e221] [cursor=pointer]:
+              - /url: tel:0-5391-6742
+          - listitem [ref=e222]:
+            - text: โทรสาร.
+            - link "0-5391-6743" [ref=e223] [cursor=pointer]:
+              - /url: tel:0-5391-6743
+          - listitem [ref=e224]:
+            - text: "อีเมล:"
+            - link "adtschool@mfu.ac.th" [ref=e225] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+        - list [ref=e226]:
+          - listitem [ref=e227]:
+            - link "" [ref=e228] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - generic [ref=e229]: 
+          - listitem [ref=e230]:
+            - link "" [ref=e231] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - generic [ref=e232]: 
+      - iframe [ref=e235]:
+        - generic [ref=f7e3]:
+          - link:
+            - /url: https://www.facebook.com/adtschoolmfu?ref=embed_page
+          - generic [ref=f7e6]:
+            - generic [ref=f7e8]:
+              - generic [ref=f7e9]:
+                - link [ref=f7e10] [cursor=pointer]:
+                  - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f7e11]:
+                  - link "ADTschool MFU" [ref=f7e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                  - generic [ref=f7e14]: 6,468 followers
+              - generic [ref=f7e15]:
+                - button "Follow Page" [ref=f7e19] [cursor=pointer]: Follow Page
+                - link "Share" [ref=f7e21] [cursor=pointer]:
+                  - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F145344555508195&display=popup&ref=embed_page&src=page
+                  - button "Share" [ref=f7e22]: Share
+            - progressbar [ref=f7e29]
+  - img "มหาวิทยาลัยแม่ฟ้าหลวงน้อมรำลึกในพระมหากรุณาธิคุณ สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง" [ref=e237]

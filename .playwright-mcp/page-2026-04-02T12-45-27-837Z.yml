@@ -1,0 +1,134 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: ADT
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: Admin Panel
+          - paragraph [ref=e33]: ADT Website
+      - navigation [ref=e34]:
+        - link "Dashboard" [ref=e35] [cursor=pointer]:
+          - /url: /admin
+          - img [ref=e36]
+          - text: Dashboard
+        - link "Staff" [ref=e38] [cursor=pointer]:
+          - /url: /admin/staff
+          - img [ref=e39]
+          - text: Staff
+        - link "Highlights" [ref=e41] [cursor=pointer]:
+          - /url: /admin/highlights
+          - img [ref=e42]
+          - text: Highlights
+        - link "News" [ref=e44] [cursor=pointer]:
+          - /url: /admin/news
+          - img [ref=e45]
+          - text: News
+      - generic [ref=e47]:
+        - link "View Website" [ref=e48] [cursor=pointer]:
+          - /url: /
+          - img [ref=e49]
+          - text: View Website
+        - button "Sign Out" [ref=e51] [cursor=pointer]:
+          - img [ref=e52]
+          - text: Sign Out
+    - generic [ref=e54]:
+      - banner [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: A
+          - generic [ref=e58]: Administrator
+      - main [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - heading "Dashboard" [level=1] [ref=e62]
+            - paragraph [ref=e63]: Overview of the ADT website content
+          - generic [ref=e64]:
+            - link "6 Active Staff Members" [ref=e65] [cursor=pointer]:
+              - /url: /admin/staff
+              - generic [ref=e66]:
+                - img [ref=e68]
+                - img [ref=e70]
+              - paragraph [ref=e72]: "6"
+              - paragraph [ref=e73]: Active Staff Members
+            - link "4 Active Highlights" [ref=e74] [cursor=pointer]:
+              - /url: /admin/highlights
+              - generic [ref=e75]:
+                - img [ref=e77]
+                - img [ref=e79]
+              - paragraph [ref=e81]: "4"
+              - paragraph [ref=e82]: Active Highlights
+            - link "5 Published News" [ref=e83] [cursor=pointer]:
+              - /url: /admin/news
+              - generic [ref=e84]:
+                - img [ref=e86]
+                - img [ref=e88]
+              - paragraph [ref=e90]: "5"
+              - paragraph [ref=e91]: Published News
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - heading "Recent News" [level=2] [ref=e95]
+                - link "Manage" [ref=e96] [cursor=pointer]:
+                  - /url: /admin/news
+                  - text: Manage
+                  - img [ref=e97]
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - paragraph [ref=e102]: ADT Students Win National Hackathon 2025
+                    - paragraph [ref=e103]: Jun 15, 2025 · achievement
+                  - img [ref=e104]
+                - generic [ref=e106]:
+                  - generic [ref=e107]:
+                    - paragraph [ref=e108]: New Partnership with Huawei Thailand for AI Research
+                    - paragraph [ref=e109]: Jun 8, 2025 · news
+                  - img [ref=e110]
+                - generic [ref=e112]:
+                  - generic [ref=e113]:
+                    - paragraph [ref=e114]: ADT Hosts International Symposium on Digital Health
+                    - paragraph [ref=e115]: May 22, 2025 · event
+                  - img [ref=e116]
+                - generic [ref=e118]:
+                  - generic [ref=e119]:
+                    - paragraph [ref=e120]: Research Paper Published in Nature Digital Medicine
+                    - paragraph [ref=e121]: May 10, 2025 · research
+                  - img [ref=e122]
+                - generic [ref=e124]:
+                  - generic [ref=e125]:
+                    - paragraph [ref=e126]: New Bachelor's Program in Cybersecurity Launched
+                    - paragraph [ref=e127]: Apr 28, 2025 · announcement
+                  - img [ref=e128]
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - heading "Highlights" [level=2] [ref=e132]
+                - link "Manage" [ref=e133] [cursor=pointer]:
+                  - /url: /admin/highlights
+                  - text: Manage
+                  - img [ref=e134]
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - generic [ref=e138]:
+                    - paragraph [ref=e139]: ADT Open House 2025
+                    - paragraph [ref=e140]: event · Aug 15, 2025
+                  - img [ref=e141]
+                - generic [ref=e143]:
+                  - generic [ref=e144]:
+                    - paragraph [ref=e145]: Congratulations Class of 2025!
+                    - paragraph [ref=e146]: celebration · Jul 1, 2025
+                  - img [ref=e147]
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - paragraph [ref=e151]: ADT Research Excellence Awards
+                    - paragraph [ref=e152]: achievement · Jun 20, 2025
+                  - img [ref=e153]
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - paragraph [ref=e157]: Digital Transformation Summer Camp
+                    - paragraph [ref=e158]: event · Sep 10, 2025
+                  - img [ref=e159]
+          - generic [ref=e161]:
+            - heading "Reset to Default Data" [level=3] [ref=e162]
+            - paragraph [ref=e163]: This will restore all staff, highlights, and news to the original sample data.
+            - button "Reset to Defaults" [ref=e164] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e23] [cursor=pointer]:
+    - img [ref=e24]
+  - alert [ref=e27]

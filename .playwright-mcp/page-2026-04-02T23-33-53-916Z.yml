@@ -1,0 +1,1169 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - link "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e9] [cursor=pointer]:
+          - /url: https://adt.mfu.ac.th
+          - img "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e10]
+        - generic [ref=e12]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "นักศึกษา" [ref=e17] [cursor=pointer]:
+                - /url: it-5433/it-5434.html
+            - listitem [ref=e18]:
+              - link "บุคลากร" [ref=e19] [cursor=pointer]:
+                - /url: it-5433/it-5435.html
+            - listitem [ref=e20]:
+              - link "นักศึกษาเก่า" [ref=e21] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/it-5433/it-5436.html
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/adt-home/search.html
+                - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "A-" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+              - link "A+" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: 
+              - text: 
+            - generic [ref=e35]:
+              - link "th" [ref=e37] [cursor=pointer]:
+                - /url: /faculty/academic-staff.html
+              - link "en" [ref=e39] [cursor=pointer]:
+                - /url: /en/faculty/academic-staff.html
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "หน้าแรก" [ref=e44] [cursor=pointer]:
+            - /url: /adt-home.html
+        - listitem [ref=e45]:
+          - 'generic "There are submenu below : hover to to check" [ref=e46] [cursor=pointer]': เกี่ยวกับสำนักวิชา
+        - listitem [ref=e47]:
+          - 'generic "There are submenu below : hover to to check" [ref=e48] [cursor=pointer]': บุคลากร
+        - listitem [ref=e49]:
+          - 'generic "There are submenu below : hover to to check" [ref=e50] [cursor=pointer]': หลักสูตร
+        - listitem [ref=e51]:
+          - 'generic "There are submenu below : hover to to check" [ref=e52] [cursor=pointer]': ประกาศ
+        - listitem [ref=e53]:
+          - 'generic "There are submenu below : hover to to check" [ref=e54] [cursor=pointer]': วิจัยและบริการวิชาการ
+        - listitem [ref=e55]:
+          - 'generic "There are submenu below : hover to to check" [ref=e56] [cursor=pointer]': ข่าว
+        - listitem [ref=e57]:
+          - 'generic "There are submenu below : hover to to check" [ref=e58] [cursor=pointer]': ระบบสารสนเทศภายใน
+        - listitem [ref=e59]:
+          - link "CI ADT" [ref=e60] [cursor=pointer]:
+            - /url: /ci-adt.html
+        - listitem [ref=e61]:
+          - link "ติดต่อสำนักวิชา" [ref=e62] [cursor=pointer]:
+            - /url: /it-contact.html
+      - text: 
+  - generic [ref=e65]:
+    - banner [ref=e67]:
+      - heading "คณาจารย์" [level=2] [ref=e68]
+    - paragraph [ref=e70]:
+      - strong [ref=e73]: ปริญญาตรี
+    - paragraph [ref=e75]:
+      - strong [ref=e78]: สาขาวิชาวิศวกรรมคอมพิวเตอร์ - Computer Engineering
+    - paragraph [ref=e82]
+    - separator [ref=e84]
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e90]:
+          - paragraph [ref=e91]
+          - paragraph [ref=e92]:
+            - strong [ref=e93]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.สุรพล วรภัทราทร (ประธานหลักสูตร)
+              - text: Asst.Prof. Surapol Vorapatratorn, Ph.D.
+          - paragraph [ref=e94]:
+            - img [ref=e95]
+            - text: 0 5391 6762
+            - img [ref=e96]
+            - strong [ref=e97]
+            - text: surapol.vor@mfu.ac.th
+            - strong [ref=e98]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e99]:
+            - strong [ref=e100]:
+              - link "More details" [ref=e101] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1J9ie8ShiKYOvDg98VZrKGg6N-8-OXdWTWWvsXKiCrVE/edit?usp=drive_link
+        - generic [ref=e104]:
+          - paragraph [ref=e105]
+          - paragraph [ref=e106]:
+            - strong [ref=e107]:
+              - text: อาจารย์ ดร.ปวีณา สืบสมบัติ
+              - text: Paweena Suebsombut, Ph.D.
+          - paragraph [ref=e108]:
+            - img [ref=e109]
+            - text: "-"
+            - img [ref=e110]
+            - strong [ref=e111]
+            - text: paweena.sue@mfu.ac.th
+            - strong [ref=e112]: ห้องทำงาน
+            - text: ": E3A-307"
+          - paragraph [ref=e113]:
+            - strong [ref=e114]:
+              - link "More details" [ref=e115] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1SySJv7_RjyOf_G_wpbZBd8HIREMCI0Mz7YjE8buLIfc/edit?usp=sharing
+        - generic [ref=e118]:
+          - paragraph [ref=e119]
+          - paragraph [ref=e120]:
+            - strong [ref=e121]: Prof. Shanmugam Nandagopalan, Ph.D.
+          - paragraph [ref=e122]:
+            - img [ref=e123]
+            - text: "-"
+            - img [ref=e124]
+            - strong [ref=e125]
+            - text: shanmugamnandagopalan@mfu.ac.th
+            - strong [ref=e126]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e127]:
+            - strong [ref=e128]:
+              - link "More details" [ref=e129] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/10bJJv_4JmLcr_DDtscu6XHoh5aDcT7NYcxXVAt3p7rw/edit?usp=sharing
+      - generic [ref=e130]:
+        - generic [ref=e133]:
+          - paragraph [ref=e134]
+          - paragraph [ref=e135]:
+            - strong [ref=e136]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.ขวัญตา คีรีมาศทอง
+              - text: Asst.Prof. Khwunta Kirimasthong, Ph.D.
+          - paragraph [ref=e137]:
+            - img [ref=e138]
+            - text: "-"
+            - img [ref=e139]
+            - strong [ref=e140]
+            - text: khwunta.kir@mfu.ac.th
+            - strong [ref=e141]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e142]:
+            - strong [ref=e143]:
+              - link "More details" [ref=e144] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1PbEbrHBpvNpfSwxK7YXTVcMjo21YQTo3U-j57fe2-nQ/edit?usp=drive_link
+        - generic [ref=e147]:
+          - paragraph [ref=e148]
+          - paragraph [ref=e149]:
+            - strong [ref=e150]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.ภัทรมน วุฒิพิทยามงคล
+              - text: Asst.Prof. Pattaramon Vuttipittayamongkol, Ph.D.
+          - paragraph [ref=e151]:
+            - img [ref=e152]
+            - text: 0 5391 6762
+            - img [ref=e153]
+            - strong [ref=e154]
+            - text: pattaramon.vut@mfu.ac.th
+            - strong [ref=e155]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e156]:
+            - strong [ref=e157]:
+              - link "More details" [ref=e158] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1aKymu3a4KdJs6xKgZoiSpfo9Fjzhs9o21HgykMmPAAs/edit?usp=drive_link
+        - generic [ref=e161]:
+          - paragraph [ref=e162]
+          - paragraph [ref=e163]:
+            - strong [ref=e164]:
+              - text: อาจารย์ณรงค์ ชัยวุฒิ (ลาศึกษาต่อ)
+              - text: Narong Chaiwut
+          - paragraph [ref=e165]:
+            - img [ref=e166]
+            - text: "-"
+            - img [ref=e167]
+            - strong [ref=e168]
+            - text: narong.cha@mfu.ac.th
+            - strong [ref=e169]: ห้องทำงาน
+            - text: ": -"
+          - paragraph [ref=e170]:
+            - strong [ref=e171]:
+              - link "More details" [ref=e172] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1vFivU97V7GW36mdxJGhIf2FF-1t8WBC0jVdZnEr5L8g/edit?usp=drive_link
+      - generic [ref=e173]:
+        - generic [ref=e176]:
+          - paragraph [ref=e177]
+          - paragraph [ref=e178]:
+            - strong [ref=e179]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.ชยพล คำยอด
+              - text: Asst.Prof. Chayapol Kamyod, Ph.D.
+          - paragraph [ref=e180]:
+            - img [ref=e181]
+            - text: "-"
+            - img [ref=e182]
+            - strong [ref=e183]
+            - text: chayapol.kam@mfu.ac.th
+            - strong [ref=e184]: ห้องทำงาน
+            - text: ": E3A-307"
+          - paragraph [ref=e185]:
+            - strong [ref=e186]:
+              - link "More details" [ref=e187] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/10mKIHSLQkO2GFcpp7Wxw27ZpzaU2tDJFM4JKAErbsfc/edit?usp=drive_link
+        - generic [ref=e190]:
+          - paragraph [ref=e191]
+          - paragraph [ref=e192]:
+            - strong [ref=e193]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.มาหะมะ เซะบากอ
+              - text: Asst.Prof. Mahamah Sebakor, Ph.D.
+          - paragraph [ref=e194]:
+            - img [ref=e195]
+            - text: 0 5391 6401
+            - img [ref=e196]
+            - strong [ref=e197]
+            - text: mahamah.seb@mfu.ac.th
+            - strong [ref=e198]: ห้องทำงาน
+            - text: ": E3A-308 / AS Bld. 4th fl."
+          - paragraph [ref=e199]:
+            - strong [ref=e200]:
+              - link "More details" [ref=e201] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1BfldUerJU0-eipeSixrBnuBbE0pXeV_nPGT3JlDpOuU/edit?usp=drive_link
+    - separator [ref=e203]
+    - paragraph [ref=e205]:
+      - strong [ref=e208]: สาขาวิชาวิศวกรรมดิจิทัลและการสื่อสาร - Digital and Communication Engineering
+    - paragraph [ref=e212]
+    - separator [ref=e214]
+    - generic [ref=e216]:
+      - generic [ref=e217]:
+        - generic [ref=e220]:
+          - paragraph [ref=e221]
+          - paragraph [ref=e222]:
+            - strong [ref=e223]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.ศุภกานต์ จันทร์เสรีวิทยา (ประธานหลักสูตร)
+              - text: Asst.Prof. Suppakarn Chansareewittaya, Ph.D.
+          - paragraph [ref=e224]:
+            - img [ref=e225]
+            - text: 0 5391 6932
+            - img [ref=e226]
+            - strong [ref=e227]
+            - text: suppakarn.cha@mfu.ac.th
+            - strong [ref=e228]: ห้องทำงาน
+            - text: ": S7A-107"
+          - paragraph [ref=e229]:
+            - strong [ref=e230]:
+              - link "More details" [ref=e231] [cursor=pointer]:
+                - /url: https://sites.google.com/view/suppakarn-chansareewittaya/home
+        - generic [ref=e234]:
+          - paragraph [ref=e235]
+          - paragraph [ref=e236]:
+            - strong [ref=e237]:
+              - text: อาจารย์ ดร.เขมชาติ เขมาวุฒานนท์
+              - text: Kemachart Kemavuthanon, Ph.D.
+          - paragraph [ref=e238]:
+            - img [ref=e239]
+            - text: "-"
+            - img [ref=e240]
+            - strong [ref=e241]
+            - text: Kemachart.kem@mfu.ac.th
+            - strong [ref=e242]: ห้องทำงาน
+            - text: ": E3A-307"
+          - paragraph [ref=e243]:
+            - strong [ref=e244]:
+              - link "More details" [ref=e245] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1nopPKZ6nCq42axuzb5iZ8I2P5v3WgU5l1c3G750KToE/edit?usp=drive_link
+      - generic [ref=e246]:
+        - generic [ref=e249]:
+          - paragraph [ref=e250]
+          - paragraph [ref=e251]:
+            - strong [ref=e252]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.ศิริกานต์ ชูเชิด
+              - text: Asst.Prof. Sirikan Chucherd, Ph.D.
+          - paragraph [ref=e253]:
+            - img [ref=e254]
+            - text: 0 5391 6763
+            - img [ref=e255]
+            - strong [ref=e256]
+            - text: sirikan@mfu.ac.th
+            - strong [ref=e257]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e258]:
+            - strong [ref=e259]:
+              - link "More details" [ref=e260] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1-CM2oGDaud695XvfSL3rlxBBUavAMkLz5pR3ZYVnWRU/edit?usp=drive_link
+        - generic [ref=e263]:
+          - paragraph [ref=e264]
+          - paragraph [ref=e265]:
+            - strong [ref=e266]:
+              - text: อาจารย์ ดร.ฐิติยา ชมเงิน
+              - text: Titiya Chomngern, Ph.D.
+          - paragraph [ref=e267]:
+            - img [ref=e268]
+            - text: "-"
+            - img [ref=e269]
+            - strong [ref=e270]
+            - text: Titiya.cho@mfu.ac.th
+            - strong [ref=e271]: ห้องทำงาน
+            - text: ": E3A-308"
+          - paragraph [ref=e272]:
+            - strong [ref=e273]:
+              - link "More details" [ref=e274] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1IGNwl80GuCIHWx-JA1BPD_FKWdIzlrHRVee0aEihH_8/edit?usp=drive_link
+      - generic [ref=e278]:
+        - paragraph [ref=e279]
+        - paragraph [ref=e280]:
+          - strong [ref=e281]:
+            - text: ผู้ช่วยศาสตราจารย์ ดร.ธีรวิศิฏฐ์ เลาหะเพ็ญแสง
+            - text: Asst.Prof. Teeravisit Laohapensaeng, Ph.D.
+        - paragraph [ref=e282]:
+          - img [ref=e283]
+          - text: "-"
+          - img [ref=e284]
+          - strong [ref=e285]
+          - text: Teeravisit.lao@mfu.ac.th
+          - strong [ref=e286]: ห้องทำงาน
+          - text: ": S7A-215"
+        - paragraph [ref=e287]:
+          - strong [ref=e288]:
+            - link "More details" [ref=e289] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1dtuGuLoxzETd_aIJXgnlECZaXN8VLuLt4ClgLS_ghOQ/edit?usp=drive_link
+    - separator [ref=e291]
+    - paragraph [ref=e293]:
+      - strong [ref=e296]: สาขาวิชาวิศวกรรมซอฟต์แวร์ - Software Engineering
+    - paragraph [ref=e300]
+    - separator [ref=e302]
+    - generic [ref=e304]:
+      - generic [ref=e305]:
+        - generic [ref=e308]:
+          - paragraph [ref=e309]
+          - paragraph [ref=e310]:
+            - strong [ref=e311]:
+              - text: อาจารย์ ดร.ปรัสรา จักรแก้ว (ประธานหลักสูตร)
+              - text: Prasara Jakkaew, Ph.D.
+          - paragraph [ref=e312]:
+            - img [ref=e313]
+            - text: "-"
+            - img [ref=e314]
+            - strong [ref=e315]
+            - text: prasara.jak@mfu.ac.th
+            - strong [ref=e316]: ห้องทำงาน
+            - text: ": E3A-307"
+          - paragraph [ref=e317]:
+            - strong [ref=e318]:
+              - link "More details" [ref=e319] [cursor=pointer]:
+                - /url: https://sites.google.com/view/prasaraj/home
+        - generic [ref=e322]:
+          - paragraph [ref=e323]
+          - paragraph [ref=e324]:
+            - strong [ref=e325]:
+              - text: อาจารย์ ดร.วัชราวรรณ อินทยศ
+              - text: Wacharawan Intayoad, Ph.D.
+          - paragraph [ref=e326]:
+            - img [ref=e327]
+            - text: "-"
+            - img [ref=e328]
+            - strong [ref=e329]
+            - text: wacharawan.int@mfu.ac.th
+            - strong [ref=e330]: ห้องทำงาน
+            - text: ": E3A-307"
+          - paragraph [ref=e331]:
+            - strong [ref=e332]:
+              - link "More details" [ref=e333] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1N687l6h22Q-qnZ7AEYX-K2U8MRbLpeZaSWrzIDMlBSM/edit?usp=drive_link
+        - generic [ref=e336]:
+          - paragraph [ref=e337]
+          - paragraph [ref=e338]:
+            - strong [ref=e339]: Nang Hsu Mon Pyae, Ph.D.
+          - paragraph [ref=e340]:
+            - img [ref=e341]
+            - text: "-"
+            - img [ref=e342]
+            - strong [ref=e343]
+            - text: nanghsumonpyae@mfu.ac.th
+            - strong [ref=e344]: ห้องทำงาน
+            - text: ": E3A-307"
+          - paragraph [ref=e345]:
+            - strong [ref=e346]:
+              - link "More details" [ref=e347] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1VwCxwg4NXtZMwptVd4ZQ5_7TjiSJ2QPlfEWL-XoxFws/edit?usp=sharing
+      - generic [ref=e348]:
+        - generic [ref=e351]:
+          - paragraph [ref=e352]
+          - paragraph [ref=e353]:
+            - strong [ref=e354]:
+              - text: รองศาสตราจารย์ ดร.นชา ชลดำรงค์กุล
+              - text: Assoc.Prof. Nacha Chondamrongkul, Ph.D.
+          - paragraph [ref=e355]:
+            - img [ref=e356]
+            - text: 0 5391 6744
+            - img [ref=e357]
+            - strong [ref=e358]
+            - text: nacha.cho@mfu.ac.th
+            - strong [ref=e359]: ห้องทำงาน
+            - text: ": E3A-314/3"
+          - paragraph [ref=e360]:
+            - strong [ref=e361]:
+              - link "More details" [ref=e362] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1SWmFrsAa9lVOmYdmpWC099gGqdqVHj6LW4eSU-bUXsw/edit?usp=drive_link
+        - generic [ref=e365]:
+          - paragraph [ref=e366]
+          - paragraph [ref=e367]:
+            - strong [ref=e368]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.สุจิตรา อาวัชนานุกุล
+              - text: Asst.Prof. Sujitra Arwatchananukul, Ph.D.
+          - paragraph [ref=e369]:
+            - img [ref=e370]
+            - text: 0 5391 6765
+            - img [ref=e371]
+            - strong [ref=e372]
+            - text: sujitra.arw@mfu.ac.th
+            - strong [ref=e373]: ห้องทำงาน
+            - text: ": E3A-312"
+          - paragraph [ref=e374]:
+            - strong [ref=e375]:
+              - link "More details" [ref=e376] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1S35B_PHNYb7en4bsHVi1fElcEfR5OU5agpXIR6ib4AE/edit?usp=drive_link
+      - generic [ref=e377]:
+        - generic [ref=e380]:
+          - paragraph [ref=e381]
+          - paragraph [ref=e382]:
+            - strong [ref=e383]:
+              - text: อาจารย์วิทยาศักดิ์ รุจิวรกุล
+              - text: Vittayasak Rujivorakul
+          - paragraph [ref=e384]:
+            - img [ref=e385]
+            - text: 0 5391 6075 (เลขานุการ)
+            - img [ref=e386]
+            - strong [ref=e387]
+            - text: vittayasak@mfu.ac.th
+            - strong [ref=e388]: ห้องทำงาน
+            - text: ": -"
+          - paragraph [ref=e389]:
+            - strong [ref=e390]:
+              - link "More details" [ref=e391] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1yAY4IC_5PFnKLVQvXdLCFf0m9wo91N_7pWUJsKPytC8/edit?usp=drive_link
+        - generic [ref=e394]:
+          - paragraph [ref=e395]
+          - paragraph [ref=e396]:
+            - strong [ref=e397]:
+              - text: อาจารย์ทิว หงษ์ทอง
+              - text: Tew Hongthong
+          - paragraph [ref=e398]:
+            - img [ref=e399]
+            - text: "-"
+            - img [ref=e400]
+            - strong [ref=e401]
+            - text: tew.hon@mfu.ac.th
+            - strong [ref=e402]: ห้องทำงาน
+            - text: ": E3A-308"
+          - paragraph [ref=e403]:
+            - strong [ref=e404]:
+              - link "More details" [ref=e405] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1lK2qlLerN_LjjysnjBLUObngNrUqbZsB5FfvnrU3u8s/edit?usp=drive_link
+    - separator [ref=e407]
+    - paragraph [ref=e409]:
+      - strong [ref=e412]: สาขาวิชาเทคโนโลยีดิจิทัลเพื่อนวัตกรรมทางธุรกิจ - Digital Technology for Business Innovation
+    - paragraph [ref=e416]
+    - separator [ref=e418]
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - generic [ref=e424]:
+          - paragraph [ref=e425]
+          - paragraph [ref=e426]:
+            - strong [ref=e427]:
+              - text: อาจารย์ ดร.นิกรณ์ หร่องบุตรศรี (ประธานหลักสูตร)
+              - text: Nikorn Rongbutsri, Ph.D.
+          - paragraph [ref=e428]:
+            - img [ref=e429]
+            - text: 0 5391 6765
+            - img [ref=e430]
+            - strong [ref=e431]
+            - text: nikorn@mfu.ac.th
+            - strong [ref=e432]: ห้องทำงาน
+            - text: ": E3A-312"
+          - paragraph [ref=e433]:
+            - strong [ref=e434]:
+              - link "More details" [ref=e435] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1fNQoMz5gJnm4SIJpJ68jURapw7l3qqhOw8qeEKs41zA/edit?usp=drive_link
+        - generic [ref=e438]:
+          - paragraph [ref=e439]
+          - paragraph [ref=e440]:
+            - strong [ref=e441]:
+              - text: อาจารย์ ดร.สุนทรินทร์ นุภาพ
+              - text: Soontarin Nupap, Ph.D.
+          - paragraph [ref=e442]:
+            - img [ref=e443]
+            - text: 0 5391 6755
+            - img [ref=e444]
+            - strong [ref=e445]
+            - text: soontarin@mfu.ac.th
+            - strong [ref=e446]: ห้องทำงาน
+            - text: ": E3A-310"
+          - paragraph [ref=e447]:
+            - strong [ref=e448]:
+              - link "More details" [ref=e449] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1qlX94mBmU5d3IhkabhsgUfxXp265fZZU-JpR8yVEbdk/edit?usp=drive_link
+        - generic [ref=e452]:
+          - paragraph [ref=e453]
+          - paragraph [ref=e454]:
+            - strong [ref=e455]:
+              - text: อาจารย์ ดร.พัชราภรณ์ พรรณวงค์
+              - text: Patcharaporn Panwong, Ph.D.
+          - paragraph [ref=e456]:
+            - img [ref=e457]
+            - text: 0 5391 6763
+            - img [ref=e458]
+            - strong [ref=e459]
+            - text: patcharaporn.pan@mfu.ac.th
+            - strong [ref=e460]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e461]:
+            - strong [ref=e462]:
+              - link "More details" [ref=e463] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1hfJiY6oXM-RH-tT7AXF2ec4RlMzNXVodgY1lZyxdm9U/edit?usp=drive_link
+      - generic [ref=e464]:
+        - generic [ref=e467]:
+          - paragraph [ref=e468]
+          - paragraph [ref=e469]:
+            - strong [ref=e470]:
+              - text: อาจารย์เตือนจิต สุทธหลวง
+              - text: Teanjit Sutthaluang
+          - paragraph [ref=e471]:
+            - img [ref=e472]
+            - text: 0 5391 6756
+            - img [ref=e473]
+            - strong [ref=e474]
+            - text: ternchit@mfu.ac.th
+            - strong [ref=e475]: ห้องทำงาน
+            - text: ": E3A-310"
+          - paragraph [ref=e476]:
+            - strong [ref=e477]:
+              - link "More details" [ref=e478] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1bBmyhtaclkLBHyWKQoBT26W2Zsno7TjqqNUfyhqsXKQ/edit?usp=drive_link
+        - generic [ref=e481]:
+          - paragraph [ref=e482]
+          - paragraph [ref=e483]:
+            - strong [ref=e484]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.นิลุบล คุรุบรรเจิดจิต
+              - text: Asst.Prof. Nilubon Kurubanjerdjit, Ph.D.
+          - paragraph [ref=e485]:
+            - img [ref=e486]
+            - text: "-"
+            - img [ref=e487]
+            - strong [ref=e488]
+            - text: Nilubon.kur@mfu.ac.th
+            - strong [ref=e489]: ห้องทำงาน
+            - text: ": E3A-310"
+          - paragraph [ref=e490]:
+            - strong [ref=e491]:
+              - link "More details" [ref=e492] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1zSheUDiCBA5L9_4f2VYNfAkBK-vQHDC0HdBBcIMbBCY/edit?usp=drive_link
+      - generic [ref=e493]:
+        - generic [ref=e496]:
+          - paragraph [ref=e497]
+          - paragraph [ref=e498]:
+            - strong [ref=e499]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.วราลักษณ์ ช่องดารากุล
+              - text: Asst.Prof. Waralak Chongdarakul, Ph.D.
+          - paragraph [ref=e500]:
+            - img [ref=e501]
+            - text: 0 5391 6758
+            - img [ref=e502]
+            - strong [ref=e503]
+            - text: waralak@mfu.ac.th
+            - strong [ref=e504]: ห้องทำงาน
+            - text: ": E3A-311"
+          - paragraph [ref=e505]:
+            - strong [ref=e506]:
+              - link "More details" [ref=e507] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1P9FhtVyu0QPsVSWzyQstAQELiPWjaz8LejoYShoO8w0/edit?usp=drive_link
+        - generic [ref=e510]:
+          - paragraph [ref=e511]
+          - paragraph [ref=e512]:
+            - strong [ref=e513]:
+              - text: ผู้ช่วยศาสตราจารย์ ว่าที่ร้อยตรี ดร.เจริญชัย วงศ์วัฒน์กิจ
+              - text: Asst.Prof.Acting Sub-Lt. Charoenchai Wongwatkit, Ph.D.
+          - paragraph [ref=e514]:
+            - img [ref=e515]
+            - text: "-"
+            - img [ref=e516]
+            - strong [ref=e517]
+            - text: charoenchai.won@mfu.ac.th
+            - strong [ref=e518]: ห้องทำงาน
+            - text: ": E3A-308"
+          - paragraph [ref=e519]:
+            - strong [ref=e520]:
+              - link "More details" [ref=e521] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1Z8OuwfMwoUwhnow-cZznBND8CieT1LIbBJi9VzI-dPg/edit?usp=drive_link
+    - separator [ref=e523]
+    - paragraph [ref=e525]:
+      - strong [ref=e528]: สาขาวิชาเทคโนโลยีมัลติมีเดียและการสร้างภาพเคลื่อนไหว - Multimedia Technology and Animation
+    - paragraph [ref=e532]
+    - separator [ref=e534]
+    - generic [ref=e536]:
+      - generic [ref=e537]:
+        - generic [ref=e540]:
+          - paragraph [ref=e541]
+          - paragraph [ref=e542]:
+            - strong [ref=e543]:
+              - text: อาจารย์นนทวรรษ ธงสิบสอง (ประธานหลักสูตร)
+              - text: Nontawat Thongsibsong
+          - paragraph [ref=e544]:
+            - img [ref=e545]
+            - text: "-"
+            - img [ref=e546]
+            - strong [ref=e547]
+            - text: nontawat@mfu.ac.th
+            - strong [ref=e548]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e549]:
+            - strong [ref=e550]:
+              - link "More details" [ref=e551] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1UZhsuRO4LnV6IoDqYJ9LpAOWe5BT9V8A2_238wtbTx8/edit?usp=drive_link
+        - generic [ref=e554]:
+          - paragraph [ref=e555]
+          - paragraph [ref=e556]:
+            - strong [ref=e557]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.ยุทธพงษ์ ทองแพง
+              - text: Asst.Prof. Yootthapong Tongpaeng, Ph.D.
+          - paragraph [ref=e558]:
+            - img [ref=e559]
+            - text: "-"
+            - img [ref=e560]
+            - strong [ref=e561]
+            - text: yootthapong.ton@mfu.ac.th
+            - strong [ref=e562]: ห้องทำงาน
+            - text: ": E3A-312"
+          - paragraph [ref=e563]:
+            - strong [ref=e564]:
+              - link "More details" [ref=e565] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1RjcEJyW4wjVk6HNjX9gN9R1VL1xTETKxjnaW28C40h8/edit?usp=drive_link
+        - generic [ref=e568]:
+          - paragraph [ref=e569]
+          - paragraph [ref=e570]:
+            - strong [ref=e571]:
+              - text: อาจารย์กานต์ โสภณรณฤทธิ์ (ลาศึกษาต่อ)
+              - text: Karn Soponronnarit
+          - paragraph [ref=e572]:
+            - img [ref=e573]
+            - text: "-"
+            - img [ref=e574]
+            - strong [ref=e575]
+            - text: karn.sop@mfu.ac.th
+            - strong [ref=e576]: ห้องทำงาน
+            - text: ": -"
+          - paragraph [ref=e577]:
+            - strong [ref=e578]:
+              - link "More details" [ref=e579] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1y9VttIZY6K5koHi2LKTp7D8BW4fKrqYOB9--wAcvpRI/edit?usp=drive_link
+      - generic [ref=e580]:
+        - generic [ref=e583]:
+          - paragraph [ref=e584]
+          - paragraph [ref=e585]:
+            - strong [ref=e586]:
+              - text: ผู้ช่วยศาสตราจารย์ ดร.พฤทธิ์ พุฒจร
+              - text: Asst.Prof. Pruet Putjorn, Ph.D.
+          - paragraph [ref=e587]:
+            - img [ref=e588]
+            - text: "-"
+            - img [ref=e589]
+            - strong [ref=e590]
+            - text: pruet@mfu.ac.th
+            - strong [ref=e591]: ห้องทำงาน
+            - text: ": E3A-312"
+          - paragraph [ref=e592]:
+            - strong [ref=e593]:
+              - link "More details" [ref=e594] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1g9Ybh-ysf428aW_Cp_jFtiPKvkr67XkH4xg7CqAEv4U/edit?usp=drive_link
+        - generic [ref=e597]:
+          - paragraph [ref=e598]
+          - paragraph [ref=e599]:
+            - strong [ref=e600]:
+              - text: อาจารย์ฐานปัทม์ ไชยชมภู
+              - text: Thanpahtt Chaichombhoo
+          - paragraph [ref=e601]:
+            - img [ref=e602]
+            - text: "-"
+            - img [ref=e603]
+            - strong [ref=e604]
+            - text: thanpahtt.cha@mfu.ac.th
+            - strong [ref=e605]: ห้องทำงาน
+            - text: ": E3A-308"
+          - paragraph [ref=e606]:
+            - strong [ref=e607]:
+              - link "More details" [ref=e608] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1nUrDcPlZeidxg7CHkrOAl1fOnBeWQhZx3uI4TMTBfp4/edit?usp=sharing
+      - generic [ref=e609]:
+        - generic [ref=e612]:
+          - paragraph [ref=e613]
+          - paragraph [ref=e614]:
+            - strong [ref=e615]:
+              - text: อาจารย์ ดร.บรรพจณ์ โนแบ้ว
+              - text: Banphot Nobaew, Ph.D.
+          - paragraph [ref=e616]:
+            - img [ref=e617]
+            - text: "-"
+            - img [ref=e618]
+            - strong [ref=e619]
+            - text: banphot@mfu.ac.th
+            - strong [ref=e620]: ห้องทำงาน
+            - text: ": E3A-311"
+          - paragraph [ref=e621]:
+            - strong [ref=e622]:
+              - link "More details" [ref=e623] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1sA0Nsk4bLqTgFkqoG2w1aGBdJFWEX4ulT1aqPovW1gU/edit?usp=drive_link
+        - generic [ref=e626]:
+          - paragraph [ref=e627]
+          - paragraph [ref=e628]:
+            - strong [ref=e629]:
+              - text: อาจารย์รัชชานนท์ นอบนพ (ลาศึกษาต่อ)
+              - text: Ratchanon Nobnop
+          - paragraph [ref=e630]:
+            - img [ref=e631]
+            - text: "-"
+            - img [ref=e632]
+            - strong [ref=e633]
+            - text: ratchanon.nob@mfu.ac.th
+            - strong [ref=e634]: ห้องทำงาน
+            - text: ": E3A-306"
+          - paragraph [ref=e635]:
+            - strong [ref=e636]:
+              - link "More details" [ref=e637] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1ZTIcsGItY-715-0gV94FMq4O6E0fxUGj5Qkdf4oDJH8/edit?usp=drive_link
+    - separator [ref=e639]
+    - paragraph [ref=e641]:
+      - strong [ref=e644]: ปริญญาโท
+    - paragraph [ref=e646]:
+      - strong [ref=e649]: สาขาวิชาเทคโนโลยีการแปลงเป็นดิจิทัล - Digital Transformation Technology
+    - paragraph [ref=e653]
+    - separator [ref=e655]
+    - generic [ref=e657]:
+      - generic [ref=e661]:
+        - paragraph [ref=e662]
+        - paragraph [ref=e663]:
+          - strong [ref=e664]:
+            - text: ผู้ช่วยศาสตราจารย์ ดร.สุรพงษ์ อุตมา (ประธานหลักสูตร)
+            - text: Asst.Prof. Surapong Uttama, Ph.D.
+        - paragraph [ref=e665]:
+          - img [ref=e666]
+          - text: "-"
+          - img [ref=e667]
+          - strong [ref=e668]
+          - text: surapong@mfu.ac.th
+          - strong [ref=e669]: ห้องทำงาน
+          - text: ": E3A-310"
+        - paragraph [ref=e670]:
+          - strong [ref=e671]:
+            - link "More details" [ref=e672] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1gmmJQpop8A_hoTRiUTEziPzWlzlfJdqU6rpJp2GED-I/edit?usp=drive_link
+      - generic [ref=e676]:
+        - paragraph [ref=e677]
+        - paragraph [ref=e678]:
+          - strong [ref=e679]:
+            - text: ผู้ช่วยศาสตราจารย์ ดร.วรศักดิ์ เรืองศิรรักษ์
+            - text: Asst.Prof. Worasak Rueangsirarak, Ph.D.
+        - paragraph [ref=e680]:
+          - img [ref=e681]
+          - text: 0 5391 7198
+          - img [ref=e682]
+          - strong [ref=e683]
+          - text: worasak.rue@mfu.ac.th
+          - strong [ref=e684]: ห้องทำงาน
+          - text: ": E3A-314"
+        - paragraph [ref=e685]:
+          - strong [ref=e686]:
+            - link "More details" [ref=e687] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/175YB_4wTV7K9DpW6G4zfp0wahYJxlNPTT6ee8byaIJE/edit?usp=drive_link
+            - text: /
+            - link "G-Sites" [ref=e688] [cursor=pointer]:
+              - /url: https://sites.google.com/view/worasakrueangsirarak
+      - generic [ref=e692]:
+        - paragraph [ref=e693]
+        - paragraph [ref=e694]:
+          - strong [ref=e695]:
+            - text: ผู้ช่วยศาสตราจารย์ ดร.สันติชัย วิชา
+            - text: Asst.Prof. Santichai Wicha, Ph.D.
+        - paragraph [ref=e696]:
+          - img [ref=e697]
+          - text: 0 5391 6758
+          - img [ref=e698]
+          - strong [ref=e699]
+          - text: santichai@mfu.ac.th
+          - strong [ref=e700]: ห้องทำงาน
+          - text: ": E3A-311"
+        - paragraph [ref=e701]:
+          - strong [ref=e702]:
+            - link "More details" [ref=e703] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1idtHnI6CEZZvXf5-qN3beqAlQxd7W2Siq7X9Btz-Sew/edit?usp=drive_link
+    - separator [ref=e705]
+    - paragraph [ref=e707]:
+      - strong [ref=e710]: ปริญญาโท / ปริญญาเอก
+    - paragraph [ref=e712]:
+      - strong [ref=e715]: สาขาวิชาวิศวกรรมคอมพิวเตอร์ - Computer Engineering
+    - paragraph [ref=e719]
+    - separator [ref=e721]
+    - generic [ref=e723]:
+      - generic [ref=e724]:
+        - generic [ref=e727]:
+          - paragraph [ref=e728]
+          - paragraph [ref=e729]:
+            - strong [ref=e730]:
+              - text: ผู้ช่วยศาสตราจารย์ นาวาอากาศเอก ดร.ธงชัย อยู่ญาติวงศ์ (อาจารย์อาวุโส)
+              - text: Asst.Prof.Gp.Capt. Thongchai Yooyatiwong, Ph.D.
+          - paragraph [ref=e731]:
+            - img [ref=e732]
+            - text: 0 5391 7200
+            - img [ref=e733]
+            - strong [ref=e734]
+            - text: Thongchai@mfu.ac.th
+            - strong [ref=e735]: ห้องทำงาน
+            - text: ": E3A-314/4"
+          - paragraph [ref=e736]:
+            - strong [ref=e737]:
+              - link "More details" [ref=e738] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1vTURSVNQunhy-zhCTB0uJp_6ipmJQ5UG2_gfFCoZtn4/edit?usp=drive_link
+        - generic [ref=e741]:
+          - paragraph [ref=e742]
+          - paragraph [ref=e743]:
+            - strong [ref=e744]:
+              - text: รองศาสตราจารย์ ดร.รังสรรค์ ชัยศรีเจริญ
+              - text: Assoc.Prof. Roungsan Chaisricharoen, Ph.D.
+          - paragraph [ref=e745]:
+            - img [ref=e746]
+            - text: 0 5391 6757
+            - img [ref=e747]
+            - strong [ref=e748]
+            - text: roungsan.cha@mfu.ac.th
+            - strong [ref=e749]: ห้องทำงาน
+            - text: ": E3A-311"
+          - paragraph [ref=e750]:
+            - strong [ref=e751]:
+              - link "More details" [ref=e752] [cursor=pointer]:
+                - /url: https://docs.google.com/document/d/1gDFVlcguQscUoi3QpEFlmq_ErY5l1yMoJk5o7NiHyw8/edit?usp=drive_link
+      - generic [ref=e756]:
+        - paragraph [ref=e757]
+        - paragraph [ref=e758]:
+          - strong [ref=e759]:
+            - text: รองศาสตราจารย์ ดร.พรรณฤมล เต็มดี
+            - text: Assoc.Prof. Punnarumol Temdee, Ph.D.
+        - paragraph [ref=e760]:
+          - img [ref=e761]
+          - text: 0 5391 6758
+          - img [ref=e762]
+          - strong [ref=e763]
+          - text: Punnarumol@mfu.ac.th
+          - strong [ref=e764]: ห้องทำงาน
+          - text: ": E3A-311"
+        - paragraph [ref=e765]:
+          - strong [ref=e766]:
+            - link "More details" [ref=e767] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1h-KI5l-LG-us8f0vz5Hck8NetYELZTnAjRDQMtmB0_g/edit?usp=drive_link
+      - generic [ref=e771]:
+        - paragraph [ref=e772]
+        - paragraph [ref=e773]:
+          - strong [ref=e774]:
+            - text: รองศาสตราจารย์ ดร.ณัฐพล อุ่นศรี
+            - text: Assoc.Prof. Nattapol Aunsri, Ph.D.
+        - paragraph [ref=e775]:
+          - img [ref=e776]
+          - text: 0 5391 6765
+          - img [ref=e777]
+          - strong [ref=e778]
+          - text: Nattapol.aun@mfu.ac.th
+          - strong [ref=e779]: ห้องทำงาน
+          - text: ": E3A-312"
+        - paragraph [ref=e780]:
+          - strong [ref=e781]:
+            - link "More details" [ref=e782] [cursor=pointer]:
+              - /url: https://docs.google.com/document/d/1vhf6Re9MH7jfU184NT4UqiMbeqc4ADjhig7acPInOqE/edit?usp=drive_link
+  - contentinfo [ref=e783]:
+    - generic [ref=e786]:
+      - generic [ref=e788]:
+        - img "School of ADT" [ref=e789]
+        - heading "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [level=2] [ref=e790]:
+          - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+          - text: มหาวิทยาลัยแม่ฟ้าหลวง
+      - generic [ref=e791]:
+        - heading "ติดต่อเรา" [level=3] [ref=e792]
+        - list [ref=e793]:
+          - listitem [ref=e794]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+          - listitem [ref=e795]: 333 หมู่ 1 ตำบลท่าสุด อำเภอเมือง
+          - listitem [ref=e796]: จังหวัดเชียงราย 57100
+          - listitem [ref=e797]:
+            - text: โทรศัพท์.
+            - link "0-5391-6741" [ref=e798] [cursor=pointer]:
+              - /url: tel:0-5391-6741
+            - text: ","
+            - link "0-5391-6742" [ref=e799] [cursor=pointer]:
+              - /url: tel:0-5391-6742
+          - listitem [ref=e800]:
+            - text: โทรสาร.
+            - link "0-5391-6743" [ref=e801] [cursor=pointer]:
+              - /url: tel:0-5391-6743
+          - listitem [ref=e802]:
+            - text: "อีเมล:"
+            - link "adtschool@mfu.ac.th" [ref=e803] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+        - list [ref=e804]:
+          - listitem [ref=e805]:
+            - link "" [ref=e806] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - generic [ref=e807]: 
+          - listitem [ref=e808]:
+            - link "" [ref=e809] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - generic [ref=e810]: 
+      - iframe [ref=e813]:
+        - generic [ref=f17e3]:
+          - link:
+            - /url: https://www.facebook.com/adtschoolmfu?ref=embed_page
+          - generic [ref=f17e6]:
+            - generic [ref=f17e8]:
+              - generic [ref=f17e9]:
+                - link [ref=f17e10] [cursor=pointer]:
+                  - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f17e11]:
+                  - link "ADTschool MFU" [ref=f17e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                  - generic [ref=f17e14]: 6,468 followers
+              - generic [ref=f17e15]:
+                - button "Follow Page" [ref=f17e19] [cursor=pointer]: Follow Page
+                - link "Share" [ref=f17e21] [cursor=pointer]:
+                  - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F145344555508195&display=popup&ref=embed_page&src=page
+                  - button "Share" [ref=f17e22]: Share
+            - generic [ref=f17e30]:
+              - feed [ref=f17e32]:
+                - generic [ref=f17e35]:
+                  - generic [ref=f17e36]:
+                    - link [ref=f17e41] [cursor=pointer]:
+                      - /url: https://www.facebook.com/photo.php?fbid=1412818637525437&set=a.691821482958493&type=3&ref=embed_page
+                    - generic [ref=f17e42]:
+                      - generic [ref=f17e43]:
+                        - link [ref=f17e44] [cursor=pointer]:
+                          - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                          - img [ref=f17e47]
+                        - link [ref=f17e50] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                        - generic [ref=f17e55]:
+                          - generic [ref=f17e56]: ADTschool MFU
+                          - link "16 hours ago" [ref=f17e57] [cursor=pointer]:
+                            - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                            - generic [ref=f17e58]: 16 hours ago
+                      - generic [ref=f17e60]:
+                        - paragraph [ref=f17e61]:
+                          - text: English Below
+                          - text: "["
+                          - generic [ref=f17e63]: 🚨
+                          - text: โอกาสสุดท้าย! วันนี้วันสุดท้ายเท่านั้น!
+                          - generic [ref=f17e65]: 🚨
+                          - text: "]"
+                        - paragraph [ref=f17e66]:
+                          - text: อยากอัปเกรดตัวเองให้เป็น "ผู้นำ" รุ่นใหม่ที่มี Mindset ปังกว่าเดิมไหม?
+                          - generic [ref=f17e68]: 🚀
+                          - text: กับกิจกรรม "Leadership and Growth Mindset" (Student Skills Development Program ครั้งที่3)
+                        - generic [ref=f17e69]: ...
+                        - link "See more" [ref=f17e72] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                  - table [ref=f17e74]:
+                    - rowgroup [ref=f17e75]:
+                      - row "2 Comment Share" [ref=f17e76]:
+                        - cell "2" [ref=f17e77]:
+                          - button "2" [ref=f17e78]:
+                            - generic "Like" [ref=f17e79] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f17e81]:
+                          - link "Comment" [ref=f17e82] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                            - generic "Comment" [ref=f17e83]: Comment
+                        - cell "Share" [ref=f17e85]:
+                          - link "Share" [ref=f17e86] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f17e87]: Share
+                - generic [ref=f17e91]:
+                  - generic [ref=f17e93]:
+                    - generic [ref=f17e94]:
+                      - link [ref=f17e95] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f17e98]
+                      - link [ref=f17e101] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                      - generic [ref=f17e106]:
+                        - generic [ref=f17e107]: ADTschool MFU
+                        - link "19 hours ago" [ref=f17e108] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                          - generic [ref=f17e109]: 19 hours ago
+                    - generic [ref=f17e111]:
+                      - paragraph [ref=f17e112]:
+                        - generic [ref=f17e114]: 📌
+                        - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ จัดโครงการ HACK-APG มุ่งสร้างนวัตกรดิจิทัลรุ่นเยาว์ผ่านการแข่งขัน AI & UX/UI Hackathon
+                      - paragraph [ref=f17e115]:
+                        - text: "เมื่อวันที่ 28-29 มีนาคม 2569 ที่ผ่านมา สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง เตรียมจัดโครงการแข่งขัน AI & UX/UI Software Programming Hackathon: Innovating the Future of Digital Solutions (HACK-APG) ณ อาคารศูนย์การเรียนรู้ภาษา (S7A-401) โดยมีวัตถุประสงค์หลักเพื่อยกระดับคุณภาพกิจกรรมการเรียนรู้ และบูรณาการองค์ความรู้ระหว่างนักศึกษาระดับอุ"
+                        - generic [ref=f17e116]: ...
+                      - link "See more" [ref=f17e119] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                    - generic [ref=f17e123]:
+                      - img "May be an image of one or more people and text that says \"ADT 三 ADT- ADT-NWa มฟล. จัด กิจ จัดกิจกรร กรร ระหว่างวันที่ 28- 28-29 29 มีนาคม 25\"" [ref=f17e126]
+                      - img "May be an image of text that says \"दमज Jun Hack ๕๘ ม MediHack- Junior 69 ณ มหาวิทยาลัยแม่ฟ้าหลวง\"" [ref=f17e129]
+                      - img "May be an image of studying and text" [ref=f17e132]
+                      - img "May be an image of studying and text" [ref=f17e135]
+                      - generic [ref=f17e136]:
+                        - img "May be an image of ‎map and ‎text that says \"‎VENTEX Freeze 4 ء 타대의 Mum س lack Junior ل Mediha Medi Hack Junior 2026 Hackathon -Hack حل 小 MediHack Junior Hackathon CRPROSCHOO DCRPROSCHOOL CAPRO SCHOOL‎\"‎‎" [ref=f17e138]
+                        - generic [ref=f17e141]: "+10"
+                  - table [ref=f17e143]:
+                    - rowgroup [ref=f17e144]:
+                      - row "18 Comment 2" [ref=f17e145]:
+                        - cell "18" [ref=f17e146]:
+                          - button "18" [ref=f17e147]:
+                            - generic "Like" [ref=f17e148] [cursor=pointer]: "18"
+                        - cell "Comment" [ref=f17e150]:
+                          - link "Comment" [ref=f17e151] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                            - generic "Comment" [ref=f17e152]: Comment
+                        - cell "2" [ref=f17e154]:
+                          - link "2" [ref=f17e155] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f17e156]: "2"
+                - generic [ref=f17e160]:
+                  - generic [ref=f17e162]:
+                    - generic [ref=f17e163]:
+                      - link [ref=f17e164] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f17e167]
+                      - link [ref=f17e170] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                      - generic [ref=f17e175]:
+                        - generic [ref=f17e176]: ADTschool MFU
+                        - link "on Sunday" [ref=f17e177] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                          - generic [ref=f17e178]: on Sunday
+                    - generic [ref=f17e179]:
+                      - paragraph [ref=f17e180]: We care about you! >> PM2.5 Air Pollution Advisory
+                      - paragraph [ref=f17e181]:
+                        - link "#maskon" [ref=f17e182] [cursor=pointer]:
+                          - /url: /hashtag/maskon?__eep__=6&fref=mentions&ref=embed_page
+                        - link "#mfucares" [ref=f17e183] [cursor=pointer]:
+                          - /url: /hashtag/mfucares?__eep__=6&fref=mentions&ref=embed_page
+                    - generic [ref=f17e187]:
+                      - link [ref=f17e191] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=122209269308348486&set=a.122108433308348486&type=3&ref=embed_page
+                      - generic [ref=f17e192]:
+                        - link "ม.แม่ฟ้าหลวง Mae Fah Luang University" [ref=f17e195] [cursor=pointer]:
+                          - /url: https://www.facebook.com/MFU2Connect?hc_ref=ARRe216lx4ITL7FMHqEZmLAcHhXhGUOdBlMcMcUiV9pbk-k7e6gHt49xAgnscf1BrRU&fref=nf&ref=embed_page
+                        - generic [ref=f17e197]:
+                          - generic [ref=f17e198]: · 26,055 followers
+                          - text: ·
+                          - link "6d" [ref=f17e201] [cursor=pointer]:
+                            - /url: https://www.facebook.com/photo.php?fbid=122209269308348486&set=a.122108433308348486&type=3&ref=embed_page
+                            - generic [ref=f17e202]: 6d
+                        - generic [ref=f17e204]:
+                          - paragraph [ref=f17e205]:
+                            - text: "[English Below]"
+                            - link "#MFUPR" [ref=f17e206] [cursor=pointer]:
+                              - /url: /hashtag/mfupr?__eep__=6&fref=mentions&ref=embed_page
+                            - link "#ดินดินห่วงใย" [ref=f17e207] [cursor=pointer]:
+                              - /url: /hashtag/ดินดินห่วงใย?__eep__=6&fref=mentions&ref=embed_page
+                          - paragraph [ref=f17e208]:
+                            - text: แจ้งเตือนค่าฝุ่นละออง มีผลกระทบต่อสุขภาพ ขอให้นักศึกษา บุคลากรและประชาชน สวมหน้ากากอนามัยที่ป้องกันฝุ่นขนาดเล็ก PM2.5 ทุกค
+                            - generic [ref=f17e209]: ...
+                          - button "See more" [ref=f17e212] [cursor=pointer]
+                  - table [ref=f17e214]:
+                    - rowgroup [ref=f17e215]:
+                      - row "6 Comment 1" [ref=f17e216]:
+                        - cell "6" [ref=f17e217]:
+                          - button "6" [ref=f17e218]:
+                            - generic "Like" [ref=f17e219] [cursor=pointer]: "6"
+                        - cell "Comment" [ref=f17e221]:
+                          - link "Comment" [ref=f17e222] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                            - generic "Comment" [ref=f17e223]: Comment
+                        - cell "1" [ref=f17e225]:
+                          - link "1" [ref=f17e226] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f17e227]: "1"
+                - generic [ref=f17e231]:
+                  - generic [ref=f17e233]:
+                    - generic [ref=f17e234]:
+                      - link [ref=f17e235] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f17e238]
+                      - link [ref=f17e241] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                      - generic [ref=f17e246]:
+                        - generic [ref=f17e247]: ADTschool MFU
+                        - link "last Thursday" [ref=f17e248] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                          - generic [ref=f17e249]: last Thursday
+                    - generic [ref=f17e253]:
+                      - link [ref=f17e257] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=1388637443307669&set=a.559968629507892&type=3&ref=embed_page
+                      - generic [ref=f17e258]:
+                        - 'link "Student Union of MFU : อบ.มฟล" [ref=f17e261] [cursor=pointer]':
+                          - /url: https://www.facebook.com/mfu.su?hc_ref=ARQ9sHFbcyBmxEDUgn8aQT3-ARgksfx_WJ0yXhGlH85Kl3Z4qoetTKPIOstA_gNasRY&fref=nf&ref=embed_page
+                        - generic [ref=f17e263]:
+                          - generic [ref=f17e264]: 30,229 followers
+                          - text: ·
+                          - generic [ref=f17e266]:
+                            - link "6d" [ref=f17e267] [cursor=pointer]:
+                              - /url: https://www.facebook.com/photo.php?fbid=1388637443307669&set=a.559968629507892&type=3&ref=embed_page
+                              - generic [ref=f17e268]: 6d
+                            - text: ·
+                            - link "YOUNGOHM" [ref=f17e271] [cursor=pointer]:
+                              - /url: https://facebook.com/YOUNGOHMBKK?ref=embed_page
+                        - generic [ref=f17e273]:
+                          - paragraph [ref=f17e274]:
+                            - text: บี๋ค้าบบ สามารถมารับแมสฟรีกันได้น้าา คนละ 1 ชิ้น
+                            - text: เวลา 12:00 ณ โรงอาหาร D1 และ
+                            - text: เวลา 17:00 ณ ตลาดนัดนักศึกษา (L-PARK)
+                          - paragraph [ref=f17e275]:
+                            - text: Hey everyone! You can come and get a free ma
+                            - generic [ref=f17e276]: ...
+                          - button "See more" [ref=f17e279] [cursor=pointer]
+                  - table [ref=f17e281]:
+                    - rowgroup [ref=f17e282]:
+                      - row "2 Comment Share" [ref=f17e283]:
+                        - cell "2" [ref=f17e284]:
+                          - button "2" [ref=f17e285]:
+                            - generic "Like" [ref=f17e286] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f17e288]:
+                          - link "Comment" [ref=f17e289] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                            - generic "Comment" [ref=f17e290]: Comment
+                        - cell "Share" [ref=f17e292]:
+                          - link "Share" [ref=f17e293] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f17e294]: Share
+                - generic [ref=f17e298]:
+                  - generic [ref=f17e299]:
+                    - link [ref=f17e304] [cursor=pointer]:
+                      - /url: https://www.facebook.com/photo.php?fbid=1406819724791995&set=a.691821482958493&type=3&ref=embed_page
+                    - generic [ref=f17e305]:
+                      - generic [ref=f17e306]:
+                        - link [ref=f17e307] [cursor=pointer]:
+                          - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                          - img [ref=f17e310]
+                        - link [ref=f17e313] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                        - generic [ref=f17e318]:
+                          - generic [ref=f17e319]: ADTschool MFU
+                          - link "about a week ago" [ref=f17e320] [cursor=pointer]:
+                            - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                            - generic [ref=f17e321]: about a week ago
+                      - generic [ref=f17e323]:
+                        - paragraph [ref=f17e324]:
+                          - generic [ref=f17e326]: 📢
+                          - text: ประชาสัมพันธ์ แบบสำรวจความคิดเห็นผู้ปกครองของผู้สำเร็จการศึกษา รุ่นปีการศึกษา 2567
+                        - paragraph [ref=f17e327]:
+                          - generic [ref=f17e329]: 📌
+                          - text: เพื่อสำรวจความคิดเห็นผู้ปกครองของผู้สำเร็จการศึกษารุ่นปีการศึกษา 2567 ซึ่งเป็นผู้มีส่วนได้ส่วนเสียสำคัญของมหาวิทยาลัยเนื่องจากเป็นผู้รับผิดชอบและสนับสนุนค่าใช้จ่ายให้กับผู้สำเร็จการศึกษา โดยผลการสำรวจจะถูกนำมาวิเคราะห์เพื่อเป็นประโยชน์ต่อการพัฒนาปรับปรุงคุณภาพบัณฑิตและการจัดการเรียนการสอน
+                        - paragraph [ref=f17e330]:
+                          - text: "Link:"
+                          - link "https://forms.gle/uDBnbbUEmnBxVJ1J9" [ref=f17e331] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FuDBnbbUEmnBxVJ1J9&h=AT6XO1dJQaNZ6pbP9OrLm0mN_hUgCyrJYaDTjsDOPQmb-TEZ1mEs-m6vAyrmyfksc-iqTQ9kE5hDCf8_WeDt6a95vvjK5PZlVTUlCx-gSbQrDn_9CczkgnkkrkyG16VoQdyXt59wF2XuRlyljMpPzndYIOZVfUMR_Vk8fDk
+                        - generic [ref=f17e332]: ...
+                        - link "See more" [ref=f17e335] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                  - table [ref=f17e337]:
+                    - rowgroup [ref=f17e338]:
+                      - row "2 Comment Share" [ref=f17e339]:
+                        - cell "2" [ref=f17e340]:
+                          - button "2" [ref=f17e341]:
+                            - generic "Like" [ref=f17e342] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f17e344]:
+                          - link "Comment" [ref=f17e345] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                            - generic "Comment" [ref=f17e346]: Comment
+                        - cell "Share" [ref=f17e348]:
+                          - link "Share" [ref=f17e349] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f17e350]: Share
+              - progressbar [ref=f17e353]
+              - link "Find us on Facebook" [ref=f17e354] [cursor=pointer]:
+                - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f17e355]: Find us on Facebook
+  - img "มหาวิทยาลัยแม่ฟ้าหลวงน้อมรำลึกในพระมหากรุณาธิคุณ สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง" [ref=e815]

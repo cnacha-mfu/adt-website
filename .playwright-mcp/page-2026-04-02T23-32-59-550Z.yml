@@ -1,0 +1,453 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - link "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e9] [cursor=pointer]:
+          - /url: https://adt.mfu.ac.th
+          - img "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [ref=e10]
+        - generic [ref=e12]:
+          - list [ref=e15]:
+            - listitem [ref=e16]:
+              - link "นักศึกษา" [ref=e17] [cursor=pointer]:
+                - /url: it-5433/it-5434.html
+            - listitem [ref=e18]:
+              - link "บุคลากร" [ref=e19] [cursor=pointer]:
+                - /url: it-5433/it-5435.html
+            - listitem [ref=e20]:
+              - link "นักศึกษาเก่า" [ref=e21] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/it-5433/it-5436.html
+            - listitem [ref=e22]:
+              - link "" [ref=e23] [cursor=pointer]:
+                - /url: https://adt.mfu.ac.th/adt-home/search.html
+                - generic [ref=e24]: 
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - link "A-" [ref=e28] [cursor=pointer]:
+                - /url: "#"
+              - link "A+" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: 
+              - text: 
+            - generic [ref=e35]:
+              - link "th" [ref=e37] [cursor=pointer]:
+                - /url: /faculty/executive-staff.html
+              - link "en" [ref=e39] [cursor=pointer]:
+                - /url: /en/faculty/executive-staff.html
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "หน้าแรก" [ref=e44] [cursor=pointer]:
+            - /url: /adt-home.html
+        - listitem [ref=e45]:
+          - 'generic "There are submenu below : hover to to check" [ref=e46] [cursor=pointer]': เกี่ยวกับสำนักวิชา
+        - listitem [ref=e47]:
+          - 'generic "There are submenu below : hover to to check" [ref=e48] [cursor=pointer]': บุคลากร
+        - listitem [ref=e49]:
+          - 'generic "There are submenu below : hover to to check" [ref=e50] [cursor=pointer]': หลักสูตร
+        - listitem [ref=e51]:
+          - 'generic "There are submenu below : hover to to check" [ref=e52] [cursor=pointer]': ประกาศ
+        - listitem [ref=e53]:
+          - 'generic "There are submenu below : hover to to check" [ref=e54] [cursor=pointer]': วิจัยและบริการวิชาการ
+        - listitem [ref=e55]:
+          - 'generic "There are submenu below : hover to to check" [ref=e56] [cursor=pointer]': ข่าว
+        - listitem [ref=e57]:
+          - 'generic "There are submenu below : hover to to check" [ref=e58] [cursor=pointer]': ระบบสารสนเทศภายใน
+        - listitem [ref=e59]:
+          - link "CI ADT" [ref=e60] [cursor=pointer]:
+            - /url: /ci-adt.html
+        - listitem [ref=e61]:
+          - link "ติดต่อสำนักวิชา" [ref=e62] [cursor=pointer]:
+            - /url: /it-contact.html
+      - text: 
+  - generic [ref=e65]:
+    - banner [ref=e67]:
+      - heading "Executive Staff" [level=2] [ref=e68]
+    - generic [ref=e71]:
+      - paragraph [ref=e72]
+      - paragraph [ref=e73]:
+        - strong [ref=e74]:
+          - text: รองศาสตราจารย์ ดร.นชา ชลดำรงค์กุล
+          - text: Assoc.Prof. Nacha Chondamrongkul, Ph.D.
+      - paragraph [ref=e75]:
+        - strong [ref=e76]: คณบดีสำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+      - paragraph [ref=e77]:
+        - img [ref=e78]
+        - text: 0 5391 6744
+        - img [ref=e79]
+        - strong [ref=e80]
+        - text: nacha.cho@mfu.ac.th
+        - strong [ref=e81]: ห้องทำงาน
+        - text: ": E3A-314/3"
+    - separator [ref=e83]
+    - generic [ref=e86]:
+      - paragraph [ref=e87]
+      - paragraph [ref=e88]:
+        - strong [ref=e89]:
+          - text: ผู้ช่วยศาสตราจารย์ ดร.วรศักดิ์ เรืองศิรรักษ์
+          - text: Asst.Prof. Worasak Rueangsirarak, Ph.D.
+      - paragraph [ref=e90]:
+        - strong [ref=e91]: รองคณบดี
+      - paragraph [ref=e92]:
+        - img [ref=e93]
+        - text: 0 5391 7198
+        - img [ref=e94]
+        - strong [ref=e95]
+        - text: worasak.rue@mfu.ac.th
+        - strong [ref=e96]: ห้องทำงาน
+        - text: ": E3A-314"
+    - separator [ref=e98]
+    - generic [ref=e100]:
+      - generic [ref=e104]:
+        - paragraph [ref=e105]
+        - paragraph [ref=e106]:
+          - strong [ref=e107]:
+            - text: ผู้ช่วยศาสตราจารย์ ดร.พฤทธิ์ พุฒจร
+            - text: Asst.Prof. Pruet Putjorn, Ph.D.
+        - paragraph [ref=e108]:
+          - strong [ref=e109]: ผู้ช่วยคณบดี
+        - paragraph [ref=e110]:
+          - img [ref=e111]
+          - text: "-"
+          - img [ref=e112]
+          - strong [ref=e113]
+          - text: pruet@mfu.ac.th
+          - strong [ref=e114]: ห้องทำงาน
+          - text: ": E3A-312"
+      - generic [ref=e118]:
+        - paragraph [ref=e119]
+        - paragraph [ref=e120]:
+          - strong [ref=e121]:
+            - text: อาจารย์ ดร.ปวีณา สืบสมบัติ
+            - text: Paweena Suebsombut, Ph.D.
+        - paragraph [ref=e122]:
+          - strong [ref=e123]: ผู้ช่วยคณบดี
+        - paragraph [ref=e124]:
+          - img [ref=e125]
+          - text: "-"
+          - img [ref=e126]
+          - strong [ref=e127]
+          - text: paweena.sue@mfu.ac.th
+          - strong [ref=e128]: ห้องทำงาน
+          - text: ": E3A-307"
+      - generic [ref=e132]:
+        - paragraph [ref=e133]
+        - paragraph [ref=e134]:
+          - strong [ref=e135]:
+            - text: อาจารย์ ดร.เขมชาติ เขมาวุฒานนท์
+            - text: Kemachart Kemavuthanon, Ph.D.
+        - paragraph [ref=e136]:
+          - strong [ref=e137]: ผู้ช่วยคณบดี
+        - paragraph [ref=e138]:
+          - img [ref=e139]
+          - text: "-"
+          - img [ref=e140]
+          - strong [ref=e141]
+          - text: Kemachart.kem@mfu.ac.th
+          - strong [ref=e142]: ห้องทำงาน
+          - text: ": E3A-307"
+  - contentinfo [ref=e143]:
+    - generic [ref=e146]:
+      - generic [ref=e148]:
+        - img "School of ADT" [ref=e149]
+        - heading "สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง" [level=2] [ref=e150]:
+          - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์
+          - text: มหาวิทยาลัยแม่ฟ้าหลวง
+      - generic [ref=e151]:
+        - heading "ติดต่อเรา" [level=3] [ref=e152]
+        - list [ref=e153]:
+          - listitem [ref=e154]: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง
+          - listitem [ref=e155]: 333 หมู่ 1 ตำบลท่าสุด อำเภอเมือง
+          - listitem [ref=e156]: จังหวัดเชียงราย 57100
+          - listitem [ref=e157]:
+            - text: โทรศัพท์.
+            - link "0-5391-6741" [ref=e158] [cursor=pointer]:
+              - /url: tel:0-5391-6741
+            - text: ","
+            - link "0-5391-6742" [ref=e159] [cursor=pointer]:
+              - /url: tel:0-5391-6742
+          - listitem [ref=e160]:
+            - text: โทรสาร.
+            - link "0-5391-6743" [ref=e161] [cursor=pointer]:
+              - /url: tel:0-5391-6743
+          - listitem [ref=e162]:
+            - text: "อีเมล:"
+            - link "adtschool@mfu.ac.th" [ref=e163] [cursor=pointer]:
+              - /url: mailto:adt@mfu.ac.th
+        - list [ref=e164]:
+          - listitem [ref=e165]:
+            - link "" [ref=e166] [cursor=pointer]:
+              - /url: https://www.facebook.com/adtschoolmfu
+              - generic [ref=e167]: 
+          - listitem [ref=e168]:
+            - link "" [ref=e169] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCbvvlT0UyZHCYdPTXL7vHXQ/featured
+              - generic [ref=e170]: 
+      - iframe [ref=e173]:
+        - generic [ref=f15e3]:
+          - link:
+            - /url: https://www.facebook.com/adtschoolmfu?ref=embed_page
+          - generic [ref=f15e6]:
+            - generic [ref=f15e8]:
+              - generic [ref=f15e9]:
+                - link [ref=f15e10] [cursor=pointer]:
+                  - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f15e11]:
+                  - link "ADTschool MFU" [ref=f15e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                  - generic [ref=f15e14]: 6,468 followers
+              - generic [ref=f15e15]:
+                - button "Follow Page" [ref=f15e19] [cursor=pointer]: Follow Page
+                - link "Share" [ref=f15e21] [cursor=pointer]:
+                  - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F145344555508195&display=popup&ref=embed_page&src=page
+                  - button "Share" [ref=f15e22]: Share
+            - generic [ref=f15e30]:
+              - feed [ref=f15e32]:
+                - generic [ref=f15e35]:
+                  - generic [ref=f15e36]:
+                    - link [ref=f15e41] [cursor=pointer]:
+                      - /url: https://www.facebook.com/photo.php?fbid=1412818637525437&set=a.691821482958493&type=3&ref=embed_page
+                    - generic [ref=f15e42]:
+                      - generic [ref=f15e43]:
+                        - link [ref=f15e44] [cursor=pointer]:
+                          - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                          - img [ref=f15e47]
+                        - link [ref=f15e50] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                        - generic [ref=f15e55]:
+                          - generic [ref=f15e56]: ADTschool MFU
+                          - link "16 hours ago" [ref=f15e57] [cursor=pointer]:
+                            - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                            - generic [ref=f15e58]: 16 hours ago
+                      - generic [ref=f15e60]:
+                        - paragraph [ref=f15e61]:
+                          - text: English Below
+                          - text: "["
+                          - generic [ref=f15e63]: 🚨
+                          - text: โอกาสสุดท้าย! วันนี้วันสุดท้ายเท่านั้น!
+                          - generic [ref=f15e65]: 🚨
+                          - text: "]"
+                        - paragraph [ref=f15e66]:
+                          - text: อยากอัปเกรดตัวเองให้เป็น "ผู้นำ" รุ่นใหม่ที่มี Mindset ปังกว่าเดิมไหม?
+                          - generic [ref=f15e68]: 🚀
+                          - text: กับกิจกรรม "Leadership and Growth Mindset" (Student Skills Development Program ครั้งที่3)
+                        - generic [ref=f15e69]: ...
+                        - link "See more" [ref=f15e72] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                  - table [ref=f15e74]:
+                    - rowgroup [ref=f15e75]:
+                      - row "2 Comment Share" [ref=f15e76]:
+                        - cell "2" [ref=f15e77]:
+                          - button "2" [ref=f15e78]:
+                            - generic "Like" [ref=f15e79] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f15e81]:
+                          - link "Comment" [ref=f15e82] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl?ref=embed_page
+                            - generic "Comment" [ref=f15e83]: Comment
+                        - cell "Share" [ref=f15e85]:
+                          - link "Share" [ref=f15e86] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0n8dtH8RKLLrmgru3prjL5Ph2fRTPpLsbkwV7u8TegtJbJPw8CMHfoUwxwLBk9N3Yl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f15e87]: Share
+                - generic [ref=f15e91]:
+                  - generic [ref=f15e93]:
+                    - generic [ref=f15e94]:
+                      - link [ref=f15e95] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f15e98]
+                      - link [ref=f15e101] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                      - generic [ref=f15e106]:
+                        - generic [ref=f15e107]: ADTschool MFU
+                        - link "19 hours ago" [ref=f15e108] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                          - generic [ref=f15e109]: 19 hours ago
+                    - generic [ref=f15e111]:
+                      - paragraph [ref=f15e112]:
+                        - generic [ref=f15e114]: 📌
+                        - text: สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ จัดโครงการ HACK-APG มุ่งสร้างนวัตกรดิจิทัลรุ่นเยาว์ผ่านการแข่งขัน AI & UX/UI Hackathon
+                      - paragraph [ref=f15e115]:
+                        - text: "เมื่อวันที่ 28-29 มีนาคม 2569 ที่ผ่านมา สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง เตรียมจัดโครงการแข่งขัน AI & UX/UI Software Programming Hackathon: Innovating the Future of Digital Solutions (HACK-APG) ณ อาคารศูนย์การเรียนรู้ภาษา (S7A-401) โดยมีวัตถุประสงค์หลักเพื่อยกระดับคุณภาพกิจกรรมการเรียนรู้ และบูรณาการองค์ความรู้ระหว่างนักศึกษาระดับอุ"
+                        - generic [ref=f15e116]: ...
+                      - link "See more" [ref=f15e119] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                    - generic [ref=f15e123]:
+                      - img "May be an image of one or more people and text that says \"ADT 三 ADT- ADT-NWa มฟล. จัด กิจ จัดกิจกรร กรร ระหว่างวันที่ 28- 28-29 29 มีนาคม 25\"" [ref=f15e126]
+                      - img "May be an image of text that says \"दमज Jun Hack ๕๘ ม MediHack- Junior 69 ณ มหาวิทยาลัยแม่ฟ้าหลวง\"" [ref=f15e129]
+                      - img "May be an image of studying and text" [ref=f15e132]
+                      - img "May be an image of studying and text" [ref=f15e135]
+                      - generic [ref=f15e136]:
+                        - img "May be an image of ‎map and ‎text that says \"‎VENTEX Freeze 4 ء 타대의 Mum س lack Junior ل Mediha Medi Hack Junior 2026 Hackathon -Hack حل 小 MediHack Junior Hackathon CRPROSCHOO DCRPROSCHOOL CAPRO SCHOOL‎\"‎‎" [ref=f15e138]
+                        - generic [ref=f15e141]: "+10"
+                  - table [ref=f15e143]:
+                    - rowgroup [ref=f15e144]:
+                      - row "18 Comment 2" [ref=f15e145]:
+                        - cell "18" [ref=f15e146]:
+                          - button "18" [ref=f15e147]:
+                            - generic "Like" [ref=f15e148] [cursor=pointer]: "18"
+                        - cell "Comment" [ref=f15e150]:
+                          - link "Comment" [ref=f15e151] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl?ref=embed_page
+                            - generic "Comment" [ref=f15e152]: Comment
+                        - cell "2" [ref=f15e154]:
+                          - link "2" [ref=f15e155] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0WHR1n3BBQgGitenDzXurYYCzSboNBvHAQmDHHGT5ELkqEY46Zb6K1VoLhrNxY5QJl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f15e156]: "2"
+                - generic [ref=f15e160]:
+                  - generic [ref=f15e162]:
+                    - generic [ref=f15e163]:
+                      - link [ref=f15e164] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f15e167]
+                      - link [ref=f15e170] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                      - generic [ref=f15e175]:
+                        - generic [ref=f15e176]: ADTschool MFU
+                        - link "on Sunday" [ref=f15e177] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                          - generic [ref=f15e178]: on Sunday
+                    - generic [ref=f15e179]:
+                      - paragraph [ref=f15e180]: We care about you! >> PM2.5 Air Pollution Advisory
+                      - paragraph [ref=f15e181]:
+                        - link "#maskon" [ref=f15e182] [cursor=pointer]:
+                          - /url: /hashtag/maskon?__eep__=6&fref=mentions&ref=embed_page
+                        - link "#mfucares" [ref=f15e183] [cursor=pointer]:
+                          - /url: /hashtag/mfucares?__eep__=6&fref=mentions&ref=embed_page
+                    - generic [ref=f15e187]:
+                      - link [ref=f15e191] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=122209269308348486&set=a.122108433308348486&type=3&ref=embed_page
+                      - generic [ref=f15e192]:
+                        - link "ม.แม่ฟ้าหลวง Mae Fah Luang University" [ref=f15e195] [cursor=pointer]:
+                          - /url: https://www.facebook.com/MFU2Connect?hc_ref=ARSiKXTrGtvWnJL9w14hXc9e7fZUI8NzAhrhQNwYtacyGer7Z88W-vurDJfmJHDz9xI&fref=nf&ref=embed_page
+                        - generic [ref=f15e197]:
+                          - generic [ref=f15e198]: · 26,055 followers
+                          - text: ·
+                          - link "6d" [ref=f15e201] [cursor=pointer]:
+                            - /url: https://www.facebook.com/photo.php?fbid=122209269308348486&set=a.122108433308348486&type=3&ref=embed_page
+                            - generic [ref=f15e202]: 6d
+                        - generic [ref=f15e204]:
+                          - paragraph [ref=f15e205]:
+                            - text: "[English Below]"
+                            - link "#MFUPR" [ref=f15e206] [cursor=pointer]:
+                              - /url: /hashtag/mfupr?__eep__=6&fref=mentions&ref=embed_page
+                            - link "#ดินดินห่วงใย" [ref=f15e207] [cursor=pointer]:
+                              - /url: /hashtag/ดินดินห่วงใย?__eep__=6&fref=mentions&ref=embed_page
+                          - paragraph [ref=f15e208]:
+                            - text: แจ้งเตือนค่าฝุ่นละออง มีผลกระทบต่อสุขภาพ ขอให้นักศึกษา บุคลากรและประชาชน สวมหน้ากากอนามัยที่ป้องกันฝุ่นขนาดเล็ก PM2.5 ทุกค
+                            - generic [ref=f15e209]: ...
+                          - button "See more" [ref=f15e212] [cursor=pointer]
+                  - table [ref=f15e214]:
+                    - rowgroup [ref=f15e215]:
+                      - row "6 Comment 1" [ref=f15e216]:
+                        - cell "6" [ref=f15e217]:
+                          - button "6" [ref=f15e218]:
+                            - generic "Like" [ref=f15e219] [cursor=pointer]: "6"
+                        - cell "Comment" [ref=f15e221]:
+                          - link "Comment" [ref=f15e222] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql?ref=embed_page
+                            - generic "Comment" [ref=f15e223]: Comment
+                        - cell "1" [ref=f15e225]:
+                          - link "1" [ref=f15e226] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid035QkKRay8d8gaxFNXbxstKtyF4ihD6dzxfJ3Mj2y9A3fBLrAHo6KgTBAtxeSu3qgql&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f15e227]: "1"
+                - generic [ref=f15e231]:
+                  - generic [ref=f15e233]:
+                    - generic [ref=f15e234]:
+                      - link [ref=f15e235] [cursor=pointer]:
+                        - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                        - img [ref=f15e238]
+                      - link [ref=f15e241] [cursor=pointer]:
+                        - /url: /adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                      - generic [ref=f15e246]:
+                        - generic [ref=f15e247]: ADTschool MFU
+                        - link "last Thursday" [ref=f15e248] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                          - generic [ref=f15e249]: last Thursday
+                    - generic [ref=f15e253]:
+                      - link [ref=f15e257] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=1388637443307669&set=a.559968629507892&type=3&ref=embed_page
+                      - generic [ref=f15e258]:
+                        - 'link "Student Union of MFU : อบ.มฟล" [ref=f15e261] [cursor=pointer]':
+                          - /url: https://www.facebook.com/mfu.su?hc_ref=ARQtx_GgeIgkdm3j7WK-h5TTBFWZbOk3CVbbx4Lph6rM6tnTJ6Sn3yVzgK-FeL5QVGQ&fref=nf&ref=embed_page
+                        - generic [ref=f15e263]:
+                          - generic [ref=f15e264]: 30,229 followers
+                          - text: ·
+                          - generic [ref=f15e266]:
+                            - link "6d" [ref=f15e267] [cursor=pointer]:
+                              - /url: https://www.facebook.com/photo.php?fbid=1388637443307669&set=a.559968629507892&type=3&ref=embed_page
+                              - generic [ref=f15e268]: 6d
+                            - text: ·
+                            - link "YOUNGOHM" [ref=f15e271] [cursor=pointer]:
+                              - /url: https://facebook.com/YOUNGOHMBKK?ref=embed_page
+                        - generic [ref=f15e273]:
+                          - paragraph [ref=f15e274]:
+                            - text: บี๋ค้าบบ สามารถมารับแมสฟรีกันได้น้าา คนละ 1 ชิ้น
+                            - text: เวลา 12:00 ณ โรงอาหาร D1 และ
+                            - text: เวลา 17:00 ณ ตลาดนัดนักศึกษา (L-PARK)
+                          - paragraph [ref=f15e275]:
+                            - text: Hey everyone! You can come and get a free ma
+                            - generic [ref=f15e276]: ...
+                          - button "See more" [ref=f15e279] [cursor=pointer]
+                  - table [ref=f15e281]:
+                    - rowgroup [ref=f15e282]:
+                      - row "2 Comment Share" [ref=f15e283]:
+                        - cell "2" [ref=f15e284]:
+                          - button "2" [ref=f15e285]:
+                            - generic "Like" [ref=f15e286] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f15e288]:
+                          - link "Comment" [ref=f15e289] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l?ref=embed_page
+                            - generic "Comment" [ref=f15e290]: Comment
+                        - cell "Share" [ref=f15e292]:
+                          - link "Share" [ref=f15e293] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0MBpatBh4J4Tux8pVt3E4xsxBdyfuSJMeenCjZkugbvsJvvBcYzAhGtc5xXyasFD6l&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f15e294]: Share
+                - generic [ref=f15e298]:
+                  - generic [ref=f15e299]:
+                    - link [ref=f15e304] [cursor=pointer]:
+                      - /url: https://www.facebook.com/photo.php?fbid=1406819724791995&set=a.691821482958493&type=3&ref=embed_page
+                    - generic [ref=f15e305]:
+                      - generic [ref=f15e306]:
+                        - link [ref=f15e307] [cursor=pointer]:
+                          - /url: https://www.facebook.com/adtschoolmfu?fref=nf&ref=embed_page
+                          - img [ref=f15e310]
+                        - link [ref=f15e313] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                        - generic [ref=f15e318]:
+                          - generic [ref=f15e319]: ADTschool MFU
+                          - link "about a week ago" [ref=f15e320] [cursor=pointer]:
+                            - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                            - generic [ref=f15e321]: about a week ago
+                      - generic [ref=f15e323]:
+                        - paragraph [ref=f15e324]:
+                          - generic [ref=f15e326]: 📢
+                          - text: ประชาสัมพันธ์ แบบสำรวจความคิดเห็นผู้ปกครองของผู้สำเร็จการศึกษา รุ่นปีการศึกษา 2567
+                        - paragraph [ref=f15e327]:
+                          - generic [ref=f15e329]: 📌
+                          - text: เพื่อสำรวจความคิดเห็นผู้ปกครองของผู้สำเร็จการศึกษารุ่นปีการศึกษา 2567 ซึ่งเป็นผู้มีส่วนได้ส่วนเสียสำคัญของมหาวิทยาลัยเนื่องจากเป็นผู้รับผิดชอบและสนับสนุนค่าใช้จ่ายให้กับผู้สำเร็จการศึกษา โดยผลการสำรวจจะถูกนำมาวิเคราะห์เพื่อเป็นประโยชน์ต่อการพัฒนาปรับปรุงคุณภาพบัณฑิตและการจัดการเรียนการสอน
+                        - paragraph [ref=f15e330]:
+                          - text: "Link:"
+                          - link "https://forms.gle/uDBnbbUEmnBxVJ1J9" [ref=f15e331] [cursor=pointer]:
+                            - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FuDBnbbUEmnBxVJ1J9&h=AT79XS-FCspP_V9YD9C2qfCeWa0Q1BY3gNujS14-vjPhDkxd8q0w1aHNKRKwnWElItDpNIvNgjvgN6hVIP7dIH5PFW6PI4kPegEblZVBsStuM2yabXh55wsCin0hk4qgvrzBrjhPknP8QMikYMaSBoFQMz7Zsww4jPS6IUA
+                        - generic [ref=f15e332]: ...
+                        - link "See more" [ref=f15e335] [cursor=pointer]:
+                          - /url: /adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                  - table [ref=f15e337]:
+                    - rowgroup [ref=f15e338]:
+                      - row "2 Comment Share" [ref=f15e339]:
+                        - cell "2" [ref=f15e340]:
+                          - button "2" [ref=f15e341]:
+                            - generic "Like" [ref=f15e342] [cursor=pointer]: "2"
+                        - cell "Comment" [ref=f15e344]:
+                          - link "Comment" [ref=f15e345] [cursor=pointer]:
+                            - /url: https://www.facebook.com/adtschoolmfu/posts/pfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl?ref=embed_page
+                            - generic "Comment" [ref=f15e346]: Comment
+                        - cell "Share" [ref=f15e348]:
+                          - link "Share" [ref=f15e349] [cursor=pointer]:
+                            - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fadtschoolmfu%2Fposts%2Fpfbid0AbWncBJnDc9ZaSaBDKDK3v7DkgstwiKinrdEgqyCwy7JKo7LxfXdHQ42mRCqgDjZl&display=popup&ref=embed_page&src=post
+                            - generic "Share" [ref=f15e350]: Share
+              - progressbar [ref=f15e353]
+              - link "Find us on Facebook" [ref=f15e354] [cursor=pointer]:
+                - /url: https://www.facebook.com/145344555508195?ref=embed_page
+                - generic [ref=f15e355]: Find us on Facebook
+  - img "มหาวิทยาลัยแม่ฟ้าหลวงน้อมรำลึกในพระมหากรุณาธิคุณ สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง" [ref=e175]

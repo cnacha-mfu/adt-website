@@ -1,0 +1,20 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: ADT
+      - heading "Admin Portal" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Sign in to manage the ADT website
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: Password
+        - textbox "Enter admin password" [active] [ref=e11]
+      - button "Sign In" [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+        - text: Sign In
+      - link "Back to website" [ref=e15] [cursor=pointer]:
+        - /url: /
+        - img [ref=e16]
+        - text: Back to website
+  - button "Open Next.js Dev Tools" [ref=e23] [cursor=pointer]:
+    - img [ref=e24]
+  - alert [ref=e27]
