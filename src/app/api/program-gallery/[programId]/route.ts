@@ -8,7 +8,7 @@ import { getGallery, addGalleryImage } from '@/lib/db';
 export async function GET(_: NextRequest, { params }: { params: Promise<{ programId: string }> }) {
   try {
     const { programId } = await params;
-    return NextResponse.json({ images: getGallery(programId) });
+    return NextResponse.json({ images: await getGallery(programId) });
   } catch (err) {
     return NextResponse.json({ error: String(err) }, { status: 500 });
   }
@@ -32,7 +32,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ pro
     fs.writeFileSync(path.join(uploadDir, filename), Buffer.from(bytes));
 
     const url = `/uploads/programs/${programId}/gallery/${filename}`;
-    const image = addGalleryImage(programId, url, caption, captionTH);
+    const image = await addGalleryImage(programId, url, caption, captionTH);
     return NextResponse.json({ image });
   } catch (err) {
     return NextResponse.json({ error: String(err) }, { status: 500 });

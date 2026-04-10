@@ -1,0 +1,38 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://adt:${POSTGRES_PASSWORD:-changeme}@db:5432/adt
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      RESEND_FROM: ${RESEND_FROM:-ADT Hotline <onboarding@resend.dev>}
+      RESEND_TO: ${RESEND_TO:-adt-school@mfu.ac.th}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      # Runtime uploads persist across container restarts and redeploys.
+      # On first volume creation Docker seeds it with the image's public/uploads contents.
+      - uploads:/app/public/uploads
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: adt
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: adt
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U adt -d adt"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:   # PostgreSQL data — survives container restarts
+  uploads:  # Uploaded images — survives container restarts

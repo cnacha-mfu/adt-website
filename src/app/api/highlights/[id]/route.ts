@@ -10,7 +10,7 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    const highlight = updateHighlight(id, body);
+    const highlight = await updateHighlight(id, body);
     if (!highlight) {
       return NextResponse.json({ error: 'Highlight not found' }, { status: 404 });
     }
@@ -27,7 +27,7 @@ export async function DELETE(
 ) {
   try {
     const { id } = await params;
-    deleteHighlight(id);
+    await deleteHighlight(id);
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error('[DELETE /api/highlights/[id]]', err);

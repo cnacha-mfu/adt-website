@@ -5,7 +5,7 @@ import { getAllHighlights, createHighlight } from '@/lib/db';
 
 export async function GET() {
   try {
-    const highlights = getAllHighlights();
+    const highlights = await getAllHighlights();
     return NextResponse.json({ highlights });
   } catch (err) {
     console.error('[GET /api/highlights]', err);
@@ -16,7 +16,7 @@ export async function GET() {
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const highlight = createHighlight(body);
+    const highlight = await createHighlight(body);
     return NextResponse.json({ highlight }, { status: 201 });
   } catch (err) {
     console.error('[POST /api/highlights]', err);

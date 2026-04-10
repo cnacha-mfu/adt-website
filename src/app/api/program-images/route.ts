@@ -5,7 +5,7 @@ import { getProgramImages, setProgramImage } from '@/lib/db';
 
 export async function GET() {
   try {
-    const images = getProgramImages();
+    const images = await getProgramImages();
     return NextResponse.json({ images });
   } catch (err) {
     console.error('[GET /api/program-images]', err);
@@ -19,7 +19,7 @@ export async function PUT(request: Request) {
     if (!programId || !url) {
       return NextResponse.json({ error: 'programId and url are required' }, { status: 400 });
     }
-    setProgramImage(programId, url);
+    await setProgramImage(programId, url);
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error('[PUT /api/program-images]', err);

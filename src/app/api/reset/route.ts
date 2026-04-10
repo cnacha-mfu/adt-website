@@ -5,7 +5,7 @@ import { resetToDefaults } from '@/lib/db';
 
 export async function POST() {
   try {
-    resetToDefaults();
+    await resetToDefaults();
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error('[POST /api/reset]', err);

@@ -28,9 +28,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# SQLite WAL temp files (DB itself is committed)
-data/*.db-shm
-data/*.db-wal
+# SQLite leftovers (no longer used)
+data/
+
+# Docker local overrides
+.env
 
 # Playwright MCP logs & snapshots
 .playwright-mcp/

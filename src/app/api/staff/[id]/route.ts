@@ -10,7 +10,7 @@ export async function PUT(
   try {
     const { id } = await params;
     const body = await request.json();
-    const staff = updateStaff(id, body);
+    const staff = await updateStaff(id, body);
     if (!staff) {
       return NextResponse.json({ error: 'Staff member not found' }, { status: 404 });
     }
@@ -27,7 +27,7 @@ export async function DELETE(
 ) {
   try {
     const { id } = await params;
-    deleteStaff(id);
+    await deleteStaff(id);
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error('[DELETE /api/staff/[id]]', err);
