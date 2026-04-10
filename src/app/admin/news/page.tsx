@@ -140,8 +140,9 @@ function FacebookImportModal({
 
               {/* Image preview */}
               {result.image && !result.image.includes('placehold.co') && (
-                <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-border">
-                  <Image src={result.image} alt="preview" fill className="object-cover" unoptimized />
+                <div className="w-full rounded-xl overflow-hidden border border-border">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={result.image} alt="preview" className="w-full object-cover max-h-64" />
                 </div>
               )}
 

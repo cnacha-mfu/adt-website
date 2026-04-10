@@ -93,8 +93,8 @@ export default function NewsSection() {
   const activeNews = data.news.filter(n => n.active).sort((a, b) =>
     new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
-  const featured = activeNews.filter(n => n.featured).slice(0, 2);
-  const regular = activeNews.filter(n => !n.featured).slice(0, 4);
+  const featured = activeNews.slice(0, 2);
+  const regular = activeNews.slice(2, 6);
 
   if (!activeNews.length) return null;
 

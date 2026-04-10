@@ -1,7 +1,6 @@
 'use client';
 
 import { useRef, useState } from 'react';
-import Image from 'next/image';
 import { RiUploadCloud2Line, RiDeleteBinLine, RiLinkM } from 'react-icons/ri';
 
 interface Props {
@@ -84,7 +83,8 @@ export default function ImageUpload({
       {/* Preview */}
       {hasImage && (
         <div className={`relative w-full ${aspectRatio} mb-2 rounded-xl overflow-hidden border border-border group`}>
-          <Image src={value} alt="Preview" fill className="object-cover" unoptimized />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={value} alt="Preview" className="absolute inset-0 w-full h-full object-cover" />
           <button
             type="button"
             onClick={() => onChange('')}
