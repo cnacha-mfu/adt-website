@@ -3,6 +3,28 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
+// Abstract IT shapes — wireframe geometric primitives orbiting the globe
+const SHAPE_DEFS = [
+  { type: 'box',         size: 1.6, color: 0x0CC8D4 },
+  { type: 'octahedron',  size: 1.3, color: 0x22EBF8 },
+  { type: 'icosahedron', size: 1.1, color: 0xF5A623 },
+  { type: 'box',         size: 0.9, color: 0x22EBF8 },
+  { type: 'tetrahedron', size: 1.4, color: 0x0CC8D4 },
+  { type: 'octahedron',  size: 0.8, color: 0xF5A623 },
+  { type: 'icosahedron', size: 1.5, color: 0x0CC8D4 },
+  { type: 'box',         size: 1.2, color: 0xF5A623 },
+  { type: 'tetrahedron', size: 1.0, color: 0x22EBF8 },
+  { type: 'icosahedron', size: 0.9, color: 0xF5A623 },
+  { type: 'octahedron',  size: 1.4, color: 0x0CC8D4 },
+  { type: 'box',         size: 1.1, color: 0x22EBF8 },
+  { type: 'tetrahedron', size: 1.3, color: 0x0CC8D4 },
+  { type: 'icosahedron', size: 1.0, color: 0xF5A623 },
+  { type: 'octahedron',  size: 1.2, color: 0x22EBF8 },
+  { type: 'box',         size: 0.8, color: 0x0CC8D4 },
+  { type: 'tetrahedron', size: 1.5, color: 0xF5A623 },
+  { type: 'icosahedron', size: 1.3, color: 0x22EBF8 },
+] as const;
+
 export default function ThreeBackground() {
   const mountRef = useRef<HTMLDivElement>(null);
 
@@ -68,7 +90,6 @@ export default function ThreeBackground() {
     pGeo.setAttribute('aColor',   new THREE.BufferAttribute(colArr, 3));
     pGeo.setAttribute('aSize',    new THREE.BufferAttribute(sizeArr, 1));
 
-    // ── Theme detection ────────────────────────────────────────────────────────
     let isLight = document.documentElement.classList.contains('light');
 
     const pMat = new THREE.ShaderMaterial({
@@ -101,8 +122,8 @@ export default function ThreeBackground() {
         }
       `,
       transparent: true,
-      blending:    isLight ? THREE.NormalBlending : THREE.AdditiveBlending,
-      depthWrite:  false,
+      blending:   isLight ? THREE.NormalBlending : THREE.AdditiveBlending,
+      depthWrite: false,
     });
 
     const particles = new THREE.Points(pGeo, pMat);
@@ -111,7 +132,7 @@ export default function ThreeBackground() {
     // ── Geometry anchor ───────────────────────────────────────────────────────
     const GX = 14, GY = 0, GZ = 2;
 
-    // ── 1. Digital Globe (wireframe sphere = global network) ──────────────────
+    // ── 1. Digital Globe (wireframe sphere) ───────────────────────────────────
     const globeGeo   = new THREE.SphereGeometry(14, 20, 14);
     const globeEdges = new THREE.EdgesGeometry(globeGeo);
     const globeMat   = new THREE.LineBasicMaterial({
@@ -122,122 +143,145 @@ export default function ThreeBackground() {
     globe.position.set(GX, GY, GZ);
     scene.add(globe);
 
-    // ── 2. Network graph (nodes + edges = data network / neural net) ──────────
-    const NODE_COUNT = isMobile ? 14 : 26;
-    const nodePositions: THREE.Vector3[] = [];
-    for (let i = 0; i < NODE_COUNT; i++) {
-      const theta = Math.random() * Math.PI * 2;
+    // ── 2. Abstract IT shape constellation ────────────────────────────────────
+    // Wireframe geometric primitives (boxes, octahedra, icosahedra, tetrahedra)
+    // with circuit-board connection lines — evokes data structures, 3D rendering,
+    // network topology, and computational geometry
+    const abstractGroup = new THREE.Group();
+    abstractGroup.position.set(GX, GY, GZ);
+    scene.add(abstractGroup);
+
+    const ACTIVE_SHAPES = isMobile ? SHAPE_DEFS.slice(0, 10) : SHAPE_DEFS;
+    const shapeMeshes:  THREE.LineSegments[] = [];
+    const shapeEdgeGeos: THREE.EdgesGeometry[] = [];
+    const shapeMats:    THREE.LineBasicMaterial[] = [];
+    const shapeSpinX:   number[] = [];
+    const shapeSpinY:   number[] = [];
+    const shapeSpinZ:   number[] = [];
+    const shapePhases:  number[] = [];
+    const localPositions: THREE.Vector3[] = [];
+
+    ACTIVE_SHAPES.forEach((def, i) => {
+      // Distribute at varying radii so shapes cluster around (not just on) the globe
+      const r     = 14 + Math.random() * 14;
+      const theta = (i / ACTIVE_SHAPES.length) * Math.PI * 2 + Math.random() * 0.8;
       const phi   = Math.acos(2 * Math.random() - 1);
-      const r     = 17 + Math.random() * 7;
-      nodePositions.push(new THREE.Vector3(
+      const pos   = new THREE.Vector3(
         r * Math.sin(phi) * Math.cos(theta),
         r * Math.sin(phi) * Math.sin(theta) * 0.65,
         r * Math.cos(phi)
-      ));
-    }
+      );
+      localPositions.push(pos);
 
-    const edgeVerts: number[] = [];
-    for (let i = 0; i < NODE_COUNT; i++) {
-      for (let j = i + 1; j < NODE_COUNT; j++) {
-        if (nodePositions[i].distanceTo(nodePositions[j]) < 14) {
-          edgeVerts.push(nodePositions[i].x, nodePositions[i].y, nodePositions[i].z,
-                         nodePositions[j].x, nodePositions[j].y, nodePositions[j].z);
+      let srcGeo: THREE.BufferGeometry;
+      switch (def.type) {
+        case 'box':         srcGeo = new THREE.BoxGeometry(def.size, def.size, def.size); break;
+        case 'octahedron':  srcGeo = new THREE.OctahedronGeometry(def.size); break;
+        case 'icosahedron': srcGeo = new THREE.IcosahedronGeometry(def.size, 0); break;
+        default:            srcGeo = new THREE.TetrahedronGeometry(def.size); break;
+      }
+      const edges = new THREE.EdgesGeometry(srcGeo);
+      srcGeo.dispose();
+
+      const mat  = new THREE.LineBasicMaterial({
+        color: def.color, transparent: true, opacity: 0.55,
+        blending: THREE.AdditiveBlending,
+      });
+      const mesh = new THREE.LineSegments(edges, mat);
+      mesh.position.copy(pos);
+      mesh.rotation.set(
+        Math.random() * Math.PI * 2,
+        Math.random() * Math.PI * 2,
+        Math.random() * Math.PI * 2
+      );
+      abstractGroup.add(mesh);
+
+      shapeMeshes.push(mesh);
+      shapeEdgeGeos.push(edges);
+      shapeMats.push(mat);
+      shapeSpinX.push((Math.random() - 0.5) * 0.012);
+      shapeSpinY.push((Math.random() - 0.5) * 0.016);
+      shapeSpinZ.push((Math.random() - 0.5) * 0.010);
+      shapePhases.push(Math.random() * Math.PI * 2);
+    });
+
+    // Circuit-board connections between nearby shapes
+    const netVerts: number[] = [];
+    for (let i = 0; i < localPositions.length; i++) {
+      for (let j = i + 1; j < localPositions.length; j++) {
+        if (localPositions[i].distanceTo(localPositions[j]) < 15) {
+          const a = localPositions[i], b = localPositions[j];
+          netVerts.push(a.x, a.y, a.z, b.x, b.y, b.z);
         }
       }
     }
-    const netEdgeGeo = new THREE.BufferGeometry();
-    netEdgeGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(edgeVerts), 3));
-    const netEdgeMat = new THREE.LineBasicMaterial({
-      color: 0x0CC8D4, transparent: true, opacity: 0.18,
+    const netGeo = new THREE.BufferGeometry();
+    netGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(netVerts), 3));
+    const netMat = new THREE.LineBasicMaterial({
+      color: 0x0CC8D4, transparent: true, opacity: 0.10,
       blending: THREE.AdditiveBlending,
     });
-    const networkEdges = new THREE.LineSegments(netEdgeGeo, netEdgeMat);
-    networkEdges.position.set(GX, GY, GZ);
-    scene.add(networkEdges);
+    abstractGroup.add(new THREE.LineSegments(netGeo, netMat));
 
-    const nodePosF32 = new Float32Array(NODE_COUNT * 3);
-    nodePositions.forEach((p, i) => {
-      nodePosF32[i*3] = p.x; nodePosF32[i*3+1] = p.y; nodePosF32[i*3+2] = p.z;
-    });
-    const netNodeGeo = new THREE.BufferGeometry();
-    netNodeGeo.setAttribute('position', new THREE.BufferAttribute(nodePosF32, 3));
-    const netNodeMat = new THREE.PointsMaterial({
-      color: 0x22EBF8, size: 0.55, transparent: true, opacity: 0.90,
-      blending: THREE.AdditiveBlending, sizeAttenuation: true,
-    });
-    const networkNodes = new THREE.Points(netNodeGeo, netNodeMat);
-    networkNodes.position.set(GX, GY, GZ);
-    scene.add(networkNodes);
+    // ── 3. Orbit rings ────────────────────────────────────────────────────────
+    const makeRing = (radius: number, color: number, tiltX: number, tiltZ: number, baseOp: number) => {
+      const geo  = new THREE.TorusGeometry(radius, 0.06, 8, Math.round(radius * 10));
+      const mat  = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: baseOp, blending: THREE.AdditiveBlending });
+      const mesh = new THREE.Mesh(geo, mat);
+      mesh.position.set(GX, GY, GZ);
+      mesh.rotation.x = tiltX;
+      mesh.rotation.z = tiltZ;
+      scene.add(mesh);
+      return { mesh, geo, mat };
+    };
 
-    // ── 3. Orbit rings (data transfer paths) ─────────────────────────────────
-    const ring1Geo = new THREE.TorusGeometry(14.5, 0.06, 8, 140);
-    const ring1Mat = new THREE.MeshBasicMaterial({
-      color: 0x0CC8D4, transparent: true, opacity: 0.12,
-      blending: THREE.AdditiveBlending,
-    });
-    const ring1 = new THREE.Mesh(ring1Geo, ring1Mat);
-    ring1.position.set(GX, GY, GZ);
-    ring1.rotation.x = Math.PI * 0.35;
-    scene.add(ring1);
+    const ring1 = makeRing(14.5, 0x0CC8D4, Math.PI * 0.35, 0,            0.10);
+    const ring2 = makeRing(11.5, 0xF5A623, Math.PI * 0.60, Math.PI * 0.2, 0.08);
+    const ring3 = makeRing(17.5, 0x22EBF8, Math.PI * 0.18, Math.PI * 0.1, 0.06);
 
-    const ring2Geo = new THREE.TorusGeometry(11.5, 0.05, 8, 100);
-    const ring2Mat = new THREE.MeshBasicMaterial({
-      color: 0xF5A623, transparent: true, opacity: 0.08,
-      blending: THREE.AdditiveBlending,
-    });
-    const ring2 = new THREE.Mesh(ring2Geo, ring2Mat);
-    ring2.position.set(GX, GY, GZ);
-    ring2.rotation.x = Math.PI * 0.6;
-    ring2.rotation.z = Math.PI * 0.2;
-    scene.add(ring2);
-
-    // ── 4. Data packets (orbiting dots on rings) ──────────────────────────────
+    // ── 4. Data packets orbiting the rings ────────────────────────────────────
     const makePacket = (color: number, radius: number) => {
-      const g = new THREE.SphereGeometry(radius, 8, 8);
-      const m = new THREE.MeshBasicMaterial({
-        color, transparent: true, opacity: 0.9,
-        blending: THREE.AdditiveBlending,
-      });
-      return new THREE.Mesh(g, m);
+      const g    = new THREE.SphereGeometry(radius, 8, 8);
+      const m    = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.9, blending: THREE.AdditiveBlending });
+      const mesh = new THREE.Mesh(g, m);
+      scene.add(mesh);
+      return mesh;
     };
     const packet1 = makePacket(0xF5A623, 0.35);
     const packet2 = makePacket(0x22EBF8, 0.25);
     const packet3 = makePacket(0x0CC8D4, 0.20);
-    scene.add(packet1, packet2, packet3);
 
     // ── 5. Hex rings (CPU / chip aesthetic) ───────────────────────────────────
-    // TorusGeometry with radialSegments=6 produces a hexagonal cross-section ring
-    const hexOuterGeo = new THREE.TorusGeometry(5.5, 0.09, 6, 6);
-    const hexOuterMat = new THREE.MeshBasicMaterial({
-      color: 0xF5A623, transparent: true, opacity: 0.22,
-      blending: THREE.AdditiveBlending,
-    });
-    const hexOuter = new THREE.Mesh(hexOuterGeo, hexOuterMat);
+    const hexOuter = new THREE.Mesh(
+      new THREE.TorusGeometry(5.5, 0.09, 6, 6),
+      new THREE.MeshBasicMaterial({ color: 0xF5A623, transparent: true, opacity: 0.22, blending: THREE.AdditiveBlending })
+    );
     hexOuter.position.set(GX, GY, GZ);
     scene.add(hexOuter);
 
-    const hexInnerGeo = new THREE.TorusGeometry(3.0, 0.07, 6, 6);
-    const hexInnerMat = new THREE.MeshBasicMaterial({
-      color: 0x0CC8D4, transparent: true, opacity: 0.28,
-      blending: THREE.AdditiveBlending,
-    });
-    const hexInner = new THREE.Mesh(hexInnerGeo, hexInnerMat);
+    const hexInner = new THREE.Mesh(
+      new THREE.TorusGeometry(3.0, 0.07, 6, 6),
+      new THREE.MeshBasicMaterial({ color: 0x0CC8D4, transparent: true, opacity: 0.28, blending: THREE.AdditiveBlending })
+    );
     hexInner.position.set(GX, GY, GZ);
     scene.add(hexInner);
 
-    // ── Theme change → swap blending on all materials ─────────────────────────
-    const allLineMats   = [globeMat, netEdgeMat, ring1Mat];
-    const allMeshMats   = [ring2Mat, hexOuterMat, hexInnerMat];
-    const allPacketMats = [packet1, packet2, packet3].map(p => p.material as THREE.MeshBasicMaterial);
+    const hexOuterMat = hexOuter.material as THREE.MeshBasicMaterial;
+    const hexInnerMat = hexInner.material as THREE.MeshBasicMaterial;
+
+    // ── Theme switching ───────────────────────────────────────────────────────
+    const themeMats: THREE.Material[] = [
+      pMat, globeMat, netMat,
+      ring1.mat, ring2.mat, ring3.mat,
+      hexOuterMat, hexInnerMat,
+      ...shapeMats,
+      ...[packet1, packet2, packet3].map(p => p.material as THREE.MeshBasicMaterial),
+    ];
 
     const applyTheme = (light: boolean) => {
       isLight = light;
       const blend = light ? THREE.NormalBlending : THREE.AdditiveBlending;
-      pMat.blending = blend; pMat.needsUpdate = true;
-      netNodeMat.blending = blend; netNodeMat.needsUpdate = true;
-      allLineMats.forEach(m  => { m.blending = blend; m.needsUpdate = true; });
-      allMeshMats.forEach(m  => { m.blending = blend; m.needsUpdate = true; });
-      allPacketMats.forEach(m => { m.blending = blend; m.needsUpdate = true; });
+      themeMats.forEach(m => { (m as THREE.ShaderMaterial | THREE.LineBasicMaterial | THREE.MeshBasicMaterial).blending = blend; m.needsUpdate = true; });
     };
 
     const themeObserver = new MutationObserver(() =>
@@ -245,13 +289,11 @@ export default function ThreeBackground() {
     );
     themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
 
-    // ── Scroll tracking (read per-frame for velocity delta) ───────────────────
-    let prevScrollY = window.scrollY;
-    let scrollVY    = 0;   // smoothed scroll velocity — drives particle flow
-
-    // ── Mouse & resize ────────────────────────────────────────────────────────
+    // ── Scroll / mouse ────────────────────────────────────────────────────────
+    let prevScrollY = window.scrollY, scrollVY = 0;
     let mx = 0, my = 0, tmx = 0, tmy = 0;
-    const onMouse = (e: MouseEvent) => {
+
+    const onMouse  = (e: MouseEvent) => {
       tmx =  (e.clientX / window.innerWidth  - 0.5) * 2;
       tmy = -(e.clientY / window.innerHeight - 0.5) * 2;
     };
@@ -264,8 +306,7 @@ export default function ThreeBackground() {
     window.addEventListener('resize',    onResize);
 
     // ── Render loop ───────────────────────────────────────────────────────────
-    let frame = 0;
-    let rafId: number;
+    let frame = 0, rafId: number;
     const posAttr = pGeo.attributes.position as THREE.BufferAttribute;
 
     const animate = () => {
@@ -276,28 +317,27 @@ export default function ThreeBackground() {
       mx += (tmx - mx) * 0.045;
       my += (tmy - my) * 0.045;
 
-      // Scroll velocity: read per-frame, smooth + decay so flow fades when idle
-      const curScrollY   = window.scrollY;
-      const scrollDelta  = curScrollY - prevScrollY;
-      prevScrollY        = curScrollY;
-      scrollVY           = scrollVY * 0.82 + scrollDelta * 0.55;  // smooth + dampen
+      const curScrollY  = window.scrollY;
+      scrollVY          = scrollVY * 0.82 + (curScrollY - prevScrollY) * 0.55;
+      prevScrollY       = curScrollY;
 
-      // Scroll progress drives rotation boost, camera pull-back, scene fade
       const scrollProgress = Math.min(curScrollY / (window.innerHeight * 0.8), 1.0);
-      const scrollBoost = 1 + scrollProgress * 3.0;
-      const targetCamZ  = 55 + scrollProgress * 10;
+      const scrollBoost    = Math.max(0.15, 1 - scrollProgress * 0.85);
+      const targetCamZ     = 55 + scrollProgress * 10;
+      const geoFade        = Math.max(0, 1 - scrollProgress * 2.0);
+      const lightBoost     = isLight ? 3.5 : 1.0;
 
-      // ── Drift particles  (scrollVY pushes them up or down with scroll)
-      const scrollFlow = -scrollVY * 0.22;   // negative = down when scrolling down
+      // Particle drift
+      const scrollFlow = -scrollVY * 0.22;
       for (let i = 0; i < COUNT; i++) {
-        const p = phaseArr[i];
-        posAttr.array[i*3]   += speedArr[i*3]   + Math.sin(t + p) * 0.007;
-        posAttr.array[i*3+1] += speedArr[i*3+1] + Math.cos(t * 0.7 + p) * 0.005 + scrollFlow;
+        const ph = phaseArr[i];
+        posAttr.array[i*3]   += speedArr[i*3]   + Math.sin(t + ph) * 0.007;
+        posAttr.array[i*3+1] += speedArr[i*3+1] + Math.cos(t * 0.7 + ph) * 0.005 + scrollFlow;
         posAttr.array[i*3+2] += speedArr[i*3+2];
         const dx = posAttr.array[i*3]   - originArr[i*3];
         const dy = posAttr.array[i*3+1] - originArr[i*3+1];
         const dz = posAttr.array[i*3+2] - originArr[i*3+2];
-        if (dx*dx + dy*dy + dz*dz > 1600) {   // wider threshold so flow looks continuous
+        if (dx*dx + dy*dy + dz*dz > 1600) {
           posAttr.array[i*3]   = originArr[i*3];
           posAttr.array[i*3+1] = originArr[i*3+1];
           posAttr.array[i*3+2] = originArr[i*3+2];
@@ -307,70 +347,76 @@ export default function ThreeBackground() {
       particles.rotation.y = t * 0.022 + mx * 0.10;
       particles.rotation.x = my * 0.06;
 
-      // Geometry fades out as user scrolls past the hero (gone by 50% scroll)
-      const geoFade   = Math.max(0, 1 - scrollProgress * 2.0);
-      // Boost geometry opacity in light mode so lines stay visible on pale bg
-      const lightBoost = isLight ? 3.5 : 1.0;
-
-      // ── Globe (slow, dignified — like a server globe)
+      // Globe
       globe.rotation.y = t * 0.09 * scrollBoost + mx * 0.22;
       globe.rotation.x = t * 0.04               + my * 0.12;
       globeMat.opacity  = (0.11 + Math.sin(t * 1.5) * 0.05) * geoFade * lightBoost;
 
-      // ── Network graph (slightly faster, follows globe)
-      networkEdges.rotation.y = t * 0.07 * scrollBoost + mx * 0.25;
-      networkEdges.rotation.x = t * 0.03               + my * 0.14;
-      networkNodes.rotation.copy(networkEdges.rotation);
-      netEdgeMat.opacity  = (0.12 + Math.sin(t * 2.0) * 0.07) * geoFade * lightBoost;
-      netNodeMat.opacity  = (0.85 + Math.sin(t * 1.8) * 0.10) * geoFade;
+      // Abstract shape group — slow rotation
+      abstractGroup.rotation.y = t * 0.07 * scrollBoost + mx * 0.25;
+      abstractGroup.rotation.x = t * 0.03               + my * 0.14;
+      netMat.opacity = (0.08 + Math.sin(t * 2.0) * 0.04) * geoFade * lightBoost;
 
-      // ── Orbit rings (spin faster as user scrolls)
-      ring1.rotation.y  =  t * 0.28 * scrollBoost + mx * 0.18;
-      ring1.rotation.z  =  t * 0.14;
-      ring1Mat.opacity  = (0.08 + Math.sin(t * 1.6) * 0.05) * geoFade * lightBoost;
+      // Each shape self-rotates + breathes (subtle scale pulse)
+      shapeMeshes.forEach((mesh, i) => {
+        mesh.rotation.x += shapeSpinX[i];
+        mesh.rotation.y += shapeSpinY[i];
+        mesh.rotation.z += shapeSpinZ[i];
+        const pulse = 1.0 + Math.sin(t * 0.9 + shapePhases[i]) * 0.07;
+        mesh.scale.setScalar(pulse);
+        shapeMats[i].opacity = (0.42 + Math.sin(t * 1.4 + shapePhases[i]) * 0.18) * geoFade * lightBoost;
+      });
 
-      ring2.rotation.y  = -t * 0.22 * scrollBoost + mx * 0.12;
-      ring2.rotation.z  =  t * 0.10;
-      ring2Mat.opacity  = (0.05 + Math.cos(t * 2.4) * 0.04) * geoFade * lightBoost;
+      // Orbit rings
+      ring1.mesh.rotation.y  =  t * 0.28 * scrollBoost + mx * 0.18;
+      ring1.mesh.rotation.z  =  t * 0.14;
+      ring1.mat.opacity       = (0.08 + Math.sin(t * 1.6) * 0.05) * geoFade * lightBoost;
 
-      // ── Data packets orbiting rings
+      ring2.mesh.rotation.y  = -t * 0.22 * scrollBoost + mx * 0.12;
+      ring2.mesh.rotation.z  =  t * 0.10;
+      ring2.mat.opacity       = (0.05 + Math.cos(t * 2.4) * 0.04) * geoFade * lightBoost;
+
+      ring3.mesh.rotation.y  =  t * 0.15 * scrollBoost + mx * 0.08;
+      ring3.mesh.rotation.z  = -t * 0.07;
+      ring3.mat.opacity       = (0.04 + Math.sin(t * 1.9) * 0.03) * geoFade * lightBoost;
+
+      // Data packets
       const a1 = t * 1.8 * scrollBoost;
       packet1.position.set(
-        GX + Math.cos(a1 + ring1.rotation.y) * 14.5,
-        Math.sin(a1) * 14.5 * Math.cos(Math.PI * 0.35),
-        GZ + Math.sin(a1 + ring1.rotation.y) * 14.5 * 0.3
+        GX + Math.cos(a1 + ring1.mesh.rotation.y) * 14.5,
+        GY + Math.sin(a1) * 14.5 * Math.cos(Math.PI * 0.35),
+        GZ + Math.sin(a1 + ring1.mesh.rotation.y) * 14.5 * 0.3
       );
       (packet1.material as THREE.MeshBasicMaterial).opacity = 0.9 * geoFade;
 
       const a2 = t * 2.6 * scrollBoost + Math.PI;
       packet2.position.set(
         GX + Math.cos(a2) * 11.5,
-        Math.sin(a2) * 11.5 * 0.5,
+        GY + Math.sin(a2) * 11.5 * 0.5,
         GZ + Math.cos(a2 + 1.2) * 11.5 * 0.4
       );
       (packet2.material as THREE.MeshBasicMaterial).opacity = 0.85 * geoFade;
 
       const a3 = -t * 3.8 * scrollBoost + Math.PI * 0.5;
       packet3.position.set(
-        GX + Math.cos(a3) * 9.8,
-        Math.sin(a3 * 0.8) * 6.0,
-        GZ + Math.sin(a3) * 9.8 * 0.5
+        GX + Math.cos(a3) * 17.5,
+        GY + Math.sin(a3 * 0.8) * 6.0,
+        GZ + Math.sin(a3) * 17.5 * 0.5
       );
       (packet3.material as THREE.MeshBasicMaterial).opacity = 0.80 * geoFade;
 
-      // ── Hex rings (chip — counter-rotate each other, scroll spins them up)
+      // Hex rings
       hexOuter.rotation.y  =  t * 0.16 * scrollBoost + mx * 0.14;
       hexOuter.rotation.x  =  t * 0.08               + my * 0.10;
       hexOuterMat.opacity   = (0.18 + Math.sin(t * 2.5) * 0.10) * geoFade * lightBoost;
-
       hexInner.rotation.y  = -t * 0.28 * scrollBoost + mx * 0.20;
       hexInner.rotation.x  =  t * 0.12               + my * 0.15;
       hexInnerMat.opacity   = (0.22 + Math.cos(t * 3.2) * 0.14) * geoFade * lightBoost;
 
-      // ── Camera: mouse parallax + scroll zoom-out
-      camera.position.x += (mx * 7              - camera.position.x) * 0.028;
-      camera.position.y += (my * 4              - camera.position.y) * 0.028;
-      camera.position.z += (targetCamZ          - camera.position.z) * 0.04;
+      // Camera
+      camera.position.x += (mx * 7     - camera.position.x) * 0.028;
+      camera.position.y += (my * 4     - camera.position.y) * 0.028;
+      camera.position.z += (targetCamZ - camera.position.z) * 0.04;
       camera.lookAt(0, 0, 0);
 
       renderer.render(scene, camera);
@@ -384,10 +430,17 @@ export default function ThreeBackground() {
       window.removeEventListener('resize',    onResize);
       themeObserver.disconnect();
       pGeo.dispose();       pMat.dispose();
-      globeGeo.dispose();   globeEdges.dispose();
-      netEdgeGeo.dispose(); netNodeGeo.dispose();
-      ring1Geo.dispose();   ring2Geo.dispose();
-      hexOuterGeo.dispose(); hexInnerGeo.dispose();
+      globeGeo.dispose();   globeEdges.dispose();   globeMat.dispose();
+      shapeEdgeGeos.forEach(g => g.dispose());
+      shapeMats.forEach(m => m.dispose());
+      netGeo.dispose();     netMat.dispose();
+      ring1.geo.dispose();  ring1.mat.dispose();
+      ring2.geo.dispose();  ring2.mat.dispose();
+      ring3.geo.dispose();  ring3.mat.dispose();
+      [packet1, packet2, packet3, hexOuter, hexInner].forEach(m => {
+        m.geometry.dispose();
+        (m.material as THREE.MeshBasicMaterial).dispose();
+      });
       renderer.dispose();
       if (container.contains(renderer.domElement)) container.removeChild(renderer.domElement);
     };

@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${bebasNeue.variable} ${syne.variable} ${dmSans.variable} ${prompt.variable} scroll-smooth`}>
+    <html lang="en" className={`${bebasNeue.variable} ${syne.variable} ${dmSans.variable} ${prompt.variable} scroll-smooth`} suppressHydrationWarning>
       <head>
         {/* Restore saved theme before first paint — prevents flash */}
         <script dangerouslySetInnerHTML={{ __html: `
