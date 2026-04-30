@@ -84,7 +84,7 @@ export default function NewsPage() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {items.map(item => {
                   const title = language === 'en' ? item.title : item.titleTH;
-                  const excerpt = language === 'en' ? item.excerpt : item.excerptTH;
+                  const excerpt = (language === 'en' ? item.content : item.contentTH).replace(/\s+/g, ' ').trim();
                   const author = language === 'en' ? item.author : item.authorTH;
                   return (
                     <article
@@ -93,7 +93,7 @@ export default function NewsPage() {
                       onClick={() => setSelected(item)}
                     >
                       <div className="relative h-52 overflow-hidden">
-                        <Image src={item.image} alt={title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" unoptimized />
+                        <Image src={item.image} alt={title} fill className="object-cover object-top group-hover:scale-105 transition-transform duration-700" unoptimized />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                         {item.featured && (
                           <span className="absolute top-3 left-3 text-[10px] font-bold px-2.5 py-1 rounded-full bg-gold text-void uppercase tracking-wider">

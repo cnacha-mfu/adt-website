@@ -75,8 +75,6 @@ async function initDb(pool: Pool): Promise<void> {
         id TEXT PRIMARY KEY,
         title TEXT NOT NULL,
         title_th TEXT NOT NULL,
-        excerpt TEXT NOT NULL,
-        excerpt_th TEXT NOT NULL,
         content TEXT NOT NULL,
         content_th TEXT NOT NULL,
         image TEXT NOT NULL,
@@ -87,6 +85,8 @@ async function initDb(pool: Pool): Promise<void> {
         featured BOOLEAN NOT NULL DEFAULT FALSE,
         active BOOLEAN NOT NULL DEFAULT TRUE
       );
+      ALTER TABLE news DROP COLUMN IF EXISTS excerpt;
+      ALTER TABLE news DROP COLUMN IF EXISTS excerpt_th;
       CREATE TABLE IF NOT EXISTS program_images (
         program_id TEXT PRIMARY KEY,
         url TEXT NOT NULL
@@ -182,11 +182,11 @@ async function seedData(client: PoolClient): Promise<void> {
   }
   for (const n of initialData.news) {
     await client.query(
-      `INSERT INTO news (id,title,title_th,excerpt,excerpt_th,content,content_th,image,
+      `INSERT INTO news (id,title,title_th,content,content_th,image,
          category,publish_date,author,author_th,featured,active)
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)
        ON CONFLICT DO NOTHING`,
-      [n.id, n.title, n.titleTH, n.excerpt, n.excerptTH, n.content, n.contentTH, n.image,
+      [n.id, n.title, n.titleTH, n.content, n.contentTH, n.image,
        n.category, n.publishDate, n.author, n.authorTH, n.featured, n.active]
     );
   }
@@ -264,8 +264,6 @@ export function rowToNews(row: Record<string, unknown>): NewsItem {
     id: row.id as string,
     title: row.title as string,
     titleTH: row.title_th as string,
-    excerpt: row.excerpt as string,
-    excerptTH: row.excerpt_th as string,
     content: row.content as string,
     contentTH: row.content_th as string,
     image: row.image as string,
@@ -413,10 +411,10 @@ export async function createNews(n: Omit<NewsItem, 'id'>): Promise<NewsItem> {
   const pool = await ensureReady();
   const id = uuidv4();
   await pool.query(
-    `INSERT INTO news (id,title,title_th,excerpt,excerpt_th,content,content_th,image,
+    `INSERT INTO news (id,title,title_th,content,content_th,image,
        category,publish_date,author,author_th,featured,active)
-     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14)`,
-    [id, n.title, n.titleTH, n.excerpt, n.excerptTH, n.content, n.contentTH, n.image,
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)`,
+    [id, n.title, n.titleTH, n.content, n.contentTH, n.image,
      n.category, n.publishDate, n.author, n.authorTH, n.featured, n.active]
   );
   const { rows } = await pool.query('SELECT * FROM news WHERE id = $1', [id]);
@@ -429,14 +427,12 @@ export async function updateNews(id: string, n: Partial<NewsItem>): Promise<News
   if (!rows.length) return null;
   const r = rows[0];
   await pool.query(
-    `UPDATE news SET title=$1,title_th=$2,excerpt=$3,excerpt_th=$4,content=$5,content_th=$6,
-       image=$7,category=$8,publish_date=$9,author=$10,author_th=$11,featured=$12,active=$13
-     WHERE id=$14`,
+    `UPDATE news SET title=$1,title_th=$2,content=$3,content_th=$4,
+       image=$5,category=$6,publish_date=$7,author=$8,author_th=$9,featured=$10,active=$11
+     WHERE id=$12`,
     [
       n.title       ?? r.title,
       n.titleTH     ?? r.title_th,
-      n.excerpt     ?? r.excerpt,
-      n.excerptTH   ?? r.excerpt_th,
       n.content     ?? r.content,
       n.contentTH   ?? r.content_th,
       n.image       ?? r.image,

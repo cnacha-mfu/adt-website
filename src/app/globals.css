@@ -47,10 +47,10 @@ html.light {
   --card-rgb:         248 253 255;   /* near-white cards                    */
   --border-rgb:       180 218 255;   /* soft sky-blue border                */
 
-  /* Teal — full vibrance */
-  --teal-rgb:         10 192 205;    /* #0AC0CD — slightly deepened for contrast */
-  --teal-bright-rgb:  34 235 248;
-  --teal-muted-rgb:   8 152 165;
+  /* Primary accent — Material Blue (replaces teal in light mode) */
+  --teal-rgb:         30 136 229;    /* #1E88E5 — Material blue 600 */
+  --teal-bright-rgb:  66 165 245;    /* #42A5F5 — Material blue 400 */
+  --teal-muted-rgb:   21 101 192;    /* #1565C0 — Material blue 800 */
 
   /* Gold — deepened for readability on white */
   --gold-rgb:         210 145 8;     /* #D29108 */
@@ -65,15 +65,15 @@ html.light {
 
   --body-bg:          #F0F9FF;
   --glass-bg:         rgba(255, 255, 255, 0.82);
-  --glass-border:     rgba(10, 192, 205, 0.25);
-  --glass-shadow:     0 4px 24px rgba(10, 192, 205, 0.14), 0 1px 6px rgba(8, 20, 50, 0.08);
-  --shimmer-from:     #0AC0CD;
-  --shimmer-mid:      #22EBF8;
+  --glass-border:     rgba(30, 136, 229, 0.25);
+  --glass-shadow:     0 4px 24px rgba(30, 136, 229, 0.14), 0 1px 6px rgba(8, 20, 50, 0.08);
+  --shimmer-from:     #1E88E5;
+  --shimmer-mid:      #42A5F5;
   --shimmer-to:       #D29108;
-  --dot-color:        rgba(10, 192, 205, 0.20);
+  --dot-color:        rgba(30, 136, 229, 0.20);
   --scrollbar-track:  #DCF0FF;
   --scrollbar-thumb:  #A8CCEA;
-  --selection-color:  rgba(10, 192, 205, 0.28);
+  --selection-color:  rgba(30, 136, 229, 0.28);
   --selection-text:   #081432;
 }
 
@@ -94,6 +94,13 @@ body {
 ::-webkit-scrollbar-track { background: var(--scrollbar-track); }
 ::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: rgb(var(--teal-rgb)); }
+
+/* News modal — wider, more visible scrollbar so users notice long content */
+.news-modal-body::-webkit-scrollbar { width: 10px; }
+.news-modal-body::-webkit-scrollbar-track { background: rgb(var(--border-rgb) / 0.3); border-radius: 5px; }
+.news-modal-body::-webkit-scrollbar-thumb { background: rgb(var(--teal-rgb) / 0.55); border-radius: 5px; }
+.news-modal-body::-webkit-scrollbar-thumb:hover { background: rgb(var(--teal-rgb) / 0.85); }
+.news-modal-body { scrollbar-width: thin; scrollbar-color: rgb(var(--teal-rgb) / 0.55) rgb(var(--border-rgb) / 0.3); }
 
 /* Selection */
 ::selection { background: var(--selection-color); color: var(--selection-text); }
@@ -130,8 +137,8 @@ body {
 }
 html.light .glass-card {
   background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(10, 192, 205, 0.22);
-  box-shadow: 0 4px 20px rgba(10, 192, 205, 0.12), 0 1px 4px rgba(8, 20, 50, 0.06);
+  border: 1px solid rgba(30, 136, 229, 0.22);
+  box-shadow: 0 4px 20px rgba(30, 136, 229, 0.12), 0 1px 4px rgba(8, 20, 50, 0.06);
 }
 
 /* Force dark — footer and other always-dark elements */
@@ -209,7 +216,7 @@ html.light .glass-card {
 html.light .admin-input {
   background: #ffffff;
   color: #081432;
-  border-color: rgba(10, 192, 205, 0.35);
+  border-color: rgba(30, 136, 229, 0.35);
 }
 html.light .admin-label {
   color: #1C3A70;

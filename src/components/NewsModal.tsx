@@ -54,16 +54,16 @@ export default function NewsModal({ item, onClose }: Props) {
         className="relative z-10 glass-card rounded-3xl overflow-hidden w-full max-w-2xl max-h-[90vh] flex flex-col shadow-[0_32px_80px_rgba(0,0,0,0.6)]"
         onClick={e => e.stopPropagation()}
       >
-        {/* Hero image */}
-        <div className="relative w-full shrink-0" style={{ aspectRatio: '16/9' }}>
+        {/* Hero image — contain so the full picture shows; dark backdrop letterboxes cleanly */}
+        <div className="relative w-full shrink-0 bg-black" style={{ aspectRatio: '16/9' }}>
           <Image
             src={item.image}
             alt={title}
             fill
-            className="object-cover"
+            className="object-contain"
             unoptimized
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent pointer-events-none" />
 
           {/* Category badge */}
           <span className={`absolute top-4 left-4 text-[10px] font-semibold px-2.5 py-1 rounded-full border uppercase tracking-wider backdrop-blur-sm ${categoryColors[item.category]}`}>
@@ -81,7 +81,7 @@ export default function NewsModal({ item, onClose }: Props) {
         </div>
 
         {/* Body — flex-1 min-h-0 lets overflow:auto work inside a flex column */}
-        <div className="p-7 overflow-y-auto flex-1 min-h-0">
+        <div className="news-modal-body p-7 overflow-y-auto overscroll-contain flex-1 min-h-0">
           <p className="text-ink-muted text-xs mb-3">
             {format(new Date(item.publishDate), 'MMMM d, yyyy')}
             {author && <span> · {author}</span>}
@@ -91,7 +91,7 @@ export default function NewsModal({ item, onClose }: Props) {
           </h2>
           <div className="space-y-4">
             {paragraphs.map((p, i) => (
-              <p key={i} className="text-ink-secondary text-sm leading-relaxed">
+              <p key={i} className="text-ink-secondary text-sm leading-relaxed whitespace-pre-line">
                 {p}
               </p>
             ))}

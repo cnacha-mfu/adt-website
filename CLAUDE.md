@@ -110,7 +110,7 @@ English is the default language on load.
 ## Admin backoffice
 
 - Route: `/admin`
-- Password: `admin123` (checked against sessionStorage key `admin-auth`)
+- Password: `AdtWeb2026` (checked against sessionStorage key `admin-auth`)
 - All CRUD operations go through `useApp()` context methods: `addStaff`, `updateStaff`, `deleteStaff`, `addHighlight`, `updateHighlight`, `deleteHighlight`, `addNews`, `updateNews`, `deleteNews`
 - Use `.admin-input`, `.admin-label`, `.admin-btn-primary`, `.admin-btn-secondary`, `.admin-btn-danger` CSS classes for form elements
 

@@ -48,8 +48,6 @@ export interface NewsItem {
   id: string;
   title: string;
   titleTH: string;
-  excerpt: string;
-  excerptTH: string;
   content: string;
   contentTH: string;
   image: string;

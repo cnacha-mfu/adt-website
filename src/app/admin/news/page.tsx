@@ -29,7 +29,7 @@ const catColors: Record<NewsCategory, string> = {
 };
 
 const EMPTY: Omit<NewsItem, 'id'> = {
-  title: '', titleTH: '', excerpt: '', excerptTH: '',
+  title: '', titleTH: '',
   content: '', contentTH: '',
   image: 'https://placehold.co/800x500/0D1830/0CC8D4?text=News',
   category: 'news', publishDate: new Date().toISOString().split('T')[0],
@@ -151,10 +151,6 @@ function FacebookImportModal({
                   onChange={v => setResult(r => r ? { ...r, title: v } : r)} />
                 <PreviewField label="ชื่อบทความ (TH)" value={result.titleTH}
                   onChange={v => setResult(r => r ? { ...r, titleTH: v } : r)} />
-                <PreviewField label="Excerpt (EN)" value={result.excerpt} multiline
-                  onChange={v => setResult(r => r ? { ...r, excerpt: v } : r)} />
-                <PreviewField label="สรุป (TH)" value={result.excerptTH} multiline
-                  onChange={v => setResult(r => r ? { ...r, excerptTH: v } : r)} />
                 <PreviewField label="Content (EN)" value={result.content} multiline tall
                   onChange={v => setResult(r => r ? { ...r, content: v } : r)} />
                 <PreviewField label="เนื้อหา (TH)" value={result.contentTH} multiline tall
@@ -230,8 +226,6 @@ function NewsForm({ initial, onSave, onCancel }: {
       <div className="grid sm:grid-cols-2 gap-4">
         <div><label className="admin-label">Title (EN)</label><input className="admin-input" value={form.title} onChange={e => set('title', e.target.value)} /></div>
         <div><label className="admin-label">ชื่อบทความ (TH)</label><input className="admin-input" value={form.titleTH} onChange={e => set('titleTH', e.target.value)} /></div>
-        <div className="sm:col-span-2"><label className="admin-label">Excerpt (EN)</label><textarea className="admin-input min-h-16 resize-y" value={form.excerpt} onChange={e => set('excerpt', e.target.value)} /></div>
-        <div className="sm:col-span-2"><label className="admin-label">สรุป (TH)</label><textarea className="admin-input min-h-16 resize-y" value={form.excerptTH} onChange={e => set('excerptTH', e.target.value)} /></div>
         <div className="sm:col-span-2"><label className="admin-label">Content (EN)</label><textarea className="admin-input min-h-32 resize-y" value={form.content} onChange={e => set('content', e.target.value)} /></div>
         <div className="sm:col-span-2"><label className="admin-label">เนื้อหา (TH)</label><textarea className="admin-input min-h-32 resize-y" value={form.contentTH} onChange={e => set('contentTH', e.target.value)} /></div>
         <div className="sm:col-span-2">

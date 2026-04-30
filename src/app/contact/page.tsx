@@ -178,7 +178,7 @@ export default function ContactPage() {
                 </div>
                 <div className="relative w-full" style={{ height: '420px' }}>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.0661!2d99.8963!3d20.0569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30d7019399fc7bc3%3A0xe8e89cd9a5cfe2db!2sMae%20Fah%20Luang%20University!5e0!3m2!1sen!2sth!4v1711929600000"
+                    src="https://www.google.com/maps?q=20.0463664,99.8928384&hl=en&z=18&output=embed"
                     width="100%"
                     height="100%"
                     className="map-embed"
@@ -186,7 +186,7 @@ export default function ContactPage() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Mae Fah Luang University Map"
+                    title="School of Applied Digital Technology, Mae Fah Luang University"
                   />
                 </div>
               </div>

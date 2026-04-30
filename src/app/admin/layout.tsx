@@ -32,11 +32,11 @@ function AdminAuth({ children }: { children: React.ReactNode }) {
 
   const login = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pw === 'admin123') {
+    if (pw === 'AdtWeb2026') {
       sessionStorage.setItem('adt-admin', 'true');
       setAuthed(true);
     } else {
-      setErr('Incorrect password. (Hint: admin123)');
+      setErr('Incorrect password.');
     }
   };
 

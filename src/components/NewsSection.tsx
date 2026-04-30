@@ -21,13 +21,13 @@ const categoryColors: Record<NewsCategory, string> = {
 function FeaturedCard({ item, onOpen }: { item: NewsItem; onOpen: () => void }) {
   const { language } = useApp();
   const title = language === 'en' ? item.title : item.titleTH;
-  const excerpt = language === 'en' ? item.excerpt : item.excerptTH;
+  const excerpt = (language === 'en' ? item.content : item.contentTH).replace(/\s+/g, ' ').trim();
   const author = language === 'en' ? item.author : item.authorTH;
 
   return (
     <article className="glass-card rounded-2xl overflow-hidden gradient-border group hover:-translate-y-1 transition-all duration-300 hover:shadow-card-hover flex flex-col lg:flex-row">
       <div className="relative lg:w-2/5 min-h-[220px] overflow-hidden">
-        <Image src={item.image} alt={title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" unoptimized />
+        <Image src={item.image} alt={title} fill className="object-cover object-top group-hover:scale-105 transition-transform duration-700" unoptimized />
         <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-black/75 to-transparent" />
       </div>
       <div className="p-7 flex flex-col justify-between flex-1">
@@ -58,13 +58,13 @@ function FeaturedCard({ item, onOpen }: { item: NewsItem; onOpen: () => void }) 
 function NewsCard({ item, delay = 0, onOpen }: { item: NewsItem; delay?: number; onOpen: () => void }) {
   const { language } = useApp();
   const title = language === 'en' ? item.title : item.titleTH;
-  const excerpt = language === 'en' ? item.excerpt : item.excerptTH;
+  const excerpt = (language === 'en' ? item.content : item.contentTH).replace(/\s+/g, ' ').trim();
 
   return (
     <ScrollReveal delay={delay} direction="up">
       <article className="glass-card rounded-xl overflow-hidden gradient-border group hover:-translate-y-1 transition-all duration-300 hover:shadow-card-hover flex flex-col h-full">
         <div className="relative h-44 overflow-hidden cursor-pointer" onClick={onOpen}>
-          <Image src={item.image} alt={title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" unoptimized />
+          <Image src={item.image} alt={title} fill className="object-cover object-top group-hover:scale-105 transition-transform duration-700" unoptimized />
           <div className="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent" />
           <span className={`absolute bottom-3 left-3 text-[10px] font-semibold px-2.5 py-1 rounded-full border uppercase tracking-wider ${categoryColors[item.category]}`}>
             {item.category}

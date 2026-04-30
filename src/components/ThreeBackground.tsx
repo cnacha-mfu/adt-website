@@ -3,27 +3,29 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
+type ColorKey = 'teal' | 'tealBright' | 'gold';
+
 // Abstract IT shapes — wireframe geometric primitives orbiting the globe
-const SHAPE_DEFS = [
-  { type: 'box',         size: 1.6, color: 0x0CC8D4 },
-  { type: 'octahedron',  size: 1.3, color: 0x22EBF8 },
-  { type: 'icosahedron', size: 1.1, color: 0xF5A623 },
-  { type: 'box',         size: 0.9, color: 0x22EBF8 },
-  { type: 'tetrahedron', size: 1.4, color: 0x0CC8D4 },
-  { type: 'octahedron',  size: 0.8, color: 0xF5A623 },
-  { type: 'icosahedron', size: 1.5, color: 0x0CC8D4 },
-  { type: 'box',         size: 1.2, color: 0xF5A623 },
-  { type: 'tetrahedron', size: 1.0, color: 0x22EBF8 },
-  { type: 'icosahedron', size: 0.9, color: 0xF5A623 },
-  { type: 'octahedron',  size: 1.4, color: 0x0CC8D4 },
-  { type: 'box',         size: 1.1, color: 0x22EBF8 },
-  { type: 'tetrahedron', size: 1.3, color: 0x0CC8D4 },
-  { type: 'icosahedron', size: 1.0, color: 0xF5A623 },
-  { type: 'octahedron',  size: 1.2, color: 0x22EBF8 },
-  { type: 'box',         size: 0.8, color: 0x0CC8D4 },
-  { type: 'tetrahedron', size: 1.5, color: 0xF5A623 },
-  { type: 'icosahedron', size: 1.3, color: 0x22EBF8 },
-] as const;
+const SHAPE_DEFS: ReadonlyArray<{ type: 'box' | 'octahedron' | 'icosahedron' | 'tetrahedron'; size: number; color: ColorKey }> = [
+  { type: 'box',         size: 1.6, color: 'teal' },
+  { type: 'octahedron',  size: 1.3, color: 'tealBright' },
+  { type: 'icosahedron', size: 1.1, color: 'gold' },
+  { type: 'box',         size: 0.9, color: 'tealBright' },
+  { type: 'tetrahedron', size: 1.4, color: 'teal' },
+  { type: 'octahedron',  size: 0.8, color: 'gold' },
+  { type: 'icosahedron', size: 1.5, color: 'teal' },
+  { type: 'box',         size: 1.2, color: 'gold' },
+  { type: 'tetrahedron', size: 1.0, color: 'tealBright' },
+  { type: 'icosahedron', size: 0.9, color: 'gold' },
+  { type: 'octahedron',  size: 1.4, color: 'teal' },
+  { type: 'box',         size: 1.1, color: 'tealBright' },
+  { type: 'tetrahedron', size: 1.3, color: 'teal' },
+  { type: 'icosahedron', size: 1.0, color: 'gold' },
+  { type: 'octahedron',  size: 1.2, color: 'tealBright' },
+  { type: 'box',         size: 0.8, color: 'teal' },
+  { type: 'tetrahedron', size: 1.5, color: 'gold' },
+  { type: 'icosahedron', size: 1.3, color: 'tealBright' },
+];
 
 export default function ThreeBackground() {
   const mountRef = useRef<HTMLDivElement>(null);
@@ -35,6 +37,20 @@ export default function ThreeBackground() {
     const W = window.innerWidth;
     const H = window.innerHeight;
     const isMobile = W < 768;
+
+    // ── Theme palette (dark teal/gold ⇄ light blue/gold) ──────────────────────
+    let isLight = document.documentElement.classList.contains('light');
+    const palette = (light: boolean): Record<ColorKey, number> => ({
+      teal:       light ? 0x1E88E5 : 0x0CC8D4,
+      tealBright: light ? 0x42A5F5 : 0x22EBF8,
+      gold:       light ? 0xD29108 : 0xF5A623,
+    });
+    // Per-vertex particle colors (RGB 0..1) for each theme
+    const COL: Record<ColorKey, { dark: [number, number, number]; light: [number, number, number] }> = {
+      teal:       { dark: [0.047, 0.784, 0.831], light: [0.118, 0.533, 0.898] },
+      tealBright: { dark: [0.13,  0.92,  1.0  ], light: [0.259, 0.647, 0.961] },
+      gold:       { dark: [0.957, 0.651, 0.137], light: [0.824, 0.569, 0.031] },
+    };
 
     // ── Renderer ──────────────────────────────────────────────────────────────
     const renderer = new THREE.WebGLRenderer({ antialias: !isMobile, alpha: true });
@@ -50,12 +66,13 @@ export default function ThreeBackground() {
 
     // ── Particles ─────────────────────────────────────────────────────────────
     const COUNT = isMobile ? 600 : 1400;
-    const posArr    = new Float32Array(COUNT * 3);
-    const colArr    = new Float32Array(COUNT * 3);
-    const sizeArr   = new Float32Array(COUNT);
-    const phaseArr  = new Float32Array(COUNT);
-    const speedArr  = new Float32Array(COUNT * 3);
-    const originArr = new Float32Array(COUNT * 3);
+    const posArr      = new Float32Array(COUNT * 3);
+    const colArrDark  = new Float32Array(COUNT * 3);
+    const colArrLight = new Float32Array(COUNT * 3);
+    const sizeArr     = new Float32Array(COUNT);
+    const phaseArr    = new Float32Array(COUNT);
+    const speedArr    = new Float32Array(COUNT * 3);
+    const originArr   = new Float32Array(COUNT * 3);
 
     for (let i = 0; i < COUNT; i++) {
       const r     = Math.pow(Math.random(), 0.35) * 68;
@@ -73,24 +90,27 @@ export default function ThreeBackground() {
       phaseArr[i]     = Math.random() * Math.PI * 2;
       sizeArr[i]      = 0.7 + Math.random() * 2.8;
       const c = Math.random();
+      const setCol = (dark: [number, number, number], light: [number, number, number]) => {
+        colArrDark[i*3]    = dark[0];  colArrDark[i*3+1]  = dark[1];  colArrDark[i*3+2]  = dark[2];
+        colArrLight[i*3]   = light[0]; colArrLight[i*3+1] = light[1]; colArrLight[i*3+2] = light[2];
+      };
       if (c < 0.50) {
-        colArr[i*3] = 0.047; colArr[i*3+1] = 0.784; colArr[i*3+2] = 0.831;
+        setCol(COL.teal.dark, COL.teal.light);
       } else if (c < 0.70) {
-        colArr[i*3] = 0.13; colArr[i*3+1] = 0.92; colArr[i*3+2] = 1.0;
+        setCol(COL.tealBright.dark, COL.tealBright.light);
       } else if (c < 0.87) {
         const v = 0.60 + Math.random() * 0.40;
-        colArr[i*3] = v * 0.82; colArr[i*3+1] = v; colArr[i*3+2] = v;
+        const grey: [number, number, number] = [v * 0.82, v, v];
+        setCol(grey, grey);
       } else {
-        colArr[i*3] = 0.957; colArr[i*3+1] = 0.651; colArr[i*3+2] = 0.137;
+        setCol(COL.gold.dark, COL.gold.light);
       }
     }
 
     const pGeo = new THREE.BufferGeometry();
     pGeo.setAttribute('position', new THREE.BufferAttribute(posArr, 3));
-    pGeo.setAttribute('aColor',   new THREE.BufferAttribute(colArr, 3));
+    pGeo.setAttribute('aColor',   new THREE.BufferAttribute(new Float32Array(isLight ? colArrLight : colArrDark), 3));
     pGeo.setAttribute('aSize',    new THREE.BufferAttribute(sizeArr, 1));
-
-    let isLight = document.documentElement.classList.contains('light');
 
     const pMat = new THREE.ShaderMaterial({
       uniforms: {},
@@ -132,11 +152,13 @@ export default function ThreeBackground() {
     // ── Geometry anchor ───────────────────────────────────────────────────────
     const GX = 14, GY = 0, GZ = 2;
 
+    const pal = palette(isLight);
+
     // ── 1. Digital Globe (wireframe sphere) ───────────────────────────────────
     const globeGeo   = new THREE.SphereGeometry(14, 20, 14);
     const globeEdges = new THREE.EdgesGeometry(globeGeo);
     const globeMat   = new THREE.LineBasicMaterial({
-      color: 0x0CC8D4, transparent: true, opacity: 0.15,
+      color: pal.teal, transparent: true, opacity: 0.15,
       blending: THREE.AdditiveBlending,
     });
     const globe = new THREE.LineSegments(globeEdges, globeMat);
@@ -155,6 +177,7 @@ export default function ThreeBackground() {
     const shapeMeshes:  THREE.LineSegments[] = [];
     const shapeEdgeGeos: THREE.EdgesGeometry[] = [];
     const shapeMats:    THREE.LineBasicMaterial[] = [];
+    const shapeColorKeys: ColorKey[] = [];
     const shapeSpinX:   number[] = [];
     const shapeSpinY:   number[] = [];
     const shapeSpinZ:   number[] = [];
@@ -184,7 +207,7 @@ export default function ThreeBackground() {
       srcGeo.dispose();
 
       const mat  = new THREE.LineBasicMaterial({
-        color: def.color, transparent: true, opacity: 0.55,
+        color: pal[def.color], transparent: true, opacity: 0.55,
         blending: THREE.AdditiveBlending,
       });
       const mesh = new THREE.LineSegments(edges, mat);
@@ -199,6 +222,7 @@ export default function ThreeBackground() {
       shapeMeshes.push(mesh);
       shapeEdgeGeos.push(edges);
       shapeMats.push(mat);
+      shapeColorKeys.push(def.color);
       shapeSpinX.push((Math.random() - 0.5) * 0.012);
       shapeSpinY.push((Math.random() - 0.5) * 0.016);
       shapeSpinZ.push((Math.random() - 0.5) * 0.010);
@@ -218,7 +242,7 @@ export default function ThreeBackground() {
     const netGeo = new THREE.BufferGeometry();
     netGeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(netVerts), 3));
     const netMat = new THREE.LineBasicMaterial({
-      color: 0x0CC8D4, transparent: true, opacity: 0.10,
+      color: pal.teal, transparent: true, opacity: 0.10,
       blending: THREE.AdditiveBlending,
     });
     abstractGroup.add(new THREE.LineSegments(netGeo, netMat));
@@ -235,9 +259,9 @@ export default function ThreeBackground() {
       return { mesh, geo, mat };
     };
 
-    const ring1 = makeRing(14.5, 0x0CC8D4, Math.PI * 0.35, 0,            0.10);
-    const ring2 = makeRing(11.5, 0xF5A623, Math.PI * 0.60, Math.PI * 0.2, 0.08);
-    const ring3 = makeRing(17.5, 0x22EBF8, Math.PI * 0.18, Math.PI * 0.1, 0.06);
+    const ring1 = makeRing(14.5, pal.teal,       Math.PI * 0.35, 0,            0.10);
+    const ring2 = makeRing(11.5, pal.gold,       Math.PI * 0.60, Math.PI * 0.2, 0.08);
+    const ring3 = makeRing(17.5, pal.tealBright, Math.PI * 0.18, Math.PI * 0.1, 0.06);
 
     // ── 4. Data packets orbiting the rings ────────────────────────────────────
     const makePacket = (color: number, radius: number) => {
@@ -247,21 +271,21 @@ export default function ThreeBackground() {
       scene.add(mesh);
       return mesh;
     };
-    const packet1 = makePacket(0xF5A623, 0.35);
-    const packet2 = makePacket(0x22EBF8, 0.25);
-    const packet3 = makePacket(0x0CC8D4, 0.20);
+    const packet1 = makePacket(pal.gold,       0.35);
+    const packet2 = makePacket(pal.tealBright, 0.25);
+    const packet3 = makePacket(pal.teal,       0.20);
 
     // ── 5. Hex rings (CPU / chip aesthetic) ───────────────────────────────────
     const hexOuter = new THREE.Mesh(
       new THREE.TorusGeometry(5.5, 0.09, 6, 6),
-      new THREE.MeshBasicMaterial({ color: 0xF5A623, transparent: true, opacity: 0.22, blending: THREE.AdditiveBlending })
+      new THREE.MeshBasicMaterial({ color: pal.gold, transparent: true, opacity: 0.22, blending: THREE.AdditiveBlending })
     );
     hexOuter.position.set(GX, GY, GZ);
     scene.add(hexOuter);
 
     const hexInner = new THREE.Mesh(
       new THREE.TorusGeometry(3.0, 0.07, 6, 6),
-      new THREE.MeshBasicMaterial({ color: 0x0CC8D4, transparent: true, opacity: 0.28, blending: THREE.AdditiveBlending })
+      new THREE.MeshBasicMaterial({ color: pal.teal, transparent: true, opacity: 0.28, blending: THREE.AdditiveBlending })
     );
     hexInner.position.set(GX, GY, GZ);
     scene.add(hexInner);
@@ -282,6 +306,25 @@ export default function ThreeBackground() {
       isLight = light;
       const blend = light ? THREE.NormalBlending : THREE.AdditiveBlending;
       themeMats.forEach(m => { (m as THREE.ShaderMaterial | THREE.LineBasicMaterial | THREE.MeshBasicMaterial).blending = blend; m.needsUpdate = true; });
+
+      // Recolor materials per theme
+      const p = palette(light);
+      globeMat.color.setHex(p.teal);
+      netMat.color.setHex(p.teal);
+      ring1.mat.color.setHex(p.teal);
+      ring2.mat.color.setHex(p.gold);
+      ring3.mat.color.setHex(p.tealBright);
+      hexOuterMat.color.setHex(p.gold);
+      hexInnerMat.color.setHex(p.teal);
+      (packet1.material as THREE.MeshBasicMaterial).color.setHex(p.gold);
+      (packet2.material as THREE.MeshBasicMaterial).color.setHex(p.tealBright);
+      (packet3.material as THREE.MeshBasicMaterial).color.setHex(p.teal);
+      shapeMats.forEach((m, i) => m.color.setHex(p[shapeColorKeys[i]]));
+
+      // Swap pre-baked particle colors
+      const colorAttr = pGeo.attributes.aColor as THREE.BufferAttribute;
+      (colorAttr.array as Float32Array).set(light ? colArrLight : colArrDark);
+      colorAttr.needsUpdate = true;
     };
 
     const themeObserver = new MutationObserver(() =>

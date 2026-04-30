@@ -60,16 +60,16 @@ export async function POST(req: NextRequest) {
 
       for (const n of body.news ?? []) {
         await client.query(
-          `INSERT INTO news (id,title,title_th,excerpt,excerpt_th,content,content_th,image,
+          `INSERT INTO news (id,title,title_th,content,content_th,image,
              category,publish_date,author,author_th,featured,active)
-           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14)
+           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)
            ON CONFLICT(id) DO UPDATE SET
-             title=EXCLUDED.title, title_th=EXCLUDED.title_th, excerpt=EXCLUDED.excerpt,
-             excerpt_th=EXCLUDED.excerpt_th, content=EXCLUDED.content, content_th=EXCLUDED.content_th,
+             title=EXCLUDED.title, title_th=EXCLUDED.title_th,
+             content=EXCLUDED.content, content_th=EXCLUDED.content_th,
              image=EXCLUDED.image, category=EXCLUDED.category, publish_date=EXCLUDED.publish_date,
              author=EXCLUDED.author, author_th=EXCLUDED.author_th,
              featured=EXCLUDED.featured, active=EXCLUDED.active`,
-          [n.id, n.title, n.titleTH, n.excerpt, n.excerptTH, n.content, n.contentTH, n.image,
+          [n.id, n.title, n.titleTH, n.content, n.contentTH, n.image,
            n.category, n.publishDate, n.author, n.authorTH, n.featured, n.active]
         );
         counts.news++;
